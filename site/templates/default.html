@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" type="text/css" href="/css/hakyll-sidebar.css" />
+        <link rel="stylesheet" type="text/css" href="/css/syntax-solarized-light.css" />
+
+        <title>Pauca sed matura - $title$</title>
+    </head>
+
+    <body>
+        <div id="main">
+            <div id="header">
+                <a href="/">Pauca sed matura</a>
+            </div>
+
+            <div id="sidebar">
+                <a href="http://www.languageicon.org">
+                    <img src="/files/imgs/language-select.png">
+                </a>
+                <div id="lang">
+                    <ul>
+                        $if(en)$ <li><a href="/$en$.html"><strong>EN</strong></a></li> $endif$
+                        $if(pt)$ <li><a href="/$pt$.html"><strong>PT</strong></a></li> $endif$
+                        $if(de)$ <li><a href="/$de$.html"><strong>DE</strong></a></li> $endif$
+                    </ul>
+                </div>
+                <h1>$tr content$</h1>
+                <ul>
+                    <li><a href="$tr homeLink$">$tr home$</a></li>
+                    <li><a href="$tr aboutLink$">$tr about$</a></li>
+                    <li><a href="$tr archiveLink$">$tr archive$</a></li>
+                </ul>
+            </div>
+
+            <div id="content">
+                <h1>$title$</h1>
+
+                $body$
+            </div>
+
+            <div id="footer">
+                $tr hakyllCR$ <a href="http://jaspervdj.be/hakyll">Hakyll</a>
+            </div>
+        </div>
+    </body>
+
+</html>
