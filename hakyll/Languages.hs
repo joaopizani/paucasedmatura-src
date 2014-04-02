@@ -56,10 +56,11 @@ templateStrings = TRs $ fromList [
     , ("langEN", TR { ptT = "Inglês",    enT = "English",    deT = "Englisch" })
     , ("langDE", TR { ptT = "Alemão",    enT = "German",     deT = "Deutsch" })
 
-    , ("about",   TR { ptT = "Sobre mim", enT = "About me", deT = "Über mich" })
-    , ("archive", TR { ptT = "Posts",     enT = "Posts",    deT = "Posts" })
-    , ("home",    TR { ptT = "Início",    enT = "Home",     deT = "Hauptseite" })
-    , ("content", TR { ptT = "Conteúdo",  enT = "Contents", deT = "Inhoud"})
+    , ("languages", TR { ptT = "Idiomas",   enT = "Languages", deT = "Sprachen"})
+    , ("content",   TR { ptT = "Conteúdo",  enT = "Contents",  deT = "Inhalt"})
+    , ("about",     TR { ptT = "Sobre mim", enT = "About me",  deT = "Über mich" })
+    , ("archive",   TR { ptT = "Posts",     enT = "Posts",     deT = "Posts" })
+    , ("home",      TR { ptT = "Início",    enT = "Home",      deT = "Hauptseite" })
 
     , ("aboutLink",   TR { ptT = "/pt/joaopizani.html", enT = "/en/joaopizani.html", deT = "/de/joaopizani.html" })
     , ("archiveLink", TR { ptT = "/pt/posts.html",      enT = "/en/posts.html",      deT = "/de/posts.html" })
