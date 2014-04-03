@@ -39,14 +39,14 @@ Ich habe das Stipendium bekommen, sagte der DAAD.
 Was mache ich jetzt? Jetzt soll ich die Flugtickets, der Pass, der Zusagebrief und noch mehr zusammensetzen...
 Lass die Vorbereitung starten!
 
-![Erste Ziel: Brasilianischer Pass](/files/imgs/2009-10_15_mhg_passaporte-300x191.jpg)
+![Erste Ziel: Brasilianischer Pass](/files/imgs/2009-10_15_mhg_passaporte.jpg)
 
 Vom **2. Januar** bis **16. Februar 2010** können Sie mich in Düsseldorf finden.
 Am jeden Morgen haben wir Deutsch Unterricht, es dauert 4 Stunden.
 Dreimal pro Woche finden nachmittags verschiedene Seminaren (über deutschen Kultur, Politik und Geschichte) statt.
 Aha, und natürlich machen wir auch Klassenfahrten, nach deutschen und europäischen Städte.
 
-![Düsseldorf](/files/imgs/2009-10_Duesseldorf_riverside_by_night_01-300x200.jpg)
+![Düsseldorf](/files/imgs/2009-10_Duesseldorf_riverside_by_night_01.jpg)
 
 Ich hoffe dass ich ein Internet-Tagebuch schreiben kann, in dem ich alle meine tägliche Erfahrungen beschreiben soll.
 

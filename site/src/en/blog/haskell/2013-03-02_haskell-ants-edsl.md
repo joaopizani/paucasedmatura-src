@@ -45,7 +45,11 @@ that was then converted (compiled) to proper ant assembly.
 This paradigm of EDSL is called "deep-embedded".
 In the following figure, you can have an idea of how the project is structured:
 
-![uu-ant-gen "layers"](/files/imgs/2013-03_uu-ant-gen-layers.png)
+<div id="imgdiv-layers"><style type="text/css" scoped> #imgdiv-layers img { height:300px };</style>
+
+ ![uu-ant-gen "layers"](/files/imgs/2013-03_uu-ant-gen-layers.png)
+
+</div>
 
 Also, here it goes one of the basic strategies we submitted for the contest, so that you can have an idea of how it "feels" to write strategies in our EDSL:
 

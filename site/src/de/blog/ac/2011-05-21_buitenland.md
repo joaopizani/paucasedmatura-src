@@ -22,14 +22,22 @@ Na ja, meine ganze Reise jetzt im Überblick: 10. August,
 um 11:00 bin ich von Florianopolis ausgeflogen und den Flughafen Sao Paulos erreiche ich um 12:20.
 Dort treffe ich mein Kurskollege Pedro aus Minas Gerais und bis 19:15 haben wir doch nichts zu tun.
 
-![KLM - Die netteste Flugbetrieb aller Welt :)](/files/imgs/2011-06_klm.jpg)
+<div id="imgdiv-klm"><style type="text/css" scoped> #imgdiv-klm img { width:400px };</style>
+
+ ![KLM - Die netteste Flugbetrieb aller Welt :)](/files/imgs/2011-06_klm.jpg)
+
+</div>
 
 Schon um 19:15 tretten wir den Flug KL0792 von KLM (Koninklijke Luchtvart Maatschappij) ein,
 und um 11:00 (Mitteleuropäische Zeit) landen wir auf den Internationalen Flughafen Schiphol - Amsterdam.
 Ein paar Minuten danach fährt ein Schnellzug der Nederlandse Spoorwegen ein, den uns zum Amsterdam Hauptbahnhof bringt.
 Im Amsterdam verbringen wir 2 Tage, wir bleiben dort bis Samstag morgens, wann die utrechtse Studentenwohnheim wird geöffnet \o/
 
-![Das erste Foto von jeder, den die Niederlande besucht](/files/imgs/2011-06_schiphol.jpg)
+<div id="imgdiv-sc"><style type="text/css" scoped> #imgdiv-sc img { width:400px };</style>
+
+ ![Das erste Foto von jeder, den die Niederlande besucht](/files/imgs/2011-06_schiphol.jpg)
+
+</div>
 
 Die Stimmung auf dem Rückkehr ist immer was schlechter, aber beschreibte ich ihn auf jedem Fall: 29. August,
 um 10:00, fliegt den Flug KL0791 von Schiphol - Amsterdam ab, richtung Sao Paulo.

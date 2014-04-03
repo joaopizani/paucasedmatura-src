@@ -10,9 +10,17 @@ Everybody just listen carefully:
 Exactly. That's just what you read, it's not April Fools,
 it's [The Utrecht Summer School 2011][1]
 
+<div id="imgdiv-uu"><style type="text/css" scoped> #imgdiv-uu img { width:500px };</style>
+
 ![Universiteit Utrecht](/files/imgs/2011-05_UUlogo.gif)
 
+</div>
+
+<div id="imgdiv-uss"><style type="text/css" scoped> #imgdiv-uss img { width:250px };</style>
+
 ![Utrecht Summer School](/files/imgs/2011-05_logo_uss.gif)
+
+</div>
 
 <!--more-->
 

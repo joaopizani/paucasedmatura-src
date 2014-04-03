@@ -14,9 +14,17 @@ to start a M.Sc degree programme in Computer Science at [Utrecht University][1] 
 Utrecht is the most prestigious and best ranked university in the Netherlands, and one the most prestigious of Europe.
 Oh, and of course, **I'm UNBELIEVABLY happy and enthusiastic about the whole opportunity!**
 
-![Universiteit Utrecht](/files/imgs/2012-05_uu.jpg)
+<div id="imgdiv-uu"><style type="text/css" scoped> #imgdiv-uu img { width:300px };</style>
 
-![De Utrechtse Binnenstad](/files/imgs/2012-05_binnenstad.jpg)
+ ![Universiteit Utrecht](/files/imgs/2012-05_uu.jpg)
+
+</div>
+
+<div id="imgdiv-ng"><style type="text/css" scoped> #imgdiv-ng img { width:400px };</style>
+
+ ![De Utrechtse Binnenstad](/files/imgs/2012-05_binnenstad.jpg)
+
+</div>
 
 <!--more-->
 
