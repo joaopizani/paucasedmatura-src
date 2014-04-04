@@ -18,7 +18,11 @@ and this project's MOST important point is that NO analog component whatsoever s
 The generation of the carrier wave itself (at approx. 550KHz), as well as the generation of the modulating signal should all be done by the Arduino alone.
 Then we can just stick a long wire (an antenna) into a digital output and enjoy our radio \o/
 
-![Poor man's Arduino AM Transmitter](/files/imgs/2012-04_arduino-am-sshot.png)
+<div id="imgdiv-am"><style type="text/css" scoped> #imgdiv-am img { width:500px };</style>
+
+ ![Poor man's Arduino AM Transmitter](/files/imgs/2012-04_arduino-am-sshot.png)
+
+</div>
 
 <!--more-->
 

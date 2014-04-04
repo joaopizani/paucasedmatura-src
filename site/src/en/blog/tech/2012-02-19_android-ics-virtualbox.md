@@ -9,7 +9,11 @@ In fact, I've been recently very interested in Android...
 And last week, while reading the [Android Reddit][1], I (re)discovered a very nice initiative:
 [Android-x86][2].
 
-![Android-x86](/files/imgs/2012-02_Android-x86.png)
+<div id="imgdiv-x86"><style type="text/css" scoped> #imgdiv-x86 img { width:200px };</style>
+
+ ![Android-x86](/files/imgs/2012-02_Android-x86.png)
+
+</div>
 
 Android-x86 is a community-driven effort to port all versions of Android made available through the AOSP (Android Open-Source Project) to the x86 platform.
 Thus, Android can be executed in computers such as the Asus EEE PCs, or in PCs from Dell, Hp, etc...
