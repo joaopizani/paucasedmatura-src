@@ -17,7 +17,11 @@ e o mais importante é que NENHUM componente analógico deveria ser utilizado.
 Tanto a geração da onda portadora (em aprox. 500 KHz), quando a modulação pelo sinal deveriam ser feitas pelo Arduino sozinho.
 Assim basta colocar um fio comprido no pino de saída (como na foto) e temos um transmissor AM (de baixa potência :P)
 
-![Poor man's Arduino AM Transmitter](/files/imgs/2012-04_arduino-am-sshot.png)
+<div id="imgdiv-avr"><style type="text/css" scoped> #imgdiv-avr img { width:450px };</style>
+
+ ![Poor man's Arduino AM Transmitter](/files/imgs/2012-04_arduino-am-sshot.png)
+
+</div>
 
 <!--more-->
 

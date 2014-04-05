@@ -12,9 +12,17 @@ Na falta de um jeito melhor de dizer, eu vou ser direto, curto e grosso:
 **Em setembro de 2012 eu vou embora do Brasil, fazer mestrado em Ciência da Computação na [Universidade de Utrecht][1], nos Países Baixos**.
 Utrecht é a melhor Universidade da Holanda, e uma das melhores da Europa.
 
-![Universiteit Utrecht](/files/imgs/2012-05_uu.jpg)
+<div id="imgdiv-uu"><style type="text/css" scoped> #imgdiv-uu img { width:400px };</style>
 
-![De Utrechtse Binnenstad](/files/imgs/2012-05_binnenstad.jpg)
+ ![Universiteit Utrecht](/files/imgs/2012-05_uu.jpg)
+
+</div>
+
+<div id="imgdiv-uss"><style type="text/css" scoped> #imgdiv-uss img { width:400px };</style>
+
+ ![De Utrechtse Binnenstad](/files/imgs/2012-05_binnenstad.jpg)
+
+</div>
 
 <!--more-->
 

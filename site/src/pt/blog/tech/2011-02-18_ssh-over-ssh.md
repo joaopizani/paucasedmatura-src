@@ -16,7 +16,11 @@ Então eu podia acessar a máquina coletiva (_gateway_) e, a partir dela, acessa
 Copiar arquivos, enviar comandos isolados e outras coisas ficavam muito chatas de fazer assim, então eu resolvi passar o SSH por um túnel SSH pra chegar seguro onde eu queria.
 Isso mesmo... Calma, já explico:
 
-![YO DAWG](/files/imgs/2011-02_YODAWGSSH.jpg)
+<div id="imgdiv-dawg"><style type="text/css" scoped> #imgdiv-dawg img { width:450px };</style>
+
+ ![YO DAWG](/files/imgs/2011-02_YODAWGSSH.jpg)
+
+</div>
 
 <!--more-->
 

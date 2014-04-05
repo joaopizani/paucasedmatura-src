@@ -35,14 +35,22 @@ E agora, o que vai acontecer?
 Vou atrás de passagens, passaporte, visto, carta de aceitação chegando da Alemanha, confirmar hospedagem e tudo mais...
 Que comecem os preparativos!
 
-![Preparativos à todo vapor](/files/imgs/2009-10_15_mhg_passaporte-300x191.jpg)
+<div id="imgdiv-pass"><style type="text/css" scoped> #imgdiv-pass img { width:500px };</style>
+
+ ![Preparativos à todo vapor](/files/imgs/2009-10_15_mhg_passaporte.jpg)
+
+</div>
 
 De **02/01/2010** até **16/02/2010** estarei em [Düsseldorf][3], e a rotina será mais ou menos assim:
 das 8h às 12h (com 1/2h de pausa) - Curso de Alemão. 3x por semana, à tarde - Seminários de Política, História e Cultura Alemãs (inclui visitas e etc).
 Excursões com a turma nos finais de semana.
 Ah, a turma inclui gente da Austrália, Nova Zelândia, China, Brasil, Argentina, África do Sul e etc.
 
-![Às margens do rio Reno](/files/imgs/2009-10_Duesseldorf_riverside_by_night_01-300x200.jpg)
+<div id="imgdiv-rhein"><style type="text/css" scoped> #imgdiv-rhein img { width:500px };</style>
+
+ ![Às margens do rio Reno](/files/imgs/2009-10_Duesseldorf_riverside_by_night_01.jpg)
+
+</div>
 
 Vou fazer um diário de viagem, escrever sobre as coisas que gostar e que odiar quando estiver lá.
 Claro que vou postar também sobre os preparativos para a viagem.

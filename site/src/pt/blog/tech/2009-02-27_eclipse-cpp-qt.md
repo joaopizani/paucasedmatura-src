@@ -4,7 +4,7 @@ published: 2009-02-27
 en: en/blog/tech/eclipse-cpp-qt
 ---
 
-[![Flattr this](http://api.flattr.com/button/flattr-badge-large.png)](http://flattr.com/thing/317547/Remote-Pair-Programming-with-Eclipse" target="_blank)
+[![Flattr this](http://api.flattr.com/button/flattr-badge-large.png)](http://flattr.com/thing/317547/Remote-Pair-Programming-with-Eclipse target="_blank")
 
 Esse semestre vou participar de um projeto de desenvolvimento em [C++][cpp], é uma ferramenta para o auxílio ao ensino de Cálculo Numérico.
 Logo vou falar mais detalhes sobre o projeto em outro post.

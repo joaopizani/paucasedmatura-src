@@ -41,7 +41,11 @@ A nossa EDSL foi desenvolvida em uma arquitetura de camadas, onde a aplicação 
 Esse modelo de EDSL é chamado de "deep-embedded".
 Na figura abaixo têm-se uma idéia de como ficou organizado o projeto:
 
-![uu-ant-gen-layers](/files/imgs/2013-03_uu-ant-gen-layers.png)
+<div id="imgdiv-layers"><style type="text/css" scoped> #imgdiv-layers img { width:200px };</style>
+
+ ![uu-ant-gen-layers](/files/imgs/2013-03_uu-ant-gen-layers.png)
+
+</div>
 
 Só pra que vocês tenham uma idéia de como se parece uma estratégia escrita na nossa "linguagem" de alto nível, aí vai uma das estratégias que submetemos:
 

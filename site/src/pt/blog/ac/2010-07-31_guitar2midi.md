@@ -32,7 +32,7 @@ O esquema abaixo dá uma idéia básica da arquitetura do projeto:
 Passamos muito tempo ESTAGNADOS com problemas no equipamento, e começamos a programar mesmo só na última semana (nenhuma novidade :P).
 O importante é que no final das contas conseguimos terminar o projeto, e NO PRAZO \o/\o/\o/.
 As músicas que o programa consegue reconhecer, porém, são bastante simples e ainda há espaço pra MUITAS melhorias, principalmente no que se refere à detecção de duração.
-Sem mais enrolação, se você quiser saber mais sobre o projeto, descobrir COMO a gente fez isso acontecer, quais foram os algoritmos, as idéias que dão base pro negócio e tudo mais, aí vai o link pro relatório completo: <http://constantijn.alvb.in/labmicro/projeto>.
+Sem mais enrolação, se você quiser saber mais sobre o projeto, descobrir COMO a gente fez isso acontecer, quais foram os algoritmos, as idéias que dão base pro negócio e tudo mais, aí vai o link pro relatório completo: <http://constantijn.alvb.in/labmicro/projeto/index.htm>.
 Sem falsa modéstia, ele está bem escrito, com várias figurinhas e explicando bem os conceitos envovidos...
 
 Fiquei muito feliz com o projeto como um todo.

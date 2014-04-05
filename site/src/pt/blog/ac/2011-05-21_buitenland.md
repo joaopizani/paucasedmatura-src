@@ -9,9 +9,17 @@ EXTRA EXTRA EXTRA: **Vou para a Holanda em Agosto, passar 3 semanas estudando Ha
 Isso mesmo, foi o que você leu.
 Não é primeiro de abril, é a [Escola de Verão de Utrecht 2011][1]
 
-![Universiteit Utrecht](/files/imgs/2011-05_UUlogo.gif)
+<div id="imgdiv-uu"><style type="text/css" scoped> #imgdiv-uu img { width:500px };</style>
 
-![Utrecht Summer School](/files/imgs/2011-05_logo_uss.gif)
+ ![Universiteit Utrecht](/files/imgs/2011-05_UUlogo.gif)
+
+</div>
+
+<div id="imgdiv-uss"><style type="text/css" scoped> #imgdiv-uss img { width:300px };</style>
+
+ ![Utrecht Summer School](/files/imgs/2011-05_logo_uss.gif)
+
+</div>
 
 <!--more-->
 

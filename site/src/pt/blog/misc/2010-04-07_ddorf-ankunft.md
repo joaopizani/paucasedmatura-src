@@ -16,7 +16,7 @@ Pra quem já fez isso várias vezes pode parecer sem graça, mas estar dentro d
 Um tempinho depois (mal deu pra comer um biscoito e ler um pouco do livro que a Júlia me presenteou) cheguei em São Paulo,
 que às 15h fazia jus ao apelido de terra da garoa.
 
-[O aeroporto internacional de Guarulhos em 2009-12-29](/files/imgs/2010-03_2-300x240.jpg)
+![O aeroporto internacional de Guarulhos em 2009-12-29](/files/imgs/2010-03_2.jpg)
 
 Como eu tinha 6 horas até o embarque no vôo KLM 4587 com destino a Amsterdã, resolvi gastar um pouco de tempo para perambular pelo aeroporto e me ambientar...
 Logo desisti da idéia, pois o aeroporto de Guarulhos tem o tamanho de uma cidade coberta.
@@ -43,13 +43,13 @@ Vi pela janela uma das cenas mais lindas da minha vida, e que não pude captur
 A zona rural da Holanda, pertinho de Amsterdã, totalmente coberta de neve, com moinhos de vento e tudo...
 A temperatura local era de -8ºC.
 
-[Aeroporto Internacional Schiphol Amsterdam](/files/imgs/2010-03_3-1024x819.jpg)
+![Aeroporto Internacional Schiphol Amsterdam](/files/imgs/2010-03_3.jpg)
 
 Pousamos numa pista com gelo dos lados - TENSO - e então desembarquei pela ponte, o que fez com que eu sentisse um frio de SÓ uns 10ºC...
 A parte TENSA de verdade vem agora. Eu tinha só 45min pra fazer a conexão com o meu vôo final pra Düsseldorf.
 Tirei umas duas fotos do aeroporto de Amsterdã, e quando cheguei na fila do controle de entrada na União Européia ela já tava bem comprida.
 
-[Controle de entrada na União Européia](/files/imgs/2010-03_5-1024x819.jpg)
+![Controle de entrada na União Européia](/files/imgs/2010-03_5.jpg)
 
 O simpático holândes da imigração olhou meu passaporte, perguntou o que eu ia fazer na Europa,
 e quando eu disse que era um curso de alemão do DAAD ele falou "acho Alemão meio feio, prefiro holandês", e me liberou :)
@@ -63,7 +63,7 @@ Todo mundo esperando o "passenger Flor" :P
 
 Cheguei finalmente na querida cidade que me acolheu - Düsseldorf, às 14h do dia 30/12/2009.
 
-[Düsseldorf International Airport](/files/imgs/2010-03_6-1024x819.jpg)
+![Düsseldorf International Airport](/files/imgs/2010-03_6.jpg)
 
 Peguei a minha mala que tinha sido despachada direto de Floripa e fui com duas malas GIGANTES ao banheiro.
 Depois comecei a procurar um lugar pra comprar um chip alemão pro meu celular...

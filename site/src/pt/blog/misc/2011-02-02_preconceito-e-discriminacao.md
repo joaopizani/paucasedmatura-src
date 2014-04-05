@@ -20,7 +20,11 @@ E a discriminação? Para mim, discriminar é tratar de maneiras diferentes pess
 Discriminação pode ser usada para o bem e para o mal, claro.
 Aristóteles disse: "Devemos tratar desigualmente os desiguais, na medida de sua desigualdade".
 
-![Preconceito](http://farm1.static.flickr.com/98/244875584_cce55c1273.jpg)
+<div id="imgdiv-tri"><style type="text/css" scoped> #imgdiv-tri img { width:350px };</style>
+
+ ![Preconceito](http://farm1.static.flickr.com/98/244875584_cce55c1273.jpg)
+
+</div>
 
 Claro, porém, que todos estamos mais acostumados com o sentido negativo da discriminação.
 Alguns exemplos de discriminação:
