@@ -14,7 +14,8 @@ import Hakyll.Web.Tags (Tags, buildCategories, tagsMap)
 
 import Prefixes (prs)
 import Languages (Lang, trCtx)
-import Routes (postsPattern, defaultTemplateId, archiveTemplateId, noPrefixHTMLRoute)
+import Routes ( postsPattern, defaultTemplateId
+              , archiveTemplateId, noPrefixHTMLRoute, categoriesPattern)
 
 
 defaultTRCtx :: Context String
