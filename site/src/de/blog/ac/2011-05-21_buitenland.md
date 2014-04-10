@@ -13,7 +13,7 @@ Hier befinden sich alle Details: </de/blog/misc/flugtickets-gekauft>
 
 Diesmal verbringe ich nur zwei wochen in der Universiteit Utrecht (ungefähr 30min von Amsterdam entfernt, ca. 300.000 einwohner)
 und studiere ich dort die [Haskell][1] Programmiersprache...
-Vielleicht hat meinen großen Freund [@feelipess](http://twitter.com/feelipess) eine bessere Beschreibung dafür.
+Vielleicht hat meinen großen Freund [\@feelipess](http://twitter.com/feelipess) eine bessere Beschreibung dafür.
 Seine Wörter: "du wirst doch kiffen und vor allem type errors den ganzen Tag anschauen".
 Ja ja, feelipess. Immer wieder habe ich Geld aus einer ausländischen Regierung bekommen;
 nur diesmal musste die ausländische Regierung noch verrückter sein, um ein Verrückter wie ich zu finanzieren.

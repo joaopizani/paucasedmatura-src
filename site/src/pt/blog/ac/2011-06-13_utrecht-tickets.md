@@ -12,7 +12,7 @@ Há quase dois anos tinha sido minha primeira vez... num avião ;P
 Aqui tem mais detalhes: </pt/blog/misc/winterkurs-tickets/>
 
 Dessa vez eu vou passar duas semanas na Universiteit de Utrecht (30min de carro de Amsterdam, cerca de 300.000 habitantes)
-estudando [Haskell][1], ou - segundo as sábias palavras de [@felipess][2] - "fumando maconha e tomando erro de tipo" :P
+estudando [Haskell][1], ou - segundo as sábias palavras de [\@felipess][2] - "fumando maconha e tomando erro de tipo" :P
 Mais uma vez financiado por um governo estrangeiro, só que dessa vez teve que ser um governo mais maluco pra financiar um maluco como eu.
 
 <!--more-->
