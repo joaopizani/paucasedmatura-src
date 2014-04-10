@@ -10,7 +10,7 @@ import Prefixes (deployedDir)
 import Languages (languages)
 import Routes ( resourcesPattern, templatesPattern, allPostsPattern, indexPattern
               , noPrefixHTMLRoute, rmDateRoute, postTemplateId, allPagesPattern)
-import Contexts (postCtx, defaultTplDefaultCtx, archiveRuleLang)
+import Contexts (postCtx, defaultTplDefaultCtx, archiveRule)
 
 
 siteConfig :: Configuration
@@ -45,7 +45,7 @@ main = hakyllWith siteConfig $ do
         route noPrefixHTMLRoute
         compile $ pandocCompiler >>= defaultTplDefaultCtx
 
-    mapM_ archiveRuleLang languages
+    mapM_ archiveRule languages
 
     match indexPattern (route idRoute >> compile copyFileCompiler)
 

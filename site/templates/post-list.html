@@ -1,7 +1,45 @@
 <ul>
-    $for(posts)$
-        <li>
-            [$date$] - <a href="$url$">$title$</a>
-        </li>
-    $endfor$
+    $if(ac)$
+    <li>
+        <h2>$tr cat-ac$</h2>
+        <ul>
+            $for(ac)$
+            <li>[$date$] - <a href="$url$">$title$</a></li>
+            $endfor$
+        </ul>
+    </li>
+    $endif$
+
+    $if(haskell)$
+    <li>
+        <h2>$tr cat-haskell$</h2>
+        <ul>
+            $for(haskell)$
+            <li>[$date$] - <a href="$url$">$title$</a></li>
+            $endfor$
+        </ul>
+    </li>
+    $endif$
+
+    $if(tech)$
+    <li>
+        <h2>$tr cat-tech$</h2>
+        <ul>
+            $for(tech)$
+            <li>[$date$] - <a href="$url$">$title$</a></li>
+            $endfor$
+        </ul>
+    </li>
+    $endif$
+
+    $if(misc)$
+    <li>
+        <h2>$tr cat-misc$</h2>
+        <ul>
+            $for(misc)$
+            <li>[$date$] - <a href="$url$">$title$</a></li>
+            $endfor$
+        </ul>
+    </li>
+    $endif$
 </ul>

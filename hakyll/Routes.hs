@@ -20,6 +20,9 @@ resourcesPattern = foldr1 (.||.) [fromGlob (p ++ "**") | p <- [prc, prf]]
 postsPattern :: Lang -> Pattern
 postsPattern l = fromGlob (prs ++ show l ++ "/blog/**.md")
 
+categoriesPattern :: Lang -> Pattern
+categoriesPattern l = fromGlob (prs ++ show l ++ "/categories/*.html")
+
 indexPattern :: Pattern
 indexPattern = fromGlob ("index.html")
 
