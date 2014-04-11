@@ -1,8 +1,13 @@
+import Data.Set (insert)
+
 import Hakyll.Core.Configuration (Configuration(..), defaultConfiguration)
 import Hakyll.Core.Rules (compile, match, route)
 import Hakyll.Core.Routes (idRoute, composeRoutes)
 import Hakyll.Core.File (copyFileCompiler)
-import Hakyll.Web.Pandoc (pandocCompiler)
+import Text.Pandoc.Options ( ReaderOptions(..), WriterOptions(..)
+                           , Extension(..), HTMLMathMethod(MathJax))
+import Hakyll.Web.Pandoc ( pandocCompilerWith, defaultHakyllReaderOptions
+                         , defaultHakyllWriterOptions )
 import Hakyll.Web.Template (templateCompiler, loadAndApplyTemplate)
 import Hakyll.Main (hakyllWith)
 
@@ -15,19 +20,32 @@ import Contexts (postCtx, defaultTplDefaultCtx, archiveRule)
 
 siteConfig :: Configuration
 siteConfig =
-    Configuration
-        { destinationDirectory = deployedDir ++ "destination"
-        , storeDirectory       = deployedDir ++ "store"
-        , tmpDirectory         = deployedDir ++ "tmp"
-        , providerDirectory    = "site"
-        , ignoreFile           = ignoreFile def
-        , deployCommand        = deployCommand def
-        , deploySite           = deploySite def
-        , inMemoryCache        = inMemoryCache def
-        , previewPort          = previewPort def
-        }
-    where def = defaultConfiguration
+    defaultConfiguration {
+        destinationDirectory = deployedDir ++ "destination"
+      , storeDirectory       = deployedDir ++ "store"
+      , tmpDirectory         = deployedDir ++ "tmp"
+      , providerDirectory    = "site"
+    }
 
+
+readOpt :: ReaderOptions
+readOpt =
+    defaultHakyllReaderOptions {
+        readerColumns = 110
+    }
+
+mathJax :: String
+mathJax = "https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+
+writeOpt :: WriterOptions
+writeOpt =
+    defaultHakyllWriterOptions {
+        writerHtml5 = True
+      , writerExtensions = foldr insert (writerExtensions defaultHakyllWriterOptions) mathExt
+      , writerHTMLMathMethod = MathJax mathJax
+      , writerIdentifierPrefix = "id-"
+    } where mathExt = [Ext_tex_math_dollars, Ext_tex_math_double_backslash, Ext_latex_macros]
+        
 
 main :: IO ()
 main = hakyllWith siteConfig $ do
@@ -37,13 +55,13 @@ main = hakyllWith siteConfig $ do
 
     match allPostsPattern $ do
         route $ noPrefixHTMLRoute `composeRoutes` rmDateRoute
-        compile $ pandocCompiler
+        compile $ pandocCompilerWith readOpt writeOpt
             >>= loadAndApplyTemplate postTemplateId postCtx
             >>= defaultTplDefaultCtx
 
     match allPagesPattern $ do
         route noPrefixHTMLRoute
-        compile $ pandocCompiler >>= defaultTplDefaultCtx
+        compile $ pandocCompilerWith readOpt writeOpt >>= defaultTplDefaultCtx
 
     mapM_ archiveRule languages
 
