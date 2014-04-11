@@ -1,18 +1,20 @@
 module Contexts where
 
 import Data.Monoid (mappend, mconcat)
+import Data.Map (member)
 
 import Hakyll.Core.Rules (Rules, match, route, compile)
-import Hakyll.Core.Item (Item)
+import Hakyll.Core.Item (Item, itemIdentifier)
+import Hakyll.Core.Metadata (getMetadata)
 import Hakyll.Core.Compiler (Compiler, loadAll)
 import Hakyll.Core.Identifier.Pattern (fromGlob, fromList, fromCapture)
 import Hakyll.Web.Template (loadAndApplyTemplate)
-import Hakyll.Web.Template.Context (Context, defaultContext, dateField, listField)
+import Hakyll.Web.Template.Context (Context, field, defaultContext, dateField, listField)
 import Hakyll.Web.Template.List (recentFirst)
 import Hakyll.Web.Pandoc (pandocCompiler)
 import Hakyll.Web.Tags (Tags, buildCategories, tagsMap)
 
-import Prefixes (prs)
+import Prefixes (prs, mathJaxURL)
 import Languages (Lang, trCtx)
 import Routes ( postsPattern, defaultTemplateId
               , archiveTemplateId, noPrefixHTMLRoute, categoriesPattern)
@@ -21,11 +23,19 @@ import Routes ( postsPattern, defaultTemplateId
 defaultTRCtx :: Context String
 defaultTRCtx = trCtx `mappend` defaultContext
 
-defaultTplDefaultCtx :: Item String -> Compiler (Item String)
-defaultTplDefaultCtx = loadAndApplyTemplate defaultTemplateId defaultTRCtx
+mathCtx :: Context String
+mathCtx = field "mathjax" $ \item -> do
+    meta <- getMetadata $ itemIdentifier item
+    return $ if "mathjax" `member` meta
+             then "<script type=\"text/javascript\" src=\"" ++ mathJaxURL ++ "\"></script>"
+             else ""
 
 postCtx :: Context String
-postCtx = dateField "date" "%Y-%m-%d" `mappend` defaultTRCtx
+postCtx = dateField "date" "%Y-%m-%d" `mappend` mathCtx `mappend` defaultTRCtx
+
+
+defaultTplDefaultCtx :: Item String -> Compiler (Item String)
+defaultTplDefaultCtx = loadAndApplyTemplate defaultTemplateId defaultTRCtx
 
 
 archiveCtx :: Tags -> Context String

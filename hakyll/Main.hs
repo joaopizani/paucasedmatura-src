@@ -11,7 +11,7 @@ import Hakyll.Web.Pandoc ( pandocCompilerWith, defaultHakyllReaderOptions
 import Hakyll.Web.Template (templateCompiler, loadAndApplyTemplate)
 import Hakyll.Main (hakyllWith)
 
-import Prefixes (deployedDir)
+import Prefixes (deployedDir, mathJaxURL)
 import Languages (languages)
 import Routes ( resourcesPattern, templatesPattern, allPostsPattern, indexPattern
               , noPrefixHTMLRoute, rmDateRoute, postTemplateId, allPagesPattern)
@@ -34,15 +34,12 @@ readOpt =
         readerColumns = 110
     }
 
-mathJax :: String
-mathJax = "https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-
 writeOpt :: WriterOptions
 writeOpt =
     defaultHakyllWriterOptions {
         writerHtml5 = True
       , writerExtensions = foldr insert (writerExtensions defaultHakyllWriterOptions) mathExt
-      , writerHTMLMathMethod = MathJax mathJax
+      , writerHTMLMathMethod = MathJax mathJaxURL
       , writerIdentifierPrefix = "id-"
     } where mathExt = [Ext_tex_math_dollars, Ext_tex_math_double_backslash, Ext_latex_macros]
         
