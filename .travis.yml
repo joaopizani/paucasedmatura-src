@@ -1,0 +1,19 @@
+language: haskell
+
+env:
+    global:
+        secure: "CSTaV2BGuWz+I/cPjXWXjjXR6i08JVzIf/oGkXQOoFKU6NvGYuydffBZD/0qqo+vfAqqpTpCMNSe0b1WFVfnwNFUVQwI6TQcEQw2ECWolZGgvDVz9+zLrWjPjYoIndpByr+FsQKsuM6cGKn36AtnX4A1BbWPFNg7v5/NGRD9Lh0="
+        secure: "jRtNxDW6aQC5dx6d16ft8AVI55CbQiz64QLtO6u7Qw8y4WxYHeVmsu1x0GbvIqk3B1KwtxoONAYRIirRmNQxUQYnaMGwSFJMBsMF6Qs/FFgZsaBx8ExgHl+49CW8zbn170W3ECb33Gnpy53Qc51QFCzBv+tm47fOhhNXfTtKGYA="
+        secure: "XyEov9Vo0NcvcqV0a2JSyQkPJmvjOYXaPHbROyD9EEkukLI9C+REVcPlB/S+qqR3/aDEyWG2d/2U7EK8OP+/IP/7A4mt0AFi4MpT9gRBZFuqv+zRu3VGDXeI2wEM49BTTmcaeMXJhNDi2TKLKmOrNWWWc+KbCG53bDzOyp/Sbo4="
+
+script: cabal run build
+
+after_script:
+    - cd deployed/destination
+    - git status
+    - git add --all
+    - git config --global user.email "$GIT_EMAIL"
+    - git config --global user.name "$GIT_NAME"
+    - git commit -m "commited from update in source at $(date '+%m/%d/%y %H:%M')"
+    - git push "$REPO_URL" master | grep -v http
+    - cd ../..
