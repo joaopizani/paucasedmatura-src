@@ -17,3 +17,9 @@ Minhas paixões incluem programação funcional, Haskell, Agda, hackear Linux/Un
 e várias outras coisas menos nerd. As páginas e posts aqui devem dar uma idéia melhor
 dessas paixões.
 
+Alguns outros lugares onde posso ser encontrado nas
+<a href="https://www.youtube.com/watch?v=LKTH6f1JfX8" target="_blank">"internets"</a>:
+
+  * <a href="https://github.com/joaopizani" target="_blank">GitHub</a>
+  * <a href="http://linkedin.com/in/joaopizani" target="_blank">LinkedIn</a>
+

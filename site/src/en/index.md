@@ -16,3 +16,9 @@ Currently, I am studying for my master's degree in Computing Science at
 I enjoy very much functional programming, Haskell, Agda, fiddling with Linux/Unix,
 and also a lot of non-techie stuff. The pages and posts here should give an idea of these passions.
 
+Here are some of my other settlements around
+<a href="https://www.youtube.com/watch?v=LKTH6f1JfX8" target="_blank">"The Internets"</a>:
+
+  * <a href="https://github.com/joaopizani" target="_blank">GitHub</a>
+  * <a href="http://linkedin.com/in/joaopizani" target="_blank">LinkedIn</a>
+
