@@ -3,7 +3,7 @@ title: Library
 pt: pt/bib
 ---
 
-All the books I have (on paper or electronic formats):
+All the books I have (on paper or e-books):
 
   * The Prince (Machiavelli)
   * The Film Club (David Gilmour) - Gift from Julia :)
