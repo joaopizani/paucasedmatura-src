@@ -11,7 +11,7 @@ cabal-version: >=1.10
 executable paucasedmatura
     hs-source-dirs: hakyll
     main-is: Main.hs
-    other-modules: Prefixes, Languages, Routes, Contexts
+    other-modules: Prefixes, Language, LanguageTable, Routes, Contexts
     build-depends: base >=4.6, hakyll >= 4.0.0.0, containers, filepath >= 1.3.0.0, pandoc >= 1.11
     default-language: Haskell2010
     -- other-extensions:    

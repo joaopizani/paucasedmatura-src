@@ -1,57 +1,11 @@
-module Languages where
+module LanguageTable where
 
-import Data.Char (toUpper)
-import Prelude hiding (lookup)
-import Data.Map (Map, fromList, lookup)
-
-import Hakyll.Web.Template.Context (Context, functionField)
-import Hakyll.Core.Identifier (toFilePath)
-import Hakyll.Core.Item (Item(..))
-
-import Prefixes (prs)
+import Language (TRs(TRs), TR(..))
+import Data.Map (fromList)
 
 
-data Lang = PT | EN | DE deriving (Eq, Ord, Bounded, Enum, Read)
-
-instance Show Lang where
-    show PT = "pt"
-    show EN = "en"
-    show DE = "de"
-
-languages :: [Lang]
-languages = [minBound ..]
-
-defaultLang :: Lang
-defaultLang = EN
-
-
-data TR = TR { ptT :: String, enT :: String, deT :: String } deriving (Eq, Ord, Read, Show)
-
-newtype TRs = TRs { trMap :: Map String TR } deriving (Eq, Ord, Read, Show)
-
-
-itemLang :: Item a -> Lang
-itemLang item = if (length p > length prs) then (lFromPath p) else defaultLang
-    where p         = toFilePath (itemIdentifier item)
-          lFromPath = read . map toUpper . take 2 . drop (length prs)
-
-trCtx :: Context a
-trCtx = functionField "tr" $ \args item -> do
-    let l = itemLang item
-    k <- getArgs args
-    translationRecord <- getVal k (trMap templateStrings)
-    return $ (selector l) translationRecord
-    where
-        getArgs as = case as         of { [k]    -> return k;  _ -> fail "fail: trCtx - getArgs"}
-        getVal k m = case lookup k m of { Just v -> return v;  _ -> fail "fail: trCtx - getVal"} 
-        selector l = case l of {PT -> ptT;  EN -> enT;  DE -> deT}
-
-
-
-
--- All translation tuples, to be used in templates
-templateStrings :: TRs
-templateStrings = TRs $ fromList [
+translationTable :: TRs
+translationTable = TRs $ fromList [
     -- default template
       ("langPT", TR { ptT = "Português", enT = "Portuguese", deT = "Portuguiesisch" })
     , ("langEN", TR { ptT = "Inglês",    enT = "English",    deT = "Englisch" })

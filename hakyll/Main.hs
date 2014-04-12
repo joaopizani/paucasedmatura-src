@@ -12,7 +12,7 @@ import Hakyll.Web.Template (templateCompiler, loadAndApplyTemplate)
 import Hakyll.Main (hakyllWith)
 
 import Prefixes (deployedDir, mathJaxURL)
-import Languages (languages)
+import Language (languages)
 import Routes ( resourcesPattern, templatesPattern, allPostsPattern, indexPattern
               , noPrefixHTMLRoute, rmDateRoute, postTemplateId, allPagesPattern)
 import Contexts (postCtx, defaultTplDefaultCtx, archiveRule)

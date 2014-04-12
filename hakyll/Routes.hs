@@ -8,7 +8,7 @@ import Hakyll.Core.Identifier (Identifier, fromFilePath)
 import Hakyll.Core.Identifier.Pattern (Pattern, fromGlob, (.||.), fromList)
 
 import Prefixes (prs, prc, prf, prt)
-import Languages (Lang(..), languages)
+import Language (Lang(..), languages)
 
 
 templatesPattern :: Pattern
