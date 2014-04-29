@@ -21,6 +21,7 @@ It is only 5 minutes away from the university campus by bike, and 10 minutes awa
 There, at the IBB, I'm going to share a spacious flat (on the 16th floor) with 7 other people, each of us with their own private room.
 There you have it, a picture of what "IBBers" like to do in the summer:
 
+
 <!--more-->
 
 ![Ina Boudier-Bakkerlaan Studentencomplex](/files/imgs/2012-08_ibbq.jpg)
@@ -35,10 +36,10 @@ These are pictures taken by a canadian exchange student, who lived last year in 
 
 ### One-way flight ticket
 
-I will begin my ONE-WAY journey to the Netherlands on September, 2nd, at 12:05, on Florianopolis' Hercilio Luz International Airport.
+I will begin my ONE-WAY journey to the Netherlands on September, 2nd, at 12:05, on Florianópolis' Hercílio Luz International Airport.
 This is the detailed path which I shall fly:
 
-  * **02/09 - 12:05 - Departure from Florianopolis/Brazil (Hercilio Luz International Airport)**
+  * **02/09 - 12:05 - Departure from Florianópolis/Brazil (Hercílio Luz International Airport)**
   * **02/09 - 13:39 - Arrival on Rio de Janeiro/Brazil (Antonio Carlos Jobim Airport)**
   * **02/09 - 16:50 - Departure from Rio de Janeiro/Brazil (Antonio Carlos Jobim Airport)**
   * **03/09 - 06:30 - Arrival on Lisbon/Portugal (Portela International Airport)**
@@ -62,7 +63,8 @@ From now on, I just have to wait for the visa to arrive in my mailbox with the s
 ### Academic affairs
 
 Now I am officially registered as a postgraduate student of Utrecht University,
-and on the following week the the academic calendar for 2012/2013 will be released, along with the list of courses for the Computing Science M.Sc programme :)
+and on the following week the academic calendar for 2012/2013 will be released,
+along with the list of courses for the Computing Science M.Sc programme :)
 Did you know that?
 
   * René Descartes, the philosopher, lived for some years in Utrecht, where he studied and taught at the Universiteit Utrecht?
