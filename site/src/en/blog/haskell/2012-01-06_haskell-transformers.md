@@ -7,14 +7,15 @@ pt: pt/blog/haskell/haskell-transformers
 My humble understanding of monads in Haskell began some years ago, when I heard that IO was a Monad (whatever that was)...
 Despite hearing the dreaded "M" word, I wasn't much scared and carried on programming my little Haskell programs,
 using `putStrLn`, `getLine`, `readFile`, `writeFile` and etc.
-Then, in my 3rd year in college, I decided to implement a graphical app for manipulating finite automata,using GTK ([Gtk2Hs][1]).
+Then, in my 3rd year in college, I decided to implement a graphical app for manipulating finite automata, using GTK ([Gtk2Hs][1]).
 During the development of this program, a huge part of my functions started to get "infected" with `IO` in their types,
 so I thought it would be a nice idea to think a bit deeper about this "Monad" thing.
 
 At that time I discovered that there are A LOT of monads in Haskell,
 and that A LOT of them are useful and popular - even though you might not know that they are monads...
 There is the State Monad, Parser monads, Reader and Writer monads, the Error monads, the Either Monad, the Maybe Monad and even the List Monad!!!
-YES! `Maybe a` and `[a]` are monads! :D Well, "all of these things are monads, that's very nice, but why should I care?", you might ask.
+YES! `Maybe a` and `[a]` are monads! :D 
+Well, "all of these things are monads, that's very nice, but why should I care?", you might ask.
 I hope to give you just a bit of an answer with the example in this post.
 
 <!--more-->
@@ -22,13 +23,13 @@ I hope to give you just a bit of an answer with the example in this post.
 In this post, I will assume that you have at least some experience with Haskell,
 and that you have messed around with at least IO (maybe with Maybe too, hun? :P)...
 
-So, every year we have a tradition in Brazil, which is a big lottery run on December 31, with a huge prize.
-This year my family bought 180 tickets, and I wrote a program to check if any of them had the 6 winner numbers shown on TV.
-I wrote this program in Haskell - of course - and this time I was, again, forced to deepen my understanding of monads AND monad transformers to get it done.
+So, every year we have a tradition in Brazil, which is a big lottery run on December 31st, with a huge prize.
+This year my family bought 180 tickets, and I wrote a program to check if any of them had the winning numbers shown on TV.
+I wrote this program in Haskell - of course - and this time I was forced to deepen my understanding of monads AND monad transformers to get it done.
 
 The program should work as follows: A file containing all 180 tickets (each with 6 numbers) must be read.
-Then 6 rounds of user input must happen: in each round, the user types a number and the program matches the current collection of user-typed numbers with all tickets.
-Then, the 5 tickets with the most `lucky` numbers are printed on the screen.
+Then 6 rounds of input happen: in each round, the user types a number and the program matches the collection of typed numbers with all tickets.
+Then, the 5 tickets with the biggest amount of `lucky` numbers are printed on the screen.
 Again, six of these "rounds" must happen.
 
 I started modelling my program from the bottom-up, by defining a datatype to represent a lottery ticket, a `Combination` of lottery numbers:
@@ -40,7 +41,7 @@ The lucky one contains the numbers belonging to this combination that "showed up
 Also, the Ord instance for Combination is interesting: a combination is **larger** than another if the size of it's lucky set is bigger.
 I use `(flip compare)` there just to make clearer that we are defining the notion of "larger" instead of "lesser or equal" (more common).
 
-I then proceeded to implement the reading of the file into a list of Combination.
+I then proceeded to implement the parsing of the file into a list of Combination.
 This part is a bit out-of-context in this post, but I tried to make nice use of monadic features _even here_:
 
 <script src="http://gist-it.appspot.com/github/joaopizani/katas/blob/blog-05-2012/HaskellLottery/Main.hs?footer=0&slice=22:34"></script>
@@ -53,7 +54,7 @@ Then, at the definition of `readCombinations`, we have to use `liftM` again, but
 So we use `liftM makeCombinations`. The expression `liftM makeCombinations` has type `IO [[Int]] → IO [Combination]`,
 and `readMatrix` has type `FilePath → IO [[Int]]`, so the types match nicely and allow an elegant composition, like this :)
 
-    (FilePath → IO [[Int]]) ∘ (IO [[Int]] → IO [Combination]) ⇒ (FilePath → IO [Combination])
+    (FilePath → IO [[Int]]) ∘ (IO [[Int]] → IO [Combination]) ≡ (FilePath → IO [Combination])
 
 Going further down the code, we reach the "core" function of our lottery checker:
 a function called `matchWithCombination`, which takes a `probe` (a number that showed up on TV) and one combination,
@@ -61,7 +62,7 @@ returning a new combination with its lucky and unlucky components updated in cas
 
 <script src="http://gist-it.appspot.com/github/joaopizani/katas/blob/blog-05-2012/HaskellLottery/Main.hs?footer=0&slice=36:40"></script>
 
-We use IntSet.intersection to "match" the probe with the unlucky numbers, and then we update the current lucky set, by uniting it with the possible new lucky guy.
+We use IntSet.intersection to "match" the probe with the unlucky numbers, then update the current lucky set, by uniting it with the new lucky guy.
 The definition of `matchWithCombination` also shows a nice syntactical feature of Haskell:
 allowing us to both define AND use functions in **infix** form, by just putting backticks around the function name.
 Well.. we now define matchWithCombinations, very obviously: it's ALMOST just a map (a lift to the List Monad),
@@ -76,7 +77,8 @@ Two of the requirements we defined earlier are lacking, though:
   1. We need input (the user needs to **type in** the numbers in the terminal) and output (print the top 5 tickets on the terminal)
   2. We need to perform 6 (input → process → output) "rounds"
 
-Our `matchWithCombinations` function can only do ONE "update" step, so we need to keep "threading" the results of calls to it in a chain, like this (sort of):
+Our `matchWithCombinations` function can only do ONE "update" step,
+so we need to keep "threading" the results of calls to it in a chain, like this (sort of):
 
     (matchWithCombinations <user-input> (matchWithCombinations <user-input> (matchWithCombinations <user-input> originalCombs)))
 
@@ -162,6 +164,7 @@ PS:
 
 2. If you want to really know how `1 : 1 : 1 : []` and `m » m » m » (return ())` are related, take a look at the source code.
    Seriously, it's [HERE][6].
+
 
 [1]: <http://projects.haskell.org/gtk2hs/>
 [2]: <http://hackage.haskell.org/packages/archive/containers/0.4.2.0/doc/html/Data-IntSet.html>

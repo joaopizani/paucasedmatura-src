@@ -5,10 +5,10 @@ pt: pt/blog/haskell/gloss-haskell
 ---
 
 It's an old adage of the computing profession that "Computer programming is the most fun you can have with your clothes on",
-and certainly the most fun you can have with programming is when your program **draws** something on the screen, or when your program shows an **animation**.
+and certainly the most fun you can have with programming is when your program **draws** something on the screen, or does some **animation**.
 It's one of those activities that can make you spend hours late at night...
 
-On December 31, 2011, I spent my morning and afternoon writing a program that would help me check if I had won the national New Year's lottery.
+On December 31, 2011, I spent my morning and afternoon writing a program that would help me check whether I had won the New Year's lottery.
 Of course, being such an important program, it HAD to have a nice, beautiful graphical interface.
 And of course the language I was going to use was Haskell; after all, I wanted to have some **FUN** writing it :)
 
@@ -50,9 +50,9 @@ hoursDial = baseDial . hoursDialLength
 
 I made the length of our dials variable, and it all depends on the parameter of "baseLength", which is "w".
 This is going to be the width of our clockface.
-You can see that we have three FUNCTIONS defining the dials, so the dial lengths are variable, but the **proportion** between the dials is fixed by us...
-Besides, all dials have the same width, so that's why we defined "baseDial = rectangleSolid 15".
-We are able to "fixate" or "bind" one parameter of rectangleSolid to 15, thus "baseDial" needs only one more parameter, which is the dial's length.
+You can see that three FUNCTIONS define the dials, so the dial lengths are variable, but the **proportion** between the dials is fixed by us...
+Besides that, all dials have the same width, so that's why we defined "baseDial = rectangleSolid 15".
+We are able to "fix" or "bind" one parameter of rectangleSolid to 15, thus "baseDial" needs only one more parameter, which is the dial's length.
 This ability to "bind" functions partially is a very nice feature of Haskell called "currying".
 Chech it out here if you want to know more: [Currying][3].
 
@@ -75,9 +75,9 @@ hoursDial x = baseDial (hoursDialLength x)
 hoursDial = baseDial ∘ hoursDialLength
 ```
 
-Very often in Haskell we can use function composition to make code look less verbose (with less "dirt") and easier to read.
+Very often in Haskell we can use function composition to make code look less verbose and easier to read.
 
-Now, going on with our clock! Until now, we have got 3 nice **static** dials. We now need to make them move :)
+Now, onwards with our clock! Until now, we have got 3 nice **static** dials. Let's make them move :)
 In gloss, we can make our pictures move by adding an extra parameter to the picture definition: the **time**.
 Take a look at this:
 
@@ -85,7 +85,8 @@ Take a look at this:
 movingSquare t = rotate (90 * t) (rectangleSolid 100 100)
 ```
 
-Our "movingSquare" is now an animation. Animations have type (Float → Picture), i.e, they are functions that give us _a picture (a frame) for each instant of time_!
+Our "movingSquare" is now an animation.
+Animations have type `Float → Picture`, i.e, they are functions giving _a picture (frame) for each instant of time_!
 Cool idea, don't you think? The time parameter ("t") is the number of _seconds elapsed since the beginning of the animation_.
 Thus, in the example above, we are rotating our little square 90 degrees per second...
 
@@ -108,9 +109,9 @@ minutes x t = rotate (minutesRotationSpeed t) (minutesDial x)
 hours x t = rotate (hoursRotationSpeed t) (hoursDial x)
 ```
 
-They still take that length parameter ("x"), but now they also take the time parameter ("t").
+They still take that length parameter ("x"), but now they also take a time parameter ("t").
 And the "core of the movement" here is the function "rotate".
-The amount to rotate depends on the time, and the picture to be rotated is parameterized by the length we give ("x").
+The amount to rotate depends on time, and the picture to be rotated is parameterized by the length we give ("x").
 
 Well, well, well... We can have now our clock.
 It will be very minimalistic (Apple style :P), so it will ONLY contain three dials and nothing more.
@@ -120,10 +121,10 @@ If you have some Pictures, and want to build one single Picture out of them all,
 clock x t = pictures [dial x t | dial <- [seconds, minutes, hours]]
 ```
 
-Our clock is an animation, so it has that trailing time ("t") parameter, plus it has a variable size, which we pass throught the x parameter.
+Our clock is an animation, so it has that trailing time ("t") parameter, plus it has a variable size, which we pass as the "x" parameter.
 We take each of our animated dials, and apply the SAME parameters to all of them.
 What it means, of course, is that "global time" "runs" at the same speed for all dials.
-This is not the case when the clock travels close to the speed of light, but nevertheless... :P
+This is not the case when the clock travels close to the speed of light, but I digress... :P
 
 As a final touch of elegance, however, I wanted to add the possibility of accelerating time :)
 With the function "variableSpeedClock" below, we can make a second in our animation take less (or more) than a second in the real world.
@@ -146,13 +147,13 @@ animate (InWindow "GlossClock" (size, size) (200,200)) white (variableSpeedClock
 In case you want to run the code and see the beauty for yourself, there are two possibilities:
 
   1. Install the [Haskell Platform][5] in your computer (for Ubuntu: "sudo apt-get install haskell-platform"),
-     and afterwards install gloss (typing "cabal install gloss").
+     and afterwards install gloss (typing `cabal install gloss`).
      You can them grab the full code [here][6], compile it with "ghc --make Clock.hs" and RUN!
 
   2. Using this [BEAUTIFUL GLOSS WEB INTERFACE][7]:
      Copy the code from [HERE][8], paste it into the text field on the page and click "run"!
 
-And never forget, fiddle with the code, change it and have fun! The code is licensed under Creative Commons sharealike bla bla bla... :D
+And never forget, fiddle with the code, change it and have fun! The code is licensed under Creative Commons sharealike :)
 
 Thanks to [Ben Lippmeier][9] for creating gloss, and thanks a lot to Chris Smith for creating the gloss web interface.
 Chris has also taught an awesome [Haskell for kids][10] course, which was very inspiring to me...

@@ -8,9 +8,9 @@ It's been a long time since my last post about functional programming and the [H
 I've written a [post](/en/blog/haskell/haskell-start) last year showing
 all the reasons I think are enough to convince you that you should learn Haskell.
 From then on much changed and I have great news to tell.
-The language is evolving in all aspects, and I'm lucky to witness this evolution \o/\o/
+The language is evolving in all aspects, and I'm lucky to witness this evolution \\o/\\o/
 
-The Haskell compiler ([GHC][2] - The Glorious Haskell Compilation system)
+The Haskell compiler ([GHC][2] - The Glorious Glasgow Haskell Compilation system)
 generates faster code release after release, the community of people using the language is booming,
 including big enterprises like Facebook :D
 There are Haskell libraries to accomplish every imaginable and unimaginable task,
@@ -39,15 +39,14 @@ It's an interactive Haskell tutorial, you code as you learn, in the comfort of y
 
 ![Try Haskell!](/files/imgs/2010-08_try_haskell.png)</a>
 
-2) If you enjoyed the test-drive and wanna install Haskell in your PC it's also easier than ever.
+2) If you enjoyed the test-drive and want to install Haskell in your PC it's also easier than ever.
 Now all the essential tools and libraries for a Haskell programmer are bundled in the [Haskell Platform][8].
 Everything tested, stable and working nicely together.
-You just need to go to the [platform's website][9], choose your operating system, and install.
+You just need to go to the [platform's website][8], choose your operating system, and install.
 Surely in Ubuntu the install process is the simplest of all:
 you add the repository and then type into a terminal:  `sudo aptitude install haskell-platform` :D
 
 [8]: <http://hackage.haskell.org/platform/>
-[9]: <http://hackage.haskell.org/platform/>
 
 ![Haskell Platform](/files/imgs/2010-08_haskell_platform.png)
 

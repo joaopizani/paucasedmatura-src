@@ -32,8 +32,10 @@ Like this:
     | _| _||_||_ |_   ||_||_|
     ||_  _|  | _||_|  ||_| _|
 
-Our input text file has only one line of "7-segment" digits, where each digit has a height of 3 "segments" (lines) and a width also of 3 "segments" (columns).
-Our program must read the contents of this file and print the corresponding number on the standard output, which for the above example would be `123456789`.
+Our input text file has only one line of "7-segment" digits,
+where each digit has a height of 3 "segments" (lines) and a width also of 3 "segments" (columns).
+Our program must read the contents of this file and print the corresponding number on the standard output,
+which for the above example would be `123456789`.
 
 In the [official problem description][3], there are several additional usage scenarios for this challenge:
 recognizing several lines of digits, validating the numbers and using error-correcting codes to return good numbers even with "dirty" input.
@@ -45,13 +47,13 @@ We are going, however, to tackle only the basic challenge, which is to recognize
 **SPOILER ALERT:  DO NOT KEEP READING if you want to try solving this problem for yourself.**
 
 I believe that a Haskell solution for this problem turned out very idiomatic and relatively easy to understand.
-Besides, it is also very short: ignoring the lookup table, we have only some 10 lines of code!
+Besides, it is also very short: ignoring the lookup table, we have only around 10 lines of code!
 There it goes, the relevant part of the solution:
 
 <script src="http://gist-it.appspot.com/github/joaopizani/katas/blob/blog-05-2012/BankOCR/OCR.hs?footer=0&slice=0:16"></script>
 
 Our solution is a typical [Unix filter][4],
-and this very much justifies our usage of the function `interact` to define main...
+and this very much justifies our usage of the `interact` function to define main...
 The `interact` function has the following type:
 
 ```haskell
@@ -60,7 +62,7 @@ interact ∷ (String → String) → IO ()
 
 `interact` takes a **function from String to String** as parameter and does Input/Output with the help of this function.
 One way to express what `interact` does is by saying that it connects standard input to standard output,
-but allowing the information to be **transformed by the user function** as it flows down the pipeline :)
+but allowing the information to be **transformed by the user function** as it flows through :)
 
 Now for some commentary on the core of our recognizer, the `parse` function:
 
