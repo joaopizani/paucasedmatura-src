@@ -5,8 +5,8 @@ pt: pt/blog/haskell/haskell-ants-edsl
 ---
 
 In the second term of my master's programme in Computing Science at [Utrecht University][1],
-I followed (and liked very much) a course called "Advanced Functional Programming".
-In this course, we study the theory that underpins the inner workings of functional programming languages (and in particular, Haskell).
+I took (and liked very much) a course called "Advanced Functional Programming".
+In this course, we studied the theory that underpins functional programming languages (and in particular, Haskell).
 But, theory apart, we also developed a lot of practical assignments,
 [the largest of which][2] I describe in this post.
 
@@ -26,15 +26,17 @@ The championship was run in a simulator, and the following animated gif shows ho
 ![Ants Simulator](/files/imgs/2013-03_ants-edsl-animation.gif)
 
 In this example, our team is the "red" team, and we are competing agains the all-time winner (in blue).
-Even though in this particular example we are losing by a long shot (there is little food in our hill), we weren't so bad when competing with our classmates...
+Even though in this particular example we are losing by a long shot (there is little food in our hill),
+we weren't so bad when competing with our classmates...
 
-Anyways, [the project (uploaded to GitHub)][6] is not about ant assembly,
+Anyways, the project [(uploaded to GitHub)][6] is not about ant assembly code,
 but about Advanced Functional Programming, so you might ask "What the hell does this all have to do with Haskell?".
 The answer is simple: our real task was to implement an Embedded Domain-Specific Language (EDSL) in Haskell,
-allowing to express with a **high level of abstraction** the strategies we wanted our ants to follow.
+allowing us to express with a **high level of abstraction** the strategies we wanted our ants to follow.
 The "deliverables" of the project, thus, were twofold:
 
-  * **Ant EDSL library:** A high-level API, made of fundamental strategies and of combinators allowing the user to build more complex strategies from simpler ones.
+  * **Ant EDSL library:** A high-level API,
+    made of fundamental strategies and of combinators allowing the user to build more complex strategies from simpler ones.
 
   * **The strategies themselves:** Using the developed API, we needed to hand in two strategies (ant assembly files),
     that would take part in the championship against the rest of the class.
@@ -51,15 +53,18 @@ In the following figure, you can have an idea of how the project is structured:
 
 </div>
 
-Also, here it goes one of the basic strategies we submitted for the contest, so that you can have an idea of how it "feels" to write strategies in our EDSL:
+Also, here it goes one of the basic strategies we submitted for the contest,
+so that you can have an idea of how it "feels" to write strategies in our EDSL:
 
 <script src="http://gist-it.sudarmuthu.com/github/joaopizani/haskell-ants-edsl-afp2012/blob/master/uu-ant-gen/Game/UUAntGen/Frontend/AntStrategies.hs?slice=158:185&footer=no"></script>
 
 This particular strategy was based in the fact that ants born in the hill's corners (each anthill had 6 corners) would draw "highways" with pheromones,
 that would mark a quick way for other ants to go back home whenever needed.
-Besides this, ants that found food would also leave a "trail" of pheromones leading to the highways, and these trails would consist a kind of "local roads".
+Besides this, ants that found food would also leave a "trail" of pheromones leading to the highways,
+and these trails would serve as a kind of "local roads".
 
-Finally, as a prize for your pacience in reading this post until here :), you can take a look at the slides that we prepared for the presentation of the project (click on the image to start the download):
+Finally, as a prize for your pacience in reading this post until here :),
+you can take a look at the slides that we prepared for the presentation of the project (click on the image to start the download):
 
 [![slides-ants-edsl-afp2012](/files/imgs/2013-03_slides-ants-edsl-afp2012.png)](/files/imgs/2013-03_presentation-ants-edsl-afp2012.pdf)
 

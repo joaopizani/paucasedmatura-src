@@ -5,9 +5,10 @@ pt: pt/blog/misc/fermat-bbc
 ---
 
 Some time ago I read a book, borrowed from a friend of mine, about [Fermat's Last Theorem][1].
-It's a VERY famous result in Mathematics not for its relevance, but for the time it took for a proof to be found.
-Since the first time Pierre de Fermat wrote his last theorem in the 1600's until the day that Andrew Wiles proved it in 1994, almost 400 years have gone by.
-Some 400 epic years, though, in which the most brilliant among mathematicians tried, and failed, to prove an assertion that seemed so simple...
+It's a VERY famous result in Mathematics not only for its relevance, but for the time it took for a proof to be found.
+Since the first time Pierre de Fermat wrote down his last "theorem" in the 1600's until the day that Andrew Wiles proved it in 1994,
+almost 400 years have gone by.
+Some 400 epic years, though, in which the most brilliant mathematicians tried, and failed, to prove an assertion that seemed so simple...
 
 <!--more-->
 

@@ -5,10 +5,10 @@ pt: pt/blog/haskell/haskell-kata-game-of-life
 ---
 
 Hi everybody! Today I am going to write about another [Code Kata][1] experience I had using Haskell.
-This time the code didn't come directly from a Coding Dojo (live meeting with friends), but rather from an "enhancement" over the solution we wrote at a meeting.
+This time the code didn't come directly from a Coding Dojo, but rather from an "enhancement" over the solution we wrote at a meeting.
 
 In that Coding Dojo we wanted to solve the [Game Of Life][2] problem.
-The goal was mainly to - given an initial configuration - evolve the world in one generation and print back this evolved state.
+The goal was mainly to - given an initial configuration - evolve the world one generation and print back this evolved state.
 For those of you who never heard about Conway's Game of Life, its article on Wikipedia can be very clarifying.
 
 So we did it, and we solved the problem, but - as always - I wanted very badly to try to solve the same problem using Haskell (instead of Python).
@@ -51,12 +51,12 @@ The input starting position is given through a text file that looks like this:
 And the output could look like:
 
     ........
-    ...**...
-    ...**...
+    ...xx...
+    ...xx...
     ........
 
-This format was chosen because it is very easily parsed in most languages.
-OBS: It is VERY, VERY easily parsed in Haskell :)
+This format was chosen because it is very easy to parse in most languages.
+OBS: It is VERY, VERY easily to parse in Haskell :)
 
 
 ## Proposed "solution" in Haskell
@@ -69,18 +69,19 @@ It improves a simple solution in two ways:
   1. It handles more than one generation. It is actually a live simulation
   2. It has a graphical interface to display the simulation
 
-Even though the code is bigger (because of these enhancements) it is still very concise and readable, totaling some 150 lines of code (with lots of whitespace).
+Even though the code is bigger, it is still very concise and readable, totaling around 150 lines of code (with lots of whitespace).
 And to keep it simple, we are going to start our tour of the solution by the module that deals with the "original" problem:
 we are going to look first at the functions to read and evolve the board for one generation.
 First of all, the parser for a starting position (imports omitted for brevity):
 
 <script src="http://gist-it.appspot.com/github/joaopizani/katas/blob/blog-05-2012/GlossGameOfLife/Parser.hs?footer=0&slice=7:"></script>
 
-Our parser was written using the easy-to-use, efficient and popular [Parsec][6] library for Haskell,
+Our parser was written using the efficient and popular [Parsec][6] library for Haskell,
 that allows us to describe a format to be recognized (a **grammar**) in Haskell itself, in a very readable and concise way.
 Parsec is a **parser combinator** library, which means that we build our "big" parser by combining smaller parsers,
 which are built by combining even smaller ones, and so on...
-until we reach the primitive parsers that come with Parsec like, for example, `char`, used to define the parser for a dead cell in the first line of the code above.
+until we reach the primitive parsers that come bundled with Parsec like, for example, `char`,
+used to define the parser for a dead cell in the first line of the code above.
 
 Indeed, the parsers `dead` (for a dead cell) and `alive` (for a live cell) are the most fundamental, and what they do is pretty simple:
 they **map** a dot or an upper-case 'O' to False or True, respectively.
@@ -97,32 +98,34 @@ First of all, let's talk about `char`. The exact type of `char` (as in the [Pars
 is more general and uses type classes. The type shown above, however,
 is a valid specialization of the general type, suiting our usage.
 You can see that `char` takes a character and gives us a **Parser that recognizes** that character.
-However, we want `dead` to be of type `Parser Bool`, that is, a parser that returns a boolean; so we need a function that converts `Parser Char` to `Parser Bool`...
+However, we want `dead` to be of type `Parser Bool`, that is, a parser that returns a boolean;
+so we need a function that converts `Parser Char` to `Parser Bool`...
 And that's the point where [fmap][8] comes to help us!
 
 You can see that not only the name, but also the type of `fmap` is very similar to that of `map`.
 In fact, `fmap` is a generalization of `map`: while `map` works only over lists, `fmap` works over any container.
 Well, then `fmap` is applicable to our situation, that's because anything of type `Parser a` is a monad,
 and any monad is a container (_the fancy word for container is ["Functor"][9]_).
-The last interesting detail is the function that we map over (char '.') and (char 'O'):
-The usage of `const` means that **we don't care about what the Parser returns**, as long as it succeeds, we return either a True or a False.
+The last interesting detail is the function that we map over (`char '.'`) and (`char 'O'`):
+The usage of `const` means that **we don't care about what the Parser returns**: as long as it succeeds, we return either a True or a False.
 
-The remaining parser code is even simpler; the top-level function in the parser module (`parseBoardFromFile`) is the only one that still deserves some commentary:
+The remaining parser code is even simpler;
+the top-level function in the parser module (`parseBoardFromFile`) is the only one that still deserves some commentary:
 
 <script src="http://gist-it.appspot.com/github/joaopizani/katas/blob/blog-05-2012/GlossGameOfLife/Parser.hs?footer=0&slice=15:"></script>
 
-This function takes a file name as input (`FilePath` is just a synonym for `String`) and performs some IO actions (reading the file and parsing its contents).
+This function takes a file name as input (`FilePath` is just a synonym for `String`)
+and performs some IO actions (reading the file and parsing its contents).
 As a result of these actions, it returns a matrix of booleans (that is, our `Board` \o/).
-The function [parseFromFile][10] comes from Parsec,
-and it does exactly what its name says, with a return type of `Either ParseError [[Bool]]`.
-Because `result` has this type, we use the [either][11] function in the next line.
+The function [parseFromFile][10] comes from Parsec, and it does exactly what its name says, with a return type of `Either ParseError [[Bool]]`.
+Because `result` has this type, we use the [either][11] function on the next line.
 The `either` function is used whenever you need to **decide what to do based on a value of type Either**.
 In our case, if the result is a correctly parsed matrix, we return it as-is (that's what `id` does for us).
 But if it's an erroneous parse, then we convert the ParseError to a string and terminate the program showing the error message
 (that's what `(error ∘ show)` does for us).
 
-Enough for parsing now, and on to what really matters: evolving a board one generation.
-We take care of this task in the Evolution module.
+Enough od parsing, and on to what really matters: evolving a board one generation.
+We take care of this task in the `Evolution` module.
 The most important functions of this module are `evolve` and `eval`.
 `eval` is given a position on the board and returns whether the cell in that position should be dead or alive, based on its surroundings.
 `evolve` is given a board and just applies `eval` all over it to create the next-generation board.
@@ -142,7 +145,8 @@ BUT! But we are going to do something much nicer, much cooler: we are going to d
 Before getting too excited, I have to warn you: the module dealing with drawing the graphics is the largest one (It has around 50 lines of code).
 However, if you run the program for yourself and watch the AWESOME resulting simulation, you'll realize that 50 lines is a **very good mark :)**
 
-Anyways, 50 lines is still too much to be embedded in a blog post, so I'll only give you the highlights - namely, the functions `drawModel`, `layout` and `activate`.
+Anyways, 50 lines is still too much to be embedded in a blog post,
+so I'll only give you the highlights - namely, the functions `drawModel`, `layout` and `activate`.
 Here's their code:
 
 <script src="http://gist-it.appspot.com/github/joaopizani/katas/blob/blog-05-2012/GlossGameOfLife/Drawing.hs?footer=0&slice=27:32"></script>

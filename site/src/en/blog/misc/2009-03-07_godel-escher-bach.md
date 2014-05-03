@@ -7,7 +7,8 @@ pt: pt/blog/misc/godel-escher-bach
 And yet another great book I'm reading: [Gödel, Escher, Bach][1], from Douglas R. Hofstadter.
 The three names in the book's title are, respectively, of a mathematician, a painter and a composer.
 That makes a lot of people think that the book is about the relation among these three disciplines.
-It's MUCH more that that! It discusses the nature of intelligence, of language, it talks about what are logic and formal systems, about how intelligence can (or cannot) evolve from mechanical manipulation of symbols.
+It's MUCH more that that! It discusses the nature of intelligence, of language,
+it talks about what are logic and formal systems, about how intelligence can (or cannot) evolve from mechanical manipulation of symbols.
 It's a great book fot Computer Science students, but far from being only for us...
 It's a good book to show what the hell is Theoretical Computer Science :P
 
@@ -15,7 +16,7 @@ It's a good book to show what the hell is Theoretical Computer Science :P
 
 The book's author is an expert in Cognitive Science, and according to him,
 the book summarizes his personal quest to find the nature and location of **meaning**,
-i.e, if symbols together with rules to manipulate them can or cannot have meaning alone.
+i.e, whether a bunch of symbols together with some rules to manipulate them can or cannot have meaning alone.
 Several important concepts are mentioned through the book's very interesting chapters,
 including the [fundamental architecture of computers][2],
 
@@ -28,7 +29,6 @@ the [genetic code][4] and protein systhesis.
 
 It's whole lot of fun, really.
 More than 600 pages of things you never before thought that could play together so well...
-In the following image gallery there are some of the subject explored in the book:
 
 ![A Turing machine](/files/imgs/2009-03_maquina_de_turing.jpg)
 
