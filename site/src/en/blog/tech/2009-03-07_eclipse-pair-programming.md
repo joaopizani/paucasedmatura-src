@@ -14,7 +14,7 @@ The name of this plugin is DocShare, and it's part of the ECF (Eclipse Communica
 Using DocShare is quite simple.
 You just open the window with the file you want to edit.
 Then right-click inside this window and select "Share editor with".
-Then you just need to choose with who you wish to share the editing.
+Then you just need to choose with whom you wish to share the editing.
 The chosen person will get a notification in his/her Eclipse, telling that you want to edit a file with him/her.
 If the invitation is accepted, you two begin immediately to edit the file together.
 

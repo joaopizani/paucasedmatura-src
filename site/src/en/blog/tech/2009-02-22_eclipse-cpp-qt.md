@@ -4,11 +4,9 @@ published: 2009-02-22
 pt: pt/blog/tech/eclipse-cpp-qt
 ---
 
-[![Flattr this](http://api.flattr.com/button/flattr-badge-large.png)](http://flattr.com/thing/317547/Remote-Pair-Programming-with-Eclipse)
-
 This semester I'm taking part in a programming project using [C++][1],
-the goal is to develop a tool to help students of Numerical Analysis better understand the numerical algorithms.
-Perhaps I talk a bit more about this project in another post.
+the goal is to develop a tool to help students of Numerical Analysis better understand numerical algorithms.
+Perhaps I'll talk a bit more about this project in another post.
 Well, what matters is that we chose [Eclipse][2] (with the [CDT][3] plugin and Qt integration) as our development environment.
 
 [1]: <http://en.wikipedia.org/wiki/C%2B%2B>
@@ -17,14 +15,14 @@ Well, what matters is that we chose [Eclipse][2] (with the [CDT][3] plugin and Q
 
 As I had to install these things, I decided to take the chance to record a screencast of the whole process and put it on youtube.
 I also wrote this tutorial.
-For those who are newcomers to C++ from the Java land, this might a good IDE alternative.
+For those who are newcomers to C++ from Java land, this might a good IDE alternative.
 Let's work then!
 
 
 **1. Optional: Install SVN plugin (Subversive)**
 
 For those who don't know it, Subversion (SVN) is an excellent Version Control System.
-It facilitates the work of several people together in a programming project, without the work of one getting in the way of other.
+It facilitates the work of several people together in a programming project, without the pains of getting in the way of each other.
 Also, any change to the source code made through SVN is completely reversible.
 Eclipse can use SVN with the **Subversive** plugin.
 To install Subversive's most recent version, follow these steps:
@@ -33,7 +31,7 @@ To install Subversive's most recent version, follow these steps:
 
   2. In "Latest Release", copy the update-site URL;
 
-  3. In Eclipse, go to Help -> Software Updates -> Available software;
+  3. In Eclipse, go to Help → Software Updates → Available software;
 
   4. Click "Add site" and paste the update-site URL, then click OK;
 
@@ -57,7 +55,8 @@ To install Subversive's most recent version, follow these steps:
 
 **2. Install the Eclipse CDT plugin**
 
-CDT (C/C++ Development Tooling) is the Eclipse plugin containing all needed tools to handle C and C++ development, such as: Auto-complete, Compilation, Syntax highlight, Project Import/Create wizards, Refactorings, etc.
+CDT (C/C++ Development Tooling) is the Eclipse plugin containing all needed tools to handle C and C++ development, such as:
+Auto-complete, Compilation, Syntax highlight, Project Import/Create wizards, Refactorings, etc.
 To install CDT, let's use the official development team's update-site:
 
   1. At [CDT's official website][6], copy the update-site URL of the most recent version;
@@ -98,7 +97,7 @@ The installation steps are as follows:
 
   4. Run Eclipse through the command-line with the "-clean" option. Like this: ` ./eclipse -clean `
 
-  5. Go to Window -> Preferences -> Qt, and put there the path to the folders where Qt is installed, according to the picture below:
+  5. Go to Window → Preferences → Qt, and put there the path to the folders where Qt is installed, according to the picture below:
      ![mncpp_qt_paths](/files/imgs/2009-02_mncpp_qt_paths.jpg)
 
   6. Now ready to go! Here's a sample of the plugin at work:

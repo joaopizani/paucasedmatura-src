@@ -26,7 +26,7 @@ The server supposes that I keep my password secret, so if some "joaopizani" type
 Looks pretty safe, don't you think?
 
 Truth is, not so much... People must remember the password, and often make ridiculous choices (birth date is just an example).
-Even if we suppose that the passwords are strong enough, we still have to type a different password for each computer we want to log in.
+Even if we suppose that passwords are strong enough, we still have to type a different password for each computer we want to log in.
 How to solve these problems???
 Using _authentication with cryptographic keys_.
 Surely you already heard of cryptography used for exchanging secret messages, but it can also be used to prove you are yourself...

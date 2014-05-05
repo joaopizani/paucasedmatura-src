@@ -5,18 +5,18 @@ pt: pt/blog/misc/amsterdam
 ---
 
 I tried to grasp Amsterdam through a different point of view.
-Prostitutes and drugs we also have in Brazil.
+Prostitutes and drugs we also have in Brazil, after all...
 The impression left in me by Amsterdam is that **the best things in life are free**.
-Free of charge, which in dutch is written "gratis", just like in portuguese...
+Free of charge, which in Dutch is written "gratis", just like in Portuguese...
 Nice coincidence :)
 
 I completely ignored souvenirs, fancy restaurants, canal boat trips.
 All that I wanted to do in this town, and which I DID, was to wander around freely, with no bags,
-little money and the pode of an Amsterdammer that knows where he's going :P  I think I achieved this goal.
+little money and the pose of an Amsterdammer who knows where he's going :P  I think I achieved this goal.
 
 I largely ignored weed, mushrooms and prostitution...
 These are mainly for tourists. These things exist, for sure, but Amsterdammers don't really care.
-They lie calmly on the park's gardens too watch the sunset at 10pm, they play with their children on the streets, they ride their bike to work (wearing a suit).
+They lie calmly on the park's gardens to watch sunset at 10pm, they play with their children on the streets, they ride their bike to work (wearing a suit).
 They park their bike - WITHOUT any lock - in front of their workplace.
 THAT's what really matters. THAT's what I have seen here. THAT's freedom.
 
