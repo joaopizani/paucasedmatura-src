@@ -21,8 +21,8 @@ It was going to take just **too much time** to replace the approx. 200 blocks I 
 So it was time to use a feature of vim I recently heard about: macros!
 
 Macros in vim are a VERY generic mechanism:
-your start recording a macro and then everything you do is recorded - every movement, every edit, in normal mode as in insert, visual - _whatever_ mode.
-Then your **replay** your macro and the commands are repeated exactly.
+your start recording a macro and then everything you do is recorded - every movement, every edit, in normal mode as in insert - _whatever_ mode.
+Then your **replay** your macro and the commands are repeated **exactly**.
 This can be very useful, and I hope to illustrate this usefulness with my concrete example.
 Here's my typical block of code, before and after the transformation I needed to do:
 
@@ -39,7 +39,7 @@ put(bnome_en, BaseRules.nonEmptyRule);
 ```
 
 After fidgeting a bit, I found that what I needed to do
-was change everything between `new` and `})` (the closing of the anonymous class parameter) to `BaseRules.emptyRule`.
+was to change everything between `new` and `})` (the closing of the anonymous class parameter) to `BaseRules.emptyRule`.
 So my commands were:
 
   * search for `new`
@@ -62,18 +62,19 @@ Now I only went to wherever I wanted to perform a _big code block substitution_ 
 
     @n
 
-That is, the _at_ (@) key, followed by the name of the register where the macro was stored.
+That is, the _at_ (`@`) key, followed by the name of the register where the macro was stored.
 And BOOM! It worked like a charm. So I gained confidence and tried:
 
     50@n
 
 That means I repeated the macro 50 times.
 It worked and was beautiful :D  Conclusion: macros in vim are useful AND easy to use, they even make sense!
-So, dear prospective, novice or veteran vim user, whenever you're repeating yourself and it's harder than a simple find/replace, press `q` and record a macro :)
+So, dear prospective, novice or veteran vim user, whenever you're repeating yourself and it's harder than a simple find/replace,
+press `q` and record a macro :)
 
-Important tip:  Macros in vim are COMPLETELY _context-free_.
-What this means is that the EXACT SAME sequence of commands (including the same motions) will be executed when you replay the macro,
-regardless of where (in the ffile) you replay it.
-So, my tip is: always use features like search (`/`) when recording a macro, so that you know you are in the right place when doing the edition...
+Important tip:  Macros in vim are **completely context-free**.
+What this means is that the **exact same** sequence of commands (including the same motions) will be executed when you replay the macro,
+regardless of where (in the file) you replay it.
+So, my tip is: always use features like search (`/`) when recording a macro, so that you know you are in the right place when editing...
 
 [1]: <http://en.wikipedia.org/wiki/Vim_(text_editor)>

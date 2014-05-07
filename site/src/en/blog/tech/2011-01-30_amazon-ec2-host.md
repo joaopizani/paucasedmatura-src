@@ -9,21 +9,21 @@ ANYWAYS, there are some excuses also :)
 The biggest of them being that I recently moved the blog (and all other personal stuff) to a new host.
 
 Now I have dedicated hosting, with **my own server**.
-I have now FULL control over the server, it's mine, I install what I want, the operating system of my choice, I turn it on and off at will...
-This server of mine is physically placed, though, some 4000km away from me, in the east coast of the US.
-"How can that be?!", you might be asking. Now I have a virtual machine on [Amazon EC2][1]
+I now have FULL control over the server: it's mine, I install whatever I want, the operating system of my choice, I turn it on and off at will...
+This server of mine is physically placed, however, some 4000km away from me, in the east coast of the US.
+"How can that be?!", you might be asking... The answer is: I have a virtual machine on [Amazon EC2][1]
 
 <!--more-->
 
 But what on Earth is Amazon EC2, what does it do??
-Well, Amazon EC2 (Elastic Compute Cloud) is a service that allow you,
-dear user, to **rent** some of Amazon's computing resources and run you own virtual machine in their datacenters.
+Well, Amazon EC2 (Elastic Compute Cloud) is a service that allows you, dear user,
+to **rent** some of Amazon's computing resources and run you own virtual machine in their datacenters.
 It might seem hard, but practically speaking you just get access to a machine like any other, over which you have complete control, you are GOD.
 You can install any operating system, access it remotely and use it for any purpose.
 
 In my case, I wanted a very cheap and basic machine over which I could run [Ubuntu Server][2],
 an Apache web server with my blog and some other software useful for my daily tasks...
-I've chosen to set up a **micro instance**, and the configuration was so easy and cheap that I just need to share with you :)
+I've chosen to set up a **micro instance**, and the configuration was so easy and cheap that I just **need** to share it with you :)
 
 ![Amazon Web Services](http://awsmedia.s3.amazonaws.com/logo_aws.gif)
 
@@ -34,14 +34,15 @@ Here are the steps to request your machine, boot it for the first time and acces
 
   1. First you need to sign up with Amazon.
      Go to the [registration page][4] and fill in your data, including your payment details.
-     Amazon you call the phone number you provided to confirm your identity.
+     Amazon will call the phone number you provided to confirm your identity.
 
   2. At the end of the first step you will download two files, `cert-<something>.pem` and `pk-<something>.pem`.
      These files are your keys to access EC2 through the command-line tools (the most convenient way).
-     Save these files wherever you want and set up environment variables accordingly (Amazon's registration page you give you easy instructions on how to do that).
+     Save these files wherever you want and set up environment variables accordingly
+     (Amazon's registration page will give you easy instructions on how to do that).
 
-  3. Now you need to install the "ec2-api-tools" into your computer, the computer you're going to use to interact with Amazon.
-     In Ubuntu Linux, a simple "sudo aptitude install ec2-api-tools" does the trick.
+  3. Now you need to install the `ec2-api-tools` into your computer, the computer you're going to use to interact with Amazon.
+     In Ubuntu Linux, a simple `sudo aptitude install ec2-api-tools` does the trick.
 
   4. Let's then create our first **instance** (an Amazon EC2 VM): `ec2-run-instances ami-ccf405a5 --instance-type t1.micro --region us-east-1 --key <key>`.
      The `ami-ccf405a5` parameter is the disk image used to initialize the machine, in this case an Ubuntu Server 10.10 32-bit image.

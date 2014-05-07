@@ -30,7 +30,7 @@ To install the plugin in you Ubuntu, copy-paste the exact following commands int
 
   3. Updating the package list and installing the plugin: `sudo aptitude update && sudo aptitude install pidgin-microblog`
 
-Now, to activate the plugin go to Tools -> Plugins in Pidgin:
+Now, in order to activate the plugin, go to Tools → Plugins in Pidgin:
 
 ![Enabling the plugin](/files/imgs/2009-07_habilitando_plugin.png)
 

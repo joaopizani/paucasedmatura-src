@@ -8,7 +8,7 @@ Several times I've already posted here in the blog about how the [Unix philosoph
 Working on remote machines using SSH, staying up-to-date with my favorite podcasts and synchronizing them to my MP3 Player,
 bypassing firewalls and using remote files as if they were local, all these are easier tasks in Linux...
 
-It makes me even happier, though, when I'm able to accomplish one of these tasks using a SINGLE LINE shell command.
+It makes me even happier, though, that I'm sometimes able to accomplish these tasks using a SINGLE LINE shell command.
 I find some "one-liners" so beautiful that I must share them with you :)
 
 <!--more-->
@@ -28,7 +28,7 @@ I really get tired of them sometimes, so to wipe them out once and for all, go t
 
 This is a bit lengthy, and might fill 4 lines of your terminal, but I consider this magic command to have only 1 "logic line".
 What it does is to convert all WMA files of your music library to MP3.
-You can, of course, substitute "wma" for "ogg", "flac", etc, and it will work also.
+You can, of course, substitute `wma` for `ogg`, `flac`, etc, and it will work also.
 You only need the `mplayer` and `lame` packages for this to work. Beautiful, don't you think?
 
 OK. So now for the last one:
@@ -43,7 +43,7 @@ What this beautiful command does is to download (in high quality) and convert al
 Here it goes an example of a quite nice youtube playlist for you to enjoy:
 <http://www.youtube.com/view_play_list?p=771D06F88E51ACED> (classical music at its best :P)
 
-For now that's all, folks!
+That's all for now, folks!
 As I discover new shell magic I'll surely post it here.
 Please comment and leave your favorite commands too!
 

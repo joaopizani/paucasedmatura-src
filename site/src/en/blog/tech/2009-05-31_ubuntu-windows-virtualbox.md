@@ -4,20 +4,20 @@ published: 2009-05-31
 pt: pt/blog/tech/ubuntu-windows-virtualbox
 ---
 
-This is a tutorial aimed at the people that always used Windows, hears a lot about Linux,
-want to test it, but doesn't want to repartition nor format the hard drive.
+This is a tutorial aimed at the people that always used Windows, heard a lot about Linux,
+want to test it, but don't want to repartition nor format the hard drive.
 
-[VirtualBox][1] is a **virtualization** software, it's a program able to act as if it was an entire new computer.
+[VirtualBox][1] is a **virtualization** software package, it's a program able to act as if it was an entire new computer.
 You can run VirtualBox over any operating system, and inside VirtualBox any other OS can be run.
 
 I'm gonna show you how to install VirtualBox on Windows and then install [Ubuntu Linux][2] inside of VirtualBox.
 This tutorial and the accompanying screencast were made as part of my activities in the [PET Computação - UFSC][3] group,
 of which I'm part of.
 
-These materials were written when Ubuntu were on version 8.10, but no significant changes were made in regard to the steps described here.
-For those who prefer to learn visually, I published in YouTube a [screencast][4] with the complete tutorial.
+These materials were written when Ubuntu was on version 8.10, but no significant changes were made in regard to the steps described here.
+For those who prefer to learn visually, I published a [screencast][4] on YouTube with the complete tutorial.
 
-And here it goes the steps to fearlessly install Ubuntu :)
+And here come the steps to fearlessly install Ubuntu :)
 
 [1]: <http://www.virtualbox.org/>
 [2]: <http://www.ubuntu.com/>
@@ -27,9 +27,9 @@ And here it goes the steps to fearlessly install Ubuntu :)
 
 ### Installing VirtualBox and creating a virtual machine
 
-  1. Download the most recent VirtualBox (Windows version) package at the [official website][5]
+  1. Download the most recent VirtualBox package (Windows version) at the [official website][5]
 
-  2. Run the downloaded file and accept the terms of use. Obs: Administrator rights are needed in order to do the installation.
+  2. Execute the downloaded file and accept the terms of use. Obs: Admin rights are needed in order to do the installation.
 
   3. A warning will be shown saying that the Internet connection may hang during the installation process. Proceed.
 
@@ -45,27 +45,25 @@ And here it goes the steps to fearlessly install Ubuntu :)
 
   9. Choose the amount of RAM that will be given to the VM.
        + For Ubuntu, the minumum required is 384MB.
-       + Obs: Do not forget, ALL of the RAM memory here chosen will be occupied during the execution of the VM.
 
   10. Now it's time to create a virtual disk to connect to the VM.
       A virtual disk is just another file in your Windows filesystem, but that will be used by the VM as a hard disk.
         + Click "New" to open the New Virtual Disk wizard.
         + Click next, and then choose "Dinamically expanding storage".
-          By choosing this option, the virtual disk file will have only the necessary size to host the CURRENT contents of the Ubuntu system.
+            - By choosing this option, the disk file will have only the necessary size to host the CURRENT contents of the Ubuntu system.
         + Then choose the size of the virtual disk. For Ubuntu, the recommended size is at least 5GB.
         + Click "Finish"
 
-  11. And back to the main VM creation wizard, click "Next" and them "Finish".
-      Now you're ready to begin installing Ubuntu in your new VM!
+  11. And back to the main VM creation wizard, click "Next" and them "Finish". Now you're ready to begin installing Ubuntu in your new VM!
 
 [5]: <http://www.virtualbox.org/>
 
 
 ### Installing Ubuntu from the CD ISO image
 
-Now let's install the most recent Ubuntu version on the virtual machine we've just created,
-and we're installing it from the .iso file, downloaded from the [official site][6].
-The first step is to configure the VM to boot from the CD (from the CD image).
+Now let's install the most recent Ubuntu version on the virtual machine we've just created:
+we're installing it from the `.iso` file, downloaded from the [official site][6].
+The first step is to configure the VM to boot from the CD (CD image).
 Then we'll do the installation itself.
 
   1. Select the recently created VM and click "Settings"

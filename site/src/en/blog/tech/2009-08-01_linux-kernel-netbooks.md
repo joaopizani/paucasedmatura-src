@@ -7,14 +7,14 @@ pt: pt/blog/tech/linux-kernel-netbooks
 If you (like me) are a happy owner of a netbook and run **Ubuntu Linux** as your operating systems, I bring good news:
 the website Array.org has a [package repository][1] with a version of the Linux kernel specially suited to our little but beloved machines :)
 
-Several optimizations were done on this special kernel,
+Several optimizations were done to this special kernel,
 leading to faster boot times and a generally more responsive system, among other advantagens.
 To achieve this,
 the drivers for some of the devices more commonly found in netbooks are **compiled as part of the kernel, and not loaded as modules**.
 Also, the support for some devices that are **never** present in netbooks (such as CD-ROM drives) is disabled.
 
 Several netbook makers and models are supported,
-among them my beloved MSI Wind :), Asus EEE PC, Dell mini, Acer Aspire One, HP mininote, etc.
+among them my beloved MSI Wind, Asus EEE PC, Dell mini, Acer Aspire One, HP mininote, etc.
 The supported models can be found in the [repository's homepage][2].
 
 The steps to install this kernel in your netbook running **Ubuntu 9.04** are pretty simple.
