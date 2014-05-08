@@ -9,9 +9,9 @@ as if Vim was THAT girl - you know - the girl of my dreams:
 I admired it, I knew it could make my life happier and also less stressful.
 On the other hand, I knew Vim would require time, effort and **commitment**.
 So after some "one week stands", last year I finally decided to **commit to Vim**.
-Well, even though the **honeymoon is over** already, I'm still learning more about [vim every day][2], and admiring it more and more.
+Well, even though the **honeymoon is over**, I'm still learning more about [vim every day][2], and admiring it more and more.
 
-Enough with the girlfriend metaphor,
+Enough with the weird girlfriend metaphor,
 one of the first things that anyone seriously considering Vim should try to learn is how Vim's configuration system works.
 Every single piece of customization for Vim is organized in simple plain text files,
 written in a simple but powerful language called [Vimscript][3].
@@ -23,7 +23,7 @@ I use lots of plugins and have them organized in a nice way, but that's another 
 Today, I want to start slowly and just show you what I use as my "basic" Vim configuration file - how my **.vimrc** looks like.
 
 A file called `.vimrc` sitting on the user's home directory is the main point where Vim looks for configuration directives upon startup.
-The file just below is not EXACTLY my whole `.vimrc`, but a big part of it (the plugin-independent part).
+The file below is not exactly my _whole_ `.vimrc`, but a big part of it (the plugin-independent part).
 There it goes:
 
 <!--more-->
@@ -33,13 +33,14 @@ There it goes:
 Even though it might seem like this file does A LOT of things, still it can be summarized to some **highlights**:
 
   * It **segregates all metafiles**: Vim has some nice features - persistent undo, persistent views and backups.
-    With them you can, respectively, undo changes after closing and reopening a file, jump to the point where you were before closing and recover in case of a crash.
-    Sadly, these features can pollute your project's directories with metafiles (the best-known plague being those files which names end with a tilde).
+    With them you can, respectively, undo changes after closing and reopening a file,
+    and jump to the point where you were before closing and recover in case of a crash.
+    Sadly, these features can pollute your directories with metafiles (the best-known plague being those files which names end with a tilde).
     The configuration in my `.vimrc` puts ALL THOSE METAFILES in a **centralized** directory defined in the VIMROOT variable (first line of the script).
 
   * **Solves the tabs vs. spaces flamewar, in favor of spaces**: That's what those 6 lines right in the beginning of the script do.
     The configuration follows these principles:
-      + No **actual tab characters (\t)** are ever going to be inserted in the text being edited.
+      + No **actual tab characters (\\t)** are ever going to be inserted in the text being edited.
       + One level of indentation (conceptually) corresponds to 4 spaces.
       + The tab characters present in the files opened by vim will **be displayed** with a width of 4 spaces.
       + Pressing the TAB key on the keyboard will insert 4 spaces.

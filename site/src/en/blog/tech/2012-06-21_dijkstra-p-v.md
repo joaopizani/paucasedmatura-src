@@ -6,19 +6,24 @@ pt: pt/blog/tech/dijkstra-p-v
 
 Last week my only computer (a laptop I bought in 2008) started to refuse to boot, it died! 
 In fact, it's hard drive died... 
-And, as I'm now within an extreme budget (saving for my trip to the Netherlands), I decided to remain WITHOUT ANY PERSONAL COMPUTER :O
+And, as I'm now within an extreme budget (saving for my trip to the Netherlands),
+I decided to remain **without any personal computer** :O
 
 To make the situation even more bizarre, my headphones also died
 recently - which turned my my daily commute with the bus into a very, how should I put it, "introspective" period. 
-In one of those "day dreams", I somehow managed to combine my weak knowledge of Computer Science with my even weaker knowledge of the dutch language and arrived then at a ridiculously simple conclusion, but one that immediately made me smile :)
+In one of those "day dreams", I somehow managed to combine
+my weak knowledge of Computer Science with my even weaker knowledge of the dutch language and arrived then at a ridiculously simple conclusion,
+but one that immediately made me smile :)
 
 Do you perhaps happen to know semaphores, those _little things used to synchronize threads_? 
-So, the concept of "semaphore" as a synchronization mechanism was invented by a dutch scientist,
+So, the concept of "semaphore" as a synchronization mechanism was invented by a dutch computer scientist,
 a very famous one, by the way: [Edsger Wybe Dijkstra][1]. 
-Meneer Dijkstra is best known for - besides having invented semaphores - conceiving the "Dining Philosophers" problem and for having invented a **very** nice algorithm to calculate the shortest path between two vertices in a graph.
+Meneer Dijkstra is best known for - besides having invented semaphores - conceiving the "Dining Philosophers" problem
+and for having invented a **very** nice algorithm to calculate the shortest path between two vertices in a graph.
 
 But then, back to my day dream: Do you remember that semaphores have two fundamental operations, called **P** and **V**? 
-So, mind you, in that moment of mental quasi-emptiness I finally realized - **all by myself** - that **P** means **P**roberen ("to try", in Dutch), and that **V** means **V**rijen (which is "to free", in Dutch)...
+So, mind you, in that moment of mental quasi-emptiness I finally realized - **all by myself** - that **P** means **P**roberen ("to try", in Dutch),
+and that **V** means **V**rijen (which is "to free", in Dutch)...
 
 Nice, huh?
 

@@ -5,10 +5,11 @@ pt: pt/blog/tech/modular-xplatform-vim-cfg
 ---
 
 **UPDATE (2013-03-11):** After several months of daily usage and continuous improvement,
-the Vim config tree [changed substantially](/en/blog/tech/modular-xplatform-vim-cfg-with-lasers).
+my Vim config tree [changed substantially](/en/blog/tech/modular-xplatform-vim-cfg-with-lasers) (for the better).
 
 It is already a well-known fact that I love Vim.
-I use it for programming, for technical AND non-technical writing (combined with LaTeX) and - of course - just for fun sometimes (within my definition of fun).
+I use it for programming, for technical AND non-technical writing (combined with LaTeX)
+and - of course - just for fun sometimes (within my definition of fun).
 I had several "long attempts" at using Vim,
 but only in the last months I really decided to concentrate on _extracting_ the maximum I could from Vim and use it _everyday, for everything suitable_.
 
@@ -44,8 +45,7 @@ Now go ahead and try it out!
 Clone the repository and follow the installation instructions on `README.md`.
 As a last but very important remark,
 I'd like to thank **from the bottom of my heart** all the developers that wrote the AWESOME plugins I'm using.
-They are making my (and will make your) life easier!
-They deserve all the props...
+They are making my (and will make your) life easier! They deserve all the props...
 I feel as if I am "standing on the shoulders of giants" :)
 
 [1]: <http://github.com/joaopizani/env.modular-xplatform-vim-cfg>

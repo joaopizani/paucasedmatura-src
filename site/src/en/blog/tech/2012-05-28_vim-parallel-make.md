@@ -5,8 +5,8 @@ pt: pt/blog/tech/vim-parallel-make
 ---
 
 I love Vim. I really do.
-You can read a truly romantic declaration in my [last post about it][1],
-along with some tips that I collected during months of daily Vim usage - all condensed into a nice .vimrc file.
+You can read a true love declaration in my [last post about it][1],
+along with some tips I collected during months of daily Vim usage - all condensed into a nice .vimrc file.
 But today, let's add yet another very useful feature to this swiss army's knife - Let's make Vim's `make` feature trigger parallel builds :)
 
 If you write C/C++ code, or by any other means are a user of [GNU Make][2],

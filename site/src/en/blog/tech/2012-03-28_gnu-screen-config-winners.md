@@ -12,7 +12,7 @@ For those of you who never heard about it, [GNU Screen][1] is a "terminal multip
 With Screen, you can have several virtual terminal "windows" in only one real terminal.
 Also, you can "detach" a Screen session from a terminal,
 leaving the programs in that session running in the background, and then come back to look what happened.
-This was actually my main use case, I used screen for quitting an SSH connection but leaving something running...
+This was actually my main use case: I used screen for quitting an SSH connection but leaving something running...
 
 [1]: <http://www.gnu.org/software/screen/>
 
@@ -24,7 +24,7 @@ So, after mashing up several pieces of configuration from all over the web, I no
 <!--more-->
 
 Hold on, I'm going to show you the file in a second.
-It's nicely commented and easy to understand, but just let me summarize what it's all about:
+It's nicely commented and easy to understand, but just let me first summarize what it's all about:
 
   1. **Nicer keybindings:** Screen has some hard to use shotcut keys.
      For some actions, there are even NO shortcuts.
@@ -64,8 +64,7 @@ Here is how to install the latest screen in Ubuntu, using the PPA:
 ```bash
 sudo aptitude purge screen  # removes current Screen
 sudo apt-add-repository ppa:eugenesan/ppa
-sudo aptitude update
-sudo aptitude install screen  # installs new screen
+sudo aptitude update && sudo aptitude install screen  # installs new screen
 ```
 
 That's all, folks! :)
