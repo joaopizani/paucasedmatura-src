@@ -22,7 +22,8 @@ Course listing (links to the files):
 
   * **INE5416 - Programming Paradigms**
       + [Files](http://constantijn.alvb.in/graduacao/disciplinas/ine5416/)
-      + [Prof. João Cândido Lima Dovicchi](http://www.inf.ufsc.br/~dovicchi/) and [Prof. Ricardo Azambuja Silveira](http://www.inf.ufsc.br/~silveira/)
+      + [Prof. João Cândido Lima Dovicchi](http://www.inf.ufsc.br/~dovicchi/) and
+        [Prof. Ricardo Azambuja Silveira](http://www.inf.ufsc.br/~silveira/)
 
   * **INE5417 - Software Engineering I**
       + [Arquivos](http://constantijn.alvb.in/graduacao/disciplinas/ine5417/)

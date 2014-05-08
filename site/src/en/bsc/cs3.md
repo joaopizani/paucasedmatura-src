@@ -4,7 +4,7 @@ pt: pt/bsc/cs3
 ---
 
 These courses were taken during the first half of 2008.
-Lots of efforts were put into the hard Numerical Analysis and Computer Architecture :)
+Lots of efforts were put into Numerical Analysis and Computer Architecture :)
 
 Course listing (links to the files):
 

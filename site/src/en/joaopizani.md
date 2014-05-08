@@ -4,6 +4,10 @@ pt: pt/joaopizani
 de: de/joaopizani
 ---
 
+**EDIT (2014-05-01):** This is the original text from the "About me" page of my blog, when I first published it in early 2009.
+I reckon that a lot "about me" has changed since then, but the text is vague enough that I don't feel the need to change it.
+Also, the text of this page has acquired a "funny", "historical" tone for me :)
+
 This is the personal space of someone called **João Paulo Pizani Flor** on the internet.
 Professional and hobbyist computing scientist, academic and day-to-day researcher.
 Passionate about Science, Technology, Music, Computation, Physics, Law, Philosophy, Mathematics, Olympic Games, Outdoor activities...

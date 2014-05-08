@@ -6,7 +6,7 @@ pt: pt/bsc/cs7
 Between March and July of 2010 I finished the seventh semester of my graduation in Computer Science.
 This was surely the most stressful and busy semester of all.
 I decided to take **7 courses**, making up a total of **28 class hours per week**.
-This decision was made so that I could get away with every compulsory course, and then be afterwards free to concentrate on my graduation thesis...
+This decision was made so that I could get away with every compulsory course, and afterwards be free to concentrate on my B.Sc thesis...
 
 Some courses this semester were very intensive, and with several practical projects.
 Of special interest to me were the courses of **Compiler Construction**, **Computer Security** and **Microcontroller and Programmable Logic Laboratory**.

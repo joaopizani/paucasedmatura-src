@@ -23,7 +23,7 @@ pt: pt/msc-overview
 [7]: <http://constantijn.alvb.in/bsc2msc/emecs/EMECS-Infoleaflet_17_Mai_2011.pdf>
 
 
-Posssible scholarships and income sources to support my studies:
+Posssible scholarships and sources of income to support my studies:
 
   * [Utrecht Excellence Scholarship][8] - **GRANTED, maximum amount**
 

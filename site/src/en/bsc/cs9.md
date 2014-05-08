@@ -5,8 +5,8 @@ pt: pt/bsc/cs9
 
 This was my last semester of graduation :|
 There was a lot of relaxation due to the P.E courses I've taken, but also a lot of stress due to the Final Graduation Project.
-Meanwhile, I did exams that gave me FREE English credits;
-I  also studied Pattern Recognition, just to keep in my mind how hard it is to take a real course :)
+Meanwhile, I did exams that gave me **free** English credits;
+I also studied Pattern Recognition, just to keep in my mind how hard it is to take a real course :)
 
 Best course of the semester goes to: "Dance and Improvisation", no doubts about it!
 

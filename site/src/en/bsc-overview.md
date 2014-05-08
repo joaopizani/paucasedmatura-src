@@ -3,12 +3,12 @@ title: B.Sc
 pt: pt/bsc-overview
 ---
 
-I got my bachelor's degree in Computer Science at the Federal University of Santa Catarina - Brazil.
+I got my bachelor's degree in Computer Science at the Federal University of Santa Catarina (UFSC) - Brazil.
 I joined the program on March 2007, and graduated on July 2011.
 
 From October 2007 to March 2010 I worked with the [PET Computação - UFSC][1] group.
-The Tutorial Education Program (PET in Portuguese) is a group of undergraduate students, under the supervision of a tenured professor,
-which develops projects involving teaching, research and university extension.
+The Tutorial Education Program (PET in Portuguese) is an honours program, in which undergraduate students develop,
+under the supervision of a tenured professor, projects involving teaching, research and university extension.
 
   * [Official website of the PET program (Portuguese)][2]
   * [PET Computação UFSC homepage][3]
@@ -18,9 +18,9 @@ which develops projects involving teaching, research and university extension.
 [3]: <http://pet.inf.ufsc.br/sobre>
 
 
-From August 2010 to August 2011 (my graduation) I was a member of the [Software/Hardware Integration Laboratory][4],
+From August 2010 to August 2011 (graduation) I was a member of the [Software/Hardware Integration Laboratory][4],
 where I worked with research and development on Reconfigurable Computing, high-level hardware design and SoC (Systems-on-Chip) synthesis.
-There I developed my [Bachelor's Thesis][5] and contributed to industrial research.
+There I developed my [B.Sc thesis][5] and contributed to industrial research.
 
 [4]: <http://www.lisha.ufsc.br>
 [5]: </en/blog/ac/tcc>
@@ -28,7 +28,7 @@ There I developed my [Bachelor's Thesis][5] and contributed to industrial resear
 
 During my undergraduate years I had two international experiences:
 
-  * Firstly in 2010, when I won a scholarship from [DAAD][6] (the German Academic Exchange Office)
+  * First in 2010, when I was granted a scholarship from [DAAD][6] (the German Academic Exchange Office)
     to take part in an intensive german language and culture course, in Düsseldorf - where I lived for two months.
 
   * Then in 2011, I spent 20 days in the Netherlands, taking part in the [Utrecht Summer School in Applied Functional Programming][7],
@@ -43,7 +43,7 @@ At the end of my B.Sc programme, I pusblished a paper in a IEEE conference:
 
   * [High-level design and synthesis of a resource scheduler](http://dx.doi.org/10.1109/ICECS.2011.6122379)
 
-Here are some important documents from these 4 years:
+Here are some important documents from those 4 years of studies:
 
   * [Lattes Curriculum (oficial brazilian academic CV system)](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4205460Y4)
   * [My transcript of records](http://constantijn.alvb.in/graduacao/disciplinas/historico_escolar.pdf)
@@ -54,7 +54,7 @@ Here are some important documents from these 4 years:
 
 **Courses I've taken:**
 
-Here is the list of all courses I have taken to graduate as a Computer Science B.Sc, organized by semester:
+Here is the list of all courses I took to graduate as Bachelor in Computer Science, by semester:
 
   * [1st semester](/en/bsc/cs1.html):
       + Introduction to Computer Science

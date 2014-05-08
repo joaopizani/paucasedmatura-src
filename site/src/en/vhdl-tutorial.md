@@ -3,7 +3,7 @@ title: VHDL Tutorial
 pt: pt/vhdl-tutorial
 ---
 
-Here are all the links to the elegant VHDL tutorial I'm writing / have written - it depends on _when_ you've seen this :]
+Here are all the links to the elegant VHDL tutorial I'm writing / have written - depending on _when_ you've seen this :]
 
   * **VHDL Episode 0 - Preparation  - ✓**
       + [/en/blog/ac/vhdl0](/en/blog/ac/vhdl0)

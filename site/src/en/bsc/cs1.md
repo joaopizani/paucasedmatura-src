@@ -25,5 +25,5 @@ Course listing (links to the files):
 
   * **MTM5161 - Calculus A**
       + [Files](http://constantijn.alvb.in/graduacao/disciplinas/mtm5161/)
-      + Prof. X (there was a bunch of different professors during the semester)
+      + Prof. X (there was a bunch of different lecturers during the semester)
 
