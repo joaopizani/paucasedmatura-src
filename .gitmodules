@@ -1,4 +1,4 @@
 [submodule "deployed/destination"]
 	path = deployed/destination
-	url = https://github.com/joaopizani/joaopizani.github.io.git
+	url = git@github.com:joaopizani/joaopizani.github.io.git
 	branch = master
