@@ -24,13 +24,15 @@ Encontro meu amigo Pedro de Minas Gerais e fico matando tempo até 19:15.
 
 Às 19:15 embarco no voo KL0792, da KLM (Koninklijke Luchtvaart Maatschappij - Royal Dutch Airlines)
 e às 11:00 (horário local) pouso no Aeroporto Internacional Schiphol - Amsterdam.
-Pegamos nossas bagagens e em questão de minutos passa embaixo do aeroporto um trem rápido da Nederlandse Spoorwegen que leva até a estação Amsterdam Centraal.
+Pegamos nossas bagagens e em questão de minutos passa embaixo do aeroporto um trem rápido da Nederlandse Spoorwegen
+que leva até a estação Amsterdam Centraal.
 Passamos dois dias em Amsterdam até pegar as chaves da moradia estudantil \o/
 
 ![A primeira foto de todo mundo que viaja pra Holanda :)](/files/imgs/2011-06_schiphol.jpg)
 
 A volta sempre é triste, mas aí vai o percurso anyways:  29 de Agosto, às 10:10 parte o voo KL0791, de Schiphol - Amsterdam em direção à Guarulhos - SP.
-Piso de novo em terras brasileiras às 17:00 (horário local) e pego meu voo Gol pra Floripa às 18:55, chegando finalmente na ilha de Santa Catarina às 20:00...
+Piso de novo em terras brasileiras às 17:00 (horário local) e pego meu voo Gol pra Floripa às 18:55,
+chegando finalmente na ilha de Santa Catarina às 20:00...
 Já dá pra sentir a saudade antes mesmo de ir :(
 
 Daqui pra frente ainda restam alguns planos e alguns preparativos.

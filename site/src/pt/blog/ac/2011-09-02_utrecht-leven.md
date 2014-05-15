@@ -8,7 +8,8 @@ O que eu posso dizer sobre a minha vida na Holanda: foi tudo tão bom, tão inte
 Tudo bem, isso de "não tive tempo" é desculpinha, mas essa escola de verão tá boa demais mesmo.
 
 Esse artigo aqui, vou deixar já bem claro, vai ser "cool", vai tratar só do social...
-Se quiser tutoriais de mônadas, cálculo lambda, sistemas de tipos e lazy evaluation, eu prometo que vou escrever mais um artigo sobre isso.
+Se quiser tutoriais de mônadas, cálculo lambda, sistemas de tipos e lazy evaluation,
+eu prometo que vou escrever mais um artigo sobre isso.
 PROMETO.
 
 Na primeira quarta-feira de curso, à "noite", fomos comer panquecas.
@@ -21,7 +22,8 @@ Olha a felicidade que comida grátis é capaz de causar:
 
 <!--more-->
 
-O lugar - Theehuis Rhijnauwen - é muito frequentado por famílias holandesas, querendo tirar uma folga, descansar, colocar os pés pra cima.
+O lugar - Theehuis Rhijnauwen - é muito frequentado por famílias holandesas,
+querendo tirar uma folga, descansar, colocar os pés pra cima.
 Tudo isso a 30min de pedaladas do centro da cidade.
 Olha como é o lugar por fora:
 
@@ -32,7 +34,9 @@ E como é a fachada:
 ![Theehuis Rhijnauwen - Fachada](/files/imgs/2011-09_08162011943.jpg)
 
 Como a escola de verão como um todo tinha só 2 semanas, nós tínhamos somente 1 fim de semana "real" para aproveitar.
-Eu não tinha nenhum plano para esses dois dias, mas de última hora (literalmente) resolvi comprar o programa social "Discover Holland Day", que consistia de excursões às cidades de Gouda e Kinderdijk, incluindo uma visita a uma fazenda onde fazíamos nosso próprio queijo.
+Eu não tinha nenhum plano para esses dois dias,
+mas de última hora (literalmente) resolvi comprar o programa social "Discover Holland Day",
+que consistia de excursões às cidades de Gouda e Kinderdijk, incluindo uma visita a uma fazenda onde fazíamos nosso próprio queijo.
 Essa decisão revelou-se, facilmente, muito acertada.
 Tive um ótimo dia :)
 
@@ -41,7 +45,7 @@ Tive um ótimo dia :)
 ![O legítimo Goudse Boerenkaas - MEU Goudse Boerenkaas](/files/imgs/2011-09_HPIM5804.jpg)
 
 Depois da visita à fazenda Hoogewaard e de fazer nosso próprio queijo, o que foi muito legal, fomos em direção a Kinderdijk.
-<a href="http://en.wikipedia.org/wiki/Kinderdijk">Kinderdijk</a>, a fantástica famosa rede de moinhos de ventos que é O SÍMBOLO da holanda e dos holandeses.
+[Kinderdijk](http://en.wikipedia.org/wiki/Kinderdijk), a fantástica famosa rede de moinhos de ventos que é O SÍMBOLO da holanda e dos holandeses.
 Fizemos picnic na grama, caminhamos sem rumo, tive uma ótima experiência...
 Só pra provar que estive lá:
 
@@ -55,9 +59,11 @@ Sepideh, dank U wel :]
 ![Podia fazer isso todo dia](/files/imgs/2011-09_me_small.jpg)
 
 Devido à felicidade extrema do sábado, o domingo (com tudo fechado e a cidade - Utrecht - meio deserta) tinha tudo pra ser depressivo.
-Fomos então - eu e meus colegas de moradia - até o Fort Rhijnauwen, o que se provou também uma ótima decisão.
+Fomos então - eu e meus colegas de moradia - até o Fort Rhijnauwen, o que provou também ser uma ótima decisão.
 
-Essa fortaleza tem uma história de mais de 100 anos, foi construída com trabalho totalmente MANUAL (10 mil **crianças** cavaram os canais em volta da ilha central), e serviu inclusive na proteção da Holanda durante a segunda guerra mundial.
+Essa fortaleza tem uma história de mais de 100 anos,
+foi construída com trabalho totalmente MANUAL (10 mil **crianças** cavaram os canais em volta da ilha central),
+e serviu inclusive na proteção da Holanda durante a segunda guerra mundial.
 Porém, mais do que somente a fortaleza, toda a região em volta dela é muito bonita, tranquila e bucólica.
 Os holandeses adoram aproveitar os dias ensolarados e fazer picnics nos parques.
 Só uma foto que tenta mostrar esse clima "bucólico" dos domingos holandeses:
@@ -71,7 +77,8 @@ Eles comem em cima da bicicleta, eles bebem cerveja na bicicleta, eles sacam din
 
 Claro que eu TINHA que ter minha bicicleta.
 De fato foi até barato. Paguei por volta de 50 euros pra ter uma bicicleta por 10 dias, e a usei MUITO.
-Pra ir à aula todo dia, para relaxar pedalando pelo Rhijnauwen, para ir à todos os "encontros" no centro e até para dar algumas caronas :)
+Pra ir à aula todo dia, para relaxar pedalando pelo Rhijnauwen,
+para ir à todos os "encontros" no centro e até para dar algumas caronas :)
 Era rápido e eficiente: 13min até o centro da cidade, na maioria das vezes era mais rápido do que o ônibus.
 Então aí vai uma foto de mim e minha bike, minha **fiets**:
 

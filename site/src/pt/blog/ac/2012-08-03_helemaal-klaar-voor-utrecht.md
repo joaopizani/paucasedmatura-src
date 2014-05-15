@@ -4,8 +4,7 @@ published: 2012-08-03
 en: en/blog/ac/helemaal-klaar-voor-utrecht
 ---
 
-Os últimos 2 meses foram INTENSOS.
-Cheios de preparativos.  
+Os últimos 2 meses foram INTENSOS. Cheios de preparativos.  
 A quantidade de e-mails com a tag "utrecht" no Gmail chegou a quase 150!
 
 Mas enfim chegou a hora do último "status update" antes da grande viagem...
@@ -18,8 +17,8 @@ Já tenho prontos:
 
 Vou morar no maior complexo estudantil de Utrecht, construído na década de 70 e que abriga cerca de 1300 estudantes.
 Fica a 5min de bicicleta do campus da Universidade e a 10min de bicicleta do centro histórico da cidade.
-Vou dividir um flat com 8 pessoas no 16o.
-andar da torre principal. Aí vai uma fotinho do que o pessoal costuma fazer no verão :)
+Vou dividir um flat com 8 pessoas no 16o. andar da torre principal.
+Aí vai uma fotinho do que o pessoal costuma fazer no verão :)
 
 ![Ina Boudier-Bakkerlaan Studentencomplex](/files/imgs/2012-08_ibbq.jpg)
 
@@ -59,7 +58,8 @@ Tenho visto de residência lá garantido para 3 anos, agora é só esperar o pas
 
 ### Matrícula
 
-Agora já estou oficialmente matriculado como aluno de pós-graduação da Universiteit Utrecht, e semana que vem sai o programa das disciplinas 2012/2013 :)  
+Agora já estou oficialmente matriculado como aluno de pós-graduação da Universiteit Utrecht,
+e semana que vem sai o programa das disciplinas 2012/2013 :)  
 Você sabia?
 
   * Que René Descartes, o filósofo, morou no século XV em Utrecht, onde deu aulas na Universiteit Utrecht?

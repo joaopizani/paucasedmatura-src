@@ -9,7 +9,8 @@ Talvez alguns (bem poucos) de vocês já saibam, alguns poucos já desconfiavam 
 
 Na falta de um jeito melhor de dizer, eu vou ser direto, curto e grosso:
 
-**Em setembro de 2012 eu vou embora do Brasil, fazer mestrado em Ciência da Computação na [Universidade de Utrecht][1], nos Países Baixos**.
+**Em setembro de 2012 eu vou embora do Brasil,
+fazer mestrado em Ciência da Computação na [Universidade de Utrecht][1], nos Países Baixos**.
 Utrecht é a melhor Universidade da Holanda, e uma das melhores da Europa.
 
 <div id="imgdiv-uu"><style type="text/css" scoped> #imgdiv-uu img { width:400px };</style>

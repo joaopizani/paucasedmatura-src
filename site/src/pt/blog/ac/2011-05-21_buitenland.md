@@ -4,7 +4,8 @@ published: 2011-05-21
 en: en/blog/ac/buitenland
 ---
 
-EXTRA EXTRA EXTRA: **Vou para a Holanda em Agosto, passar 3 semanas estudando Haskell fortemente, patrocinado pelo governo holandês (Universidade de Utrecht)**
+EXTRA EXTRA EXTRA: **Vou para a Holanda em Agosto, passar 3 semanas estudando Haskell fortemente,
+patrocinado pelo governo holandês (Universidade de Utrecht)**
 
 Isso mesmo, foi o que você leu.
 Não é primeiro de abril, é a [Escola de Verão de Utrecht 2011][1]
@@ -24,11 +25,12 @@ Não é primeiro de abril, é a [Escola de Verão de Utrecht 2011][1]
 <!--more-->
 
 Resumindo um pouco a estória:
-em Fevereiro eu comecei a minha candidatura para participar da Escola de Verão de Utrecht em Ciência da Computação (programação funcional aplicada em Haskell).
-**Mas**, seguindo o princípio do "Keep your Wishes to Yourself", eu não contei pra ninguém, exceto meus pais e meu orientador (e usa secretária :P).
+em Fevereiro eu comecei a minha candidatura para participar da Escola de Verão de Utrecht em Ciência da Computação
+(programação funcional aplicada em Haskell).
+**Mas**, seguindo o princípio do "Keep your Wishes to Yourself", eu não contei pra ninguém, exceto meus pais e meu orientador (e sua secretária :P).
 Escrevi cartas e currículo, preparei referências e traduzi histórico e enviei tudo pra Holanda.
 
-Ontem eu recebi a incrível resposta de que tinha sido aceito para participar da escola, e ganhei bolsa total de estudos, cobrindo todos os custos do custo! :D
+Ontem recebi a incrível resposta de que tinha sido aceito para participar da escola, e ganhei bolsa total de estudos, cobrindo todos os custos do custo! :D
 A escola de verão de Utrecht é a maior da Europa, e comemora em 2011 a sua 25a. edição.
 O curso "Applied Functional Programming in Haskell" é um lugar onde as grandes personalidades da comunidade Haskell se encontram,
 e muitos projetos legais sempre surgem lá...
@@ -39,9 +41,11 @@ Pouso no Aeroporto Internacional Schiphol Amsterdam, o mesmo onde pousei em jane
 (vide [Winterkurs2010](/pt/blog/misc/ddorf-ankunft))... déjà vu? :)
 De lá tomo um trem direto (30min, obrigado Nederlandse Spoorwegen) até a cidade de Utrecht, onde vou me hospedar na moradia estudantil com a galera!
 
-De **15 a 27 de Agosto** de 2011 teremos 4h diárias de aulas intensivas de Haskell, e grande parte do resto dos dias vai ser ocupado pelo trabalho em projetos de grupo.
+De **15 a 27 de Agosto** de 2011 teremos 4h diárias de aulas intensivas de Haskell,
+e grande parte do resto dos dias vai ser ocupado pelo trabalho em projetos de grupo.
 Na parte "não tão nerd" dessa aventura teremos 1500 estudantes vindos de todo o mundo, estudando todos os tipos de assuntos...
-Utrecht é uma cidade bem bonita e ensolarada no verão, então vai ter bebedeiras nos pubs, festa nos canais, viagem à Amsterdam, visita às praias holandesas, voltas de bicicleta vendo o campo, os moinhos de vento, as tulipas e tudo o mais... :P
+Utrecht é uma cidade bem bonita e ensolarada no verão, então vai ter bebedeiras nos pubs,
+festa nos canais, viagem à Amsterdam, visita às praias holandesas, voltas de bicicleta vendo o campo, os moinhos de vento, as tulipas e tudo o mais... :P
 Dá uma olhada:
 
 <iframe src="http://player.vimeo.com/video/18421855?byline=0&amp;portrait=0&amp;color=ff9933" width="551" height="303" frameborder="0"></iframe>

@@ -31,19 +31,22 @@ Prometo pra vocês que no próximo post eu vou publicar o código.
 Só estou esperando um dia para revisar o código com o [Tarcísio][3] e então mandar pro GitHub...
 
 Enquanto isso vejam os vídeos :)  
-No primeiro episódio o código está cheio de números "hardcoded", e o transmissor só funciona em 550 KHz AM, emitindo um tom cuja frequência eu nem sei...
+No primeiro episódio o código está cheio de números "hardcoded",
+e o transmissor só funciona em 550 KHz AM, emitindo um tom cuja frequência eu nem sei...
 
 <iframe src="http://www.youtube.com/embed/u9-OP354o0E?rel=0" frameborder="0" width="480" height="360"></iframe>
 
 Já no segundo vídeo o código do nosso transmissor evoluiu bastante.
-Agora eu separei tudo em bibliotecas estáticas (.a).
-Uma biblioteca responsável só pela portadora AM (libavram.a), e outra responsável pela modulação dessa portadora de maneira flexível (libavrtone.a).
-Na verdade a libavrtone.a funciona também com um outro "backend".
-Eu fiz a libavrbuzzer.a, que como o nome diz, pode emitir ondas sonoras quadradas num pino de saída digital.
+Agora eu separei tudo em bibliotecas estáticas (`.a`).
+Uma biblioteca responsável só pela portadora AM (`libavram.a`),
+e outra responsável pela modulação dessa portadora de maneira flexível (`libavrtone.a`).
+Na verdade a `libavrtone.a` funciona também com um outro "backend".
+Eu fiz a `libavrbuzzer.a`, que como o nome diz, pode emitir ondas sonoras quadradas num pino de saída digital.
 
 <iframe src="http://www.youtube.com/embed/SCeraTloUNA?rel=0" frameborder="0" width="480" height="360"></iframe>
 
-Através do diagrama tosco abaixo vocês podem entender (ou não) como os backends (libavrbuzzer.a e libavram.a) colaboram com a libavrtone.a para fazer tocar musiquinhas no buzzer e em AM:
+Através do diagrama tosco abaixo vocês podem entender (ou não) como os backends (`libavrbuzzer.a` e `libavram.a`)
+colaboram com a `libavrtone.a` para fazer tocar musiquinhas no buzzer e em AM:
 
 ![AVR Sound Libs](/files/imgs/2012-04_AVRSoundLibs.png)
 
