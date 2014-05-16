@@ -11,21 +11,23 @@ Então eu pensei: a placa de som é um arquivo! O que acontece se eu escrever ne
 Começamos então a escrever muitas coisas (PDFs, /dev/urandom, código-fonte e algumas imagens) na placa de som, e foi bem divertido :)
 
 Mas então nós resolvemos aumentar a diversão e jogar bytes mais "organizados" para a placa - bytes gerados por um programa.
-E que melhor ferramenta para fazer geração de dados do que Haskell?! Então eu comecei a escrever naquela tarde meu primeiro sintetizador de áudio,
+E que melhor ferramenta para fazer geração de dados do que Haskell?!
+Então eu comecei a escrever naquela tarde meu primeiro sintetizador de áudio,
 e depois de poucas horas ele estava pronto e - incrivelmente - funcionando.
-Eu fiquei tão empolgado com o resultado que simplesmente PRECISAVA compartilhar esse código com o resto do mundo :)
+Eu fiquei tão empolgado com o resultado que simplesmente **precisava** compartilhar esse código com o resto do mundo :)
 
 Meu sintetizador em Haskell toma como entrada um "arquivo de partitura", descrevendo a melodia a ser gerada.
 Esse arquivo de entrada tem uma sintaxe bem semelhante à do bom e velho "Nokia Ringtone Composer"...
-O programa lê a melodia desse arquivo e produz UM MONTE de bytes na saída padrão.
+O programa lê a melodia desse arquivo e produz um monte de bytes na saída padrão.
 Se você redirecionar a saída padrão para a placa de som, vai ouvir suas musiquinhas favoritas!
 Bom, vamos começar o tour pelo código do sintetizador:
 
 <!--more-->
 
 Esse tour vai ser no estilo "top-bottom":
-primeiro, vamos ver o módulo Main e os principais passos no processamento, depois iremos um pouco mais fundo, analisando algumas das funções mais importantes dos outros módulos.
-Pra começar, aí vai o módulo Main inteiro:
+primeiro, vamos ver o módulo Main e os principais passos no processamento,
+depois iremos um pouco mais fundo, analisando algumas das funções mais importantes dos outros módulos.
+Pra começar, aí vai o módulo `Main` inteiro:
 
 <script src="http://gist-it.sudarmuthu.com/github/joaopizani/katas/blob/blog-05-2012/ToneSynthesizer/ToneSynthesizer.hs?footer=0"></script>
 

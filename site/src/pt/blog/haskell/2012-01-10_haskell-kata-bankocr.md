@@ -4,12 +4,15 @@ published: 2012-01-10
 en: en/blog/haskell/haskell-kata-bankocr
 ---
 
-Há algum tempo atrás eu e meus amigos da Universidade tínhamos o costume de fazer uma sessão de Coding Dojo a cada 15 dias, e era MUITO LEGAL.
-Se você não imagina o que seja um Coding Dojo, ele é - basicamente - uma reunião onde um pequeno grupo de programadores (de 5 a 20) se diverte e exercita suas capacidades de programação através de uma **metodologia pragmática**.
+Há algum tempo atrás eu e meus amigos da Universidade tínhamos o costume de fazer uma sessão de Coding Dojo a cada 15 dias,
+e era MUITO LEGAL.
+Se você não imagina o que seja um Coding Dojo, ele é - basicamente - uma reunião onde um pequeno grupo de programadores (de 5 a 20)
+se diverte e exercita suas capacidades de programação através de uma **metodologia pragmática**.
 Mais detalhes sobre o que é e como funciona um Dojo estão no blog do [Coding Dojo UFSC][1].
 
 Após alguns Dojos, o pessoal saía tão empolgado com o problema que decidia resolvê-lo de novo, em casa, usando sua linguagem favorita...
-Eu mesmo, algumas vezes, resolvi alguns problemas do Dojo em Haskell, e quero postar aqui no blog alguns desses problemas (e claro, as soluções funcionais :D).
+Eu mesmo, algumas vezes, resolvi alguns problemas do Dojo em Haskell,
+e quero postar aqui no blog alguns desses problemas (e claro, as soluções funcionais :D).
 No primeiro dessa série de posts vamos tratar do [BankOCR][2].
 
 <!--more-->
@@ -20,7 +23,8 @@ Descrição do problema
 O "OCR" no nome do problema já dá mais ou menos uma idéia do que se trata:
 queremos fazer um tipo de reconhecimento de caracteres, só que bem mais simples que reconhecimento ótico...
 
-A entrada pro nosso programa é um simples arquivo de texto, mas que contém uma espécie de "matriz de 7 segmentos" onde estão dígitos numéricos.
+A entrada pro nosso programa é um simples arquivo de texto,
+mas que contém uma espécie de "matriz de 7 segmentos" onde estão dígitos numéricos.
 Assim:
 
       _  _     _  _  _  _  _
@@ -49,8 +53,9 @@ Aí vai o código --- sem a tabela inteira:
 
 <script src="http://gist-it.sudarmuthu.com/github/joaopizani/katas/blob/blog-05-2012/BankOCR/OCR.hs?footer=0&slice=0:16"></script>
 
-O nosso programa é um típico **filtro** Unix, o que quer dizer que o texto de entrada vai vir pela entrada padrão e o resultado do processamento vai ser jogado na saída padrão.
-O requisito de que nosso programa funcionasse dessa maneira levou a usar a função "interact" no main.
+O nosso programa é um típico **filtro** Unix,
+o que quer dizer que o texto de entrada vai vir pela entrada padrão e o resultado do processamento vai ser jogado na saída padrão.
+O requisito de que nosso programa funcionasse dessa maneira levou a usar a função `interact` no main.
 Ela tem o seguinte tipo:
 
 ```haskell
@@ -58,12 +63,12 @@ interact ∷ (String → String) → IO ()
 ```
 
 Ou seja, ela toma como argumento uma **função de String para String** e realiza I/O com ela.
-A função "interact" adiciona interação à função que ela recebe, "interact" conecta a entrada padrão na saída padrão,
+A função `interact` adiciona interação à função que ela recebe, `interact` conecta a entrada padrão na saída padrão,
 fazendo o conteúdo **passar pela função** por nós definida.
 
-A função "parse" tem alguns pontos interessantes e talvez não tão óbvios que merecem comentário:
+A função `parse` tem alguns pontos interessantes e talvez não tão óbvios que merecem comentário:
 
-  * A função `transpose` é da biblioteca padrão (o "Prelude"), e trabalha sobre listas de listas.
+  * A função `transpose` é da biblioteca padrão (o `Prelude`), e trabalha sobre listas de listas.
     Ela transforma linhas em colunas e vice-versa (tá, essa era óbvia :P)
 
   * `lines` também é do Prelude, e tem tipo `String → [String]`.
@@ -72,16 +77,17 @@ A função "parse" tem alguns pontos interessantes e talvez não tão óbvios qu
   * A função `lookup` busca um valor numa tabela associativa simples.
     Uma tabela simples em Haskell é uma lista de duplas `[ (chave, valor) ]`
 
-  * `lookup` retorna um valor do tipo `Maybe Char`. Isso pois em geral a chave procurada pode não estar na tabela (ela **talvez** esteja lá).
+  * `lookup` retorna um valor do tipo `Maybe Char`.
+    Isso pois em geral a chave procurada pode não estar na tabela (ela **talvez** esteja lá).
     Para transformar um `Maybe Char` no `Char` que queremos, usamos `fromJust`.
-    Claro que, se `fromJust` for chamado "por nada" :P (passando `Nothing`), exceções de tempo de execução CABREIRAS ocorrerão.
-    Mas nós o usamos pois temos CERTEZA que todos os dígitos estão na tabela... :P
+    Claro que, se `fromJust` for chamado "por nada" :P (passando `Nothing`), exceções de tempo de execução **cabreiras** ocorrerão.
+    Mas nós o usamos pois temos **certeza** que todos os dígitos estão na tabela...
 
   * A função `chunk` é do módulo Data.List.Split, e tem tipo `[a] → [[a]]`.
     Ela faz exatamente o que o nome sugere: retorna "grupos" de elementos da lista de origem, onde todos os grupos tem o tamanho desejado.
 
   * Sobre o uso de `dummy`: Há uma coluna em branco como separadora entre os dígitos.
-    Isso faz com que possamos ler todos os dígitos com largura 4 (EXCETO O PRIMEIRO).
+    Isso faz com que possamos ler todos os dígitos com largura 4 (_exceto o primeiro_).
     Para não me chatear tratando casos de contorno, eu forcei o primeiro dígito a também ter 4 colunas - adicionando uma coluna `dummy`.
     Essa `tática` de transformar casos de contorno em casos normais pra depois tratar todos por igual é BEM frequente em programação funcional
 
@@ -96,8 +102,9 @@ Podemos rodar o programa assim:
     256
 
 Claro que você não precisa acreditar na minha palavra, e pode confirmar que funciona você mesmo.
-É só pegar o código completo no meu repositório de katas no GitHub (<https://github.com/joaopizani/katas/blob/blog-05-2012/BankOCR/OCR.hs>), compilar e rodar.
-Ele precisa do pequeno módulo "Data.List.Split" pra funcionar, então os comandos pra rodar ficam assim:
+É só pegar o código completo no meu repositório de katas no GitHub
+(<https://github.com/joaopizani/katas/blob/blog-05-2012/BankOCR/OCR.hs>), compilar e rodar.
+Ele precisa do pequeno módulo `Data.List.Split` pra funcionar, então os comandos pra rodar ficam assim:
 
 ```bash
 cabal install split

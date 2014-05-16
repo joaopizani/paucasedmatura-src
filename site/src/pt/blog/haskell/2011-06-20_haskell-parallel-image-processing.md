@@ -10,7 +10,8 @@ E isso é bastante complicado e envolve vários processos, bem mais difícil do 
 
 Um dos processamentos mais comuns realizados sobre imagens quando se deseja identificar objetos é a [detecção de bordas][1].
 O nosso primeiro trabalho de processamento de imagens foi então implementar o [Método de Roberts][2] para a detecção de bordas.
-Como eu estava afim de re-exercitar meus conhecimentos em Haskell e como esse tipo de processamento é perfeito para o paradigma funcional, resolvi me aventurar!
+Como eu estava afim de re-exercitar meus conhecimentos em Haskell
+e como esse tipo de processamento é perfeito para o paradigma funcional, resolvi me aventurar!
 Vou então mostrar pra vocês o código, as imagens bonitinhas de exemplo e relatar minha experiência (quase indolor) :P
 
 ![Dutch Haskell](/files/imgs/2011-06_haskell-nl.png)
@@ -26,7 +27,7 @@ de fato, podemos dividir essa varredura em quantas threads nos for mais convenie
 E é exatamente isso que a biblioteca de arrays paralelos [Repa][3] faz:
 ela te permite expressar os mais diversos algoritmos sobre arrays multidimensionais, e é capaz de os paralelizar automaticamente.
 
-Sem mais bla bla bla, aí vai então um exemplo de execução do programa "Roberts" com uma imagem de 1024x768 pixels, com 1 thread:
+Sem mais "bla bla bla", aí vai então um exemplo de execução do programa "Roberts" com uma imagem de 1024x768 pixels, com 1 thread:
 
 Imagem original:
 
@@ -36,7 +37,7 @@ Bordas:
 
 ![WoW bordas](/files/imgs/2011-06_wow_.png)
 
-Tempo de execução (boa parte dominado por IO):
+Tempo de execução (boa parte dominado por I/O):
 
     real	0m7.112s
     user	0m7.044s
@@ -44,7 +45,7 @@ Tempo de execução (boa parte dominado por IO):
 
 Agora com 2 e 4 threads, a única diferença é que na linha de comando eu chamo o programa assim:
 
-    Roberts wow.png wow_bordas.bmp +RTS -N{2,4
+    Roberts wow.png wow_bordas.bmp +RTS -N{2,4}
 
 Os resultados foram os seguintes:
 
@@ -60,7 +61,7 @@ Os resultados foram os seguintes:
         user	0m8.509s
         sys	0m0.456s
 
-Ou seja, tirando uns overheads de comunicação, a aceleração do tempo de execução é quase linear \o/\o/\o/.
+Ou seja, tirando uns overheads de comunicação, a aceleração do tempo de execução é quase linear \\o/\\o/\\o/.
 Eu admito que o tempo de processamento ainda está um pouco alto,
 mas considerando que eu sou um novato total na biblioteca (a conheci antes de ontem) acho o resultado bem bom!
 Vou até mostrar o código, de tão bonito e relativamente curto que ficou:

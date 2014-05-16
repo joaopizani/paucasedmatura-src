@@ -11,7 +11,7 @@ translationTable = TRs $ fromList [
     , ("langEN", TR { ptT = "Inglês",    enT = "English",    deT = "Englisch" })
     , ("langDE", TR { ptT = "Alemão",    enT = "German",     deT = "Deutsch" })
 
-    , ("languages", TR { ptT = "Idiomas",   enT = "Languages", deT = "Sprachen"})
+    , ("languages", TR { ptT = "Idioma",   enT = "Language", deT = "Sprache"})
     , ("content",   TR { ptT = "Conteúdo",  enT = "Contents",  deT = "Inhalt"})
 
     , ("about",     TR { ptT = "Sobre mim",  enT = "About me",  deT = "Über mich" })
