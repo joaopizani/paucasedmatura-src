@@ -9,11 +9,12 @@ Dessa vez o código não veio diretamente de um Coding Dojo, mas foi uma "evolu�
 
 Nessa reunião do Dojo, nós decidimos resolver o problema [Game Of Life][2].
 Pra quem ainda não conhece essa famosa invenção do Conway, o artigo na Wikipedia é bem esclarecedor...
-O objetivo básico do problema que estávamos tentando resolver era - dada uma configuração inicial do tabuleiro - evoluí-lo em uma geração e mostrar o tabuleiro evoluído na tela.
+O objetivo básico do problema que estávamos tentando resolver era - dada uma configuração inicial do tabuleiro - evoluí-lo em uma geração e
+mostrar o tabuleiro evoluído na tela.
 
 Tentamos resolver, e resolvemos o problema \o/,
 MAS - como sempre - eu estava com muita vontade de resolver o mesmo problema usando Haskell (ao invés de Python).
-Então eu cheguei em casa, escrevi o código Haskell em mais ou menos 30min, ele FUNCIONOU e estava conciso e elegante...
+Então eu cheguei em casa, escrevi o código Haskell em mais ou menos 30min, ele **funcionou** e estava conciso e elegante...
 Na verdade, eu achei que foi tão fácil que resolvi enfrentar um desafio maior, algo **gráfico**, porquê não?
 Resolvi usar mais uma vez a fantástica biblioteca gráfica [Gloss][3],
 e mais uma vez fiquei impressionado com os resultados.
@@ -25,14 +26,14 @@ Vamos lá, começar a nossa rotina de um Kata em Haskell, primeiro descrevendo o
 Descrição do problema
 ---------------------
 
-(A descrição abaixo foi impiedosamente traduzido do respectivo [artigo][4] na Wiki do Coding Dojo,
+(A descrição abaixo foi impiedosamente traduzida do respectivo [artigo][4] na Wiki do Coding Dojo,
 como estava em 2012-01-19)
 
 Esse Kata envolve calcular a próxima geração do Jogo da Vida de Conway, dada qualquer configuração incial.
 Para mais detalhes sobre o assunto, dê uma olhada na [Wikipedia][5].
 
-Tudo começa com um grid bi-dimensional de células, onde cada célula pode estar viva ou morta.
-Nesta versão do problema, o grid é finito, e não existe vida além das bordas.
+Tudo começa com um grid bidimensional de células, onde cada célula pode estar viva ou morta.
+Nesta versão do problema, o grid é finito e não existe vida além das bordas.
 Para o cálculo da próxima geração do grid, as seguintes regras devem ser seguidas:
 
   * Qualquer célula viva com menos de dois vizinhos vivos morre, como se fosse por "isolamento".
