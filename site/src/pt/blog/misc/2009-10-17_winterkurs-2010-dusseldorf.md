@@ -10,7 +10,8 @@ A notícia curta é que **eu ganhei a bolsa!!!!!!!!**
 Agora explicando um pouco melhor, o nome da bolsa a que eu estava concorrendo é [Deutschlandkundlicher Winterkurs][2].
 É um Curso de Inverno de Língua e Cultura Alemãs.
 O curso é **bastante** intensivo e dura aprox. 6 semanas.
-A idéia é de que estudantes com bom rendimento e interesse em estudos futuros na Alemanha possam aperfeiçoar seus conhecimentos da língua alemã e, de quebra, conhecer o povo e a cultura desse fantástico país...
+A idéia é de que estudantes com bom rendimento e interesse em estudos futuros na Alemanha possam aperfeiçoar seus conhecimentos da língua alemã e,
+de quebra, conhecer o povo e a cultura desse fantástico país...
 
 <!--more-->
 
@@ -27,9 +28,10 @@ O que precisa pra se candidatar? Aí vai a lista:
 
   * Carta de recomendação de um professor universitário da área do candidato
 
-Não foi assim tããão fácil, mas consegui recolher toda essa papelada e enviar pro Rio de Janeiro no dia 29 de Junho.
+Não foi assim tão fácil, mas consegui recolher toda essa papelada e enviar pro Rio de Janeiro no dia 29 de Junho.
 Esperei (com uma ansiedade paralisante) até ontem pelo resultado.
-Devo confessar que esperava não ser escolhido, não sei por quê. Mas eu estava (que bom!) errado, e ontem ao meio-dia recebi um dos melhores e-mails da minha vida, dizendo que tinha ganho a bolsa.
+Devo confessar que esperava não ser escolhido, não sei por quê.
+Mas eu estava (que bom!) errado, e ontem ao meio-dia recebi um dos melhores e-mails da minha vida, dizendo que tinha ganho a bolsa.
 
 E agora, o que vai acontecer?
 Vou atrás de passagens, passaporte, visto, carta de aceitação chegando da Alemanha, confirmar hospedagem e tudo mais...
@@ -42,7 +44,8 @@ Que comecem os preparativos!
 </div>
 
 De **02/01/2010** até **16/02/2010** estarei em [Düsseldorf][3], e a rotina será mais ou menos assim:
-das 8h às 12h (com 1/2h de pausa) - Curso de Alemão. 3x por semana, à tarde - Seminários de Política, História e Cultura Alemãs (inclui visitas e etc).
+das 8h às 12h (com 1/2h de pausa) - Curso de Alemão.
+Três vezes por semana, à tarde - Seminários de Política, História e Cultura Alemãs (inclui visitas e etc).
 Excursões com a turma nos finais de semana.
 Ah, a turma inclui gente da Austrália, Nova Zelândia, China, Brasil, Argentina, África do Sul e etc.
 

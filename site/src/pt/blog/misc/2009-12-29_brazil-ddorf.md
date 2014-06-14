@@ -8,8 +8,9 @@ Muita coisa aconteceu desde a última vez em que postei nesse blog.
 Fiz meu passaporte, recebi todas as cartas de aceitação da bolsa e o seguro de saúde pra que eu possa passar dois meses tranqüilos na terra da salsicha :)
 
 Também conheci o lugar onde vou ficar em Düsseldorf, a [Benila Gästehaus](http://hotelalternative-duesseldorf.de/3.html).
-Fica loooonge da Universidade (40min de trem), mas bem perto do aeroporto.
-Entrei em contato com a super simpática Frau Seidel, dona do negócio, e o lugar realmente é muito legal, parece uma casa de família bem grande, num subúrbio tranqüilo...
+Fica longe da Universidade (40min de trem), mas bem perto do aeroporto.
+Entrei em contato com a super simpática Frau Seidel, dona do negócio, e o lugar realmente é muito legal,
+parece uma casa de família bem grande, num subúrbio tranqüilo...
 
 Pra última semana de preparativos pra viagem ainda sobraram algumas coisas:
 fui no banco, na receita federal e na vigilância sanitária - sim, pra tomar vacina.
