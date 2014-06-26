@@ -9,16 +9,17 @@ A impressão que Amsterdam me deixou foi de que **as melhores coisas da vida sã
 Em holandês, grátis se escreve igual em português, que coincidência fortuita...
 
 Pouco me lixei pra souvenirs, comidas chiques, passeios de barco.
-Tudo o que eu queria fazer nessa cidade, e que FIZ, foi andar livre, sem mochila, sem pochete, com pouquíssimo dinheiro e com a pose de um nativo que sabe onde está indo :P Acho que consegui.
+Tudo o que eu queria fazer nessa cidade, e que FIZ, foi andar livre,
+sem mochila, sem pochete, com pouquíssimo dinheiro e com a pose de um nativo que sabe onde está indo :P Acho que consegui.
 
-Pouco me lixei pra maconha, prostitutas...
-Isso é pra turistas.
+Pouco me lixei pra maconha, prostitutas... Isso é pra turistas.
 Isso existe, mas os Amsterdammers não se importam com isso.
-Eles deitam na grama do parque pra ver o sol se por, eles brincam com os filhos no chafariz, eles vão de bicicleta pro trabalho (vestidos de terno e gravata).
-Eles deixam a bicicleta estacionada SEM CADEADO na frente de casa.
-ISSO é o que importa. ISSO é liberdade.
+Eles deitam na grama do parque pra ver o sol se por,
+eles brincam com os filhos no chafariz, eles vão de bicicleta pro trabalho (vestidos de terno e gravata).
+Eles deixam a bicicleta estacionada **sem cadeado** na frente de casa.
+**Isso** é o que importa. **Isso** é liberdade.
 
-Outra coisa que descobri foi que fotos JAMAIS CONSEGUIRÃO expressar a beleza do lugar que você está fotografando.
+Outra coisa que descobri foi que fotos **jamais** conseguirão expressar a beleza do lugar que você está fotografando.
 Mesmo assim, tentei humildemente retratar algumas cenas de Amsterdam, então aí vão as fotos:
 
 <!--more-->
