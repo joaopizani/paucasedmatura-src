@@ -5,21 +5,22 @@ en: en/blog/misc/dagelijks-leven
 ---
 
 Amanhã faz três meses desde o meu primeiro final de semana dos países baixos.
-Sim, como vocês podem facilmente notar, eu não escrevia no blog há um BOM TEMPO.
-Mas agora eu sinto que chegou a hora de contar como está sendo VIVER nas terras baixas...
+Sim, como vocês podem facilmente notar, eu não escrevia no blog há um **bom tempo**.
+Mas agora eu sinto que chegou a hora de contar como está sendo **viver** nas terras baixas...
 
-Agora eu me sinto verdadeiramente EM CASA aqui.
+Agora eu me sinto verdadeiramente **em casa** aqui.
 Já se passaram três estações; já vesti chinelo e bermuda, calça jeans e moleton, e agora visto luvas e cachecol.
-Já tirei foto de gente mergulhando no canal, das folhas no gramado na frente de casa, e agora da neve que caiu cedo demais, já no começo de dezembro.
+Já tirei foto de gente mergulhando no canal, das folhas no gramado na frente de casa,
+e agora da neve que caiu cedo demais, já no começo de dezembro.
 
-Me sinto em casa também porque conheci muita gente SENSACIONAL por aqui.
+Me sinto em casa também porque conheci muita gente **sensacional** por aqui.
 Galera, não fiquem com nem um pouquinho de ciúmes: todo mundo que ficou no Brasil é e sempre será **insubstituível**.
 Mas, por outro lado, eu tô muito feliz de saber que posso também contar com alguns(mas) amigos(as) por aqui,
 especialmente com uns holandeses e holandesas super gente fina :)  Maaike, Michelle, Renée, Liewe, Jan, Mirjan, etc...
 
 Agora, eu acho que pra dar uma boa idéia de como está sendo o dia-a-dia nos Países Baixos, nada melhor do que fotos.
 Nada de festas, viagens ou ocasiões especiais - estas ficarão para um próximo post.
-Hoje é a vez das fotos espontâneas, do cotidiano, daquilo que me traz lentamente o sentimento de estar EM CASA...
+Hoje é a vez das fotos espontâneas, do cotidiano, daquilo que me traz lentamente o sentimento de estar **em casa**...
 
 Falando em casa, nada melhor do que mostrar pra vocês um pouco da minha casa, e do pessoal que mora comigo:
 
@@ -50,7 +51,8 @@ A biblioteca central é um dos lugares mais legais daqui, e um dos que eu mais v
 
 A biblioteca fica na Heidelberglaan, a principal avenida do campus De Uithof.
 Nessa avenida, na frente da biblioteca, ficam ainda a "Casa Confetti", o prédio mais colorido do campus,
-que serve como moradia estudantil e o Van Unnikgebouw, o prédio mais alto do campus (20 andares) e que abriga a administração central...
+que serve como moradia estudantil e o Van Unnikgebouw,
+o prédio mais alto do campus (20 andares) e que abriga a administração central...
 Na frente do Van Unnikgebouw fica o bar "The Basket", que tem esse nome pois há uma quadra de basquete em cima do bar.
 A ciclovia da Heidelberglaan é a mais larga de Utrecht, e as duas pistas comportam tranquilamente lado-a-lado dois carros populares...
 
@@ -61,17 +63,19 @@ o prédio mais famoso do complexo é o Minnaertgebouw:
 
 ![Minnaertgebouw - Faculdade de Ciências](/files/imgs/2012-12_Minnaertgebouw.jpg)
 
-Por dentro o Minnaertgebouw é um prédio bem "amplo", e além de um restaurante universitário, abriga laboratórios de física e um "pátio" com cabines de estudo e descanso:
+Por dentro o Minnaertgebouw é um prédio bem "amplo",
+e além de um restaurante universitário, abriga laboratórios de física e um "pátio" com cabines de estudo e descanso:
 
 ![Pátio dentro do Minnaertgebouw](/files/imgs/2012-12_2011-08-15-12-14-01.jpg)
 
 O departamento de Ciência da Computação e uma parte do departamento de matemática ficam no Buys Ballotgebouw (Princetonplein 5).  
 Esse é o prédio que eu chamo carinhosamente de "novo INE" :)
 
-![Buys Ballotgebouw - O ](/files/imgs/2012-12_2012-11-28-14-03-57_klein.jpg)
+![Buys Ballotgebouw - O novo INE](/files/imgs/2012-12_2012-11-28-14-03-57_klein.jpg)
 
-Muita coisa já aconteceu aí nesse prédio: de fato, já se passou todo o primeiro período acadêmico do meu mestrado
-(cada período tem de 10 a 11 semanas em Utrecht). Muito estudo, muitas risadas, muitas piadas internas, muitas provas e algumas apresentações :)
+Muita coisa já aconteceu aí nesse prédio:
+de fato, já se passou todo o primeiro período acadêmico do meu mestrado (cada período tem de 10 a 11 semanas em Utrecht).
+Muito estudo, muitas risadas, muitas piadas internas, muitas provas e algumas apresentações :)
 
 ![Aula de grafos com o equivalente holandês do Luis Claudio](/files/imgs/2012-12_2012-10-17-12-12-131.jpg)
 
@@ -82,7 +86,7 @@ Muita coisa já aconteceu aí nesse prédio: de fato, já se passou todo o prime
 ![My first 'official' Haskell presentation in English :)](/files/imgs/2012-12_presentation1.jpg)
 
 E assim vai acontecendo a vida acadêmica em Utrecht, no coração dos Países Baixos...
-Se tudo der certo, tenho mais 7 períodos acadêmicos pela frente, seguindo MAIS OU MENOS esse calendário aqui:
+Se tudo der certo, tenho mais 7 períodos acadêmicos pela frente, seguindo **mais ou menos** esse calendário aqui:
 
 ![UU M.Sc academic calendar](/files/imgs/2012-12_UU-msc-rooster.png)
 
