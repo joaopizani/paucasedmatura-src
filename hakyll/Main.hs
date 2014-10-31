@@ -29,10 +29,7 @@ siteConfig =
 
 
 readOpt :: ReaderOptions
-readOpt =
-    defaultHakyllReaderOptions {
-        readerColumns = 110
-    }
+readOpt = defaultHakyllReaderOptions { readerColumns = 110 }
 
 writeOpt :: WriterOptions
 writeOpt =
@@ -42,7 +39,7 @@ writeOpt =
       , writerHTMLMathMethod = MathJax mathJaxURL
       , writerIdentifierPrefix = "id-"
     } where mathExt = [Ext_tex_math_dollars, Ext_tex_math_double_backslash, Ext_latex_macros]
-        
+
 
 main :: IO ()
 main = hakyllWith siteConfig $ do
