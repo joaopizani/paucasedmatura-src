@@ -31,7 +31,7 @@ trCtx = functionField "tr" $ \args item -> do
     return $ (selector l) translationRecord
     where
         getArgs as = case as         of { [k]    -> return k;  _ -> fail "fail: trCtx - getArgs"}
-        getVal k m = case lookup k m of { Just v -> return v;  _ -> fail "fail: trCtx - getVal"} 
+        getVal k m = case lookup k m of { Just v -> return v;  _ -> fail "fail: trCtx - getVal"}
         selector l = case l of {PT -> ptT;  EN -> enT;  DE -> deT}
 
 defaultTRCtx :: Context String
@@ -46,7 +46,7 @@ mathCtx = field "mathjax" $ \item -> do
 
 postCtx :: Context String
 postCtx = dateField "date" dateFormat `mappend` mathCtx `mappend` defaultTRCtx
-    where dateFormat = "%Y-%m-%d" 
+    where dateFormat = "%Y-%m-%d"
 
 
 defaultTplDefaultCtx :: Item String -> Compiler (Item String)
