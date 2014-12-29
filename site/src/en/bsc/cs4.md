@@ -26,6 +26,6 @@ Course listing (links to the files):
         [Prof. Ricardo Azambuja Silveira](http://www.inf.ufsc.br/~silveira/)
 
   * **INE5417 - Software Engineering I**
-      + [Arquivos](http://constantijn.alvb.in/graduacao/disciplinas/ine5417/)
+      + [Files](http://constantijn.alvb.in/graduacao/disciplinas/ine5417/)
       + [Prof. Patrícia Vilain](http://buscatextual.cnpq.br/buscatextual/visualizacv.jsp?id=K4784740T3)
- 
+
