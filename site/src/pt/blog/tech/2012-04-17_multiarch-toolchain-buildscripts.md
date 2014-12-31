@@ -39,7 +39,7 @@ Mas chega de propaganda... vamos ver o código!
 Primeiro, vou mostrar a parte genérica da coleção.
 Esse shell script deve ser "chamado" a partir do arquivo com a parte específica:
 
-<script src="http://gist-it.sudarmuthu.com/github/joaopizani/multiarch-toolchain-buildscripts/blob/master/build_toolchain.sh?slice=4:80&footer=0"></script>
+<script src="http://gist-it.sudarmuthu.com/github/joaopizani/multiarch-toolchain-buildscripts/blob/master/common.sh?footer=0"></script>
 
 Apesar do código um pouco complexo, o núcleo de toda a ação no script é o tradicional pipeline:
 **Baixar pacotes - Descompactar - Configurar - Compilar - Instalar**.
@@ -65,7 +65,7 @@ O código abaixo é um "template" que deve ser preenchido com as definições
 (sobretudo arquitetura-alvo, versões dos pacotes e flags de configuração).
 É só preencher e rodar...
 
-<script src="http://gist-it.sudarmuthu.com/github/joaopizani/multiarch-toolchain-buildscripts/blob/master/build_template_toolchain.sh?slice=13:70&footer=0"></script>
+<script src="http://gist-it.sudarmuthu.com/github/joaopizani/multiarch-toolchain-buildscripts/blob/master/build_template.sh?footer=0"></script>
 
 Sim, eu sei, é um monte de comentários... ☺
 Mas eu realmente queria que ficasse óbvio o que está acontecendo em cada linha e qual é o significado de cada variável.

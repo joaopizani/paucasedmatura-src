@@ -25,7 +25,7 @@ In the case you use Arch Linux, there is a [recent Screen package on AUR][5].
 **EDIT (2014-05-01):** GNU Screen version 4.1.2 was released, and Arch Linux includes it in its repositories.
 
 [1]: </en/blog/tech/killer-screenrc>
-[2]: <https://github.com/joaopizani/screenrc-ftw>
-[3]: <https://github.com/joaopizani/screenrc-ftw/blob/master/README.md 'screenrc-ftw README'>
+[2]: <https://github.com/joaopizani/env.screenrc-ftw>
+[3]: <https://github.com/joaopizani/env.screenrc-ftw/blob/master/README.md>
 [4]: <http://packages.debian.org/wheezy/screen>
 [5]: <https://aur.archlinux.org/packages/screen-git>

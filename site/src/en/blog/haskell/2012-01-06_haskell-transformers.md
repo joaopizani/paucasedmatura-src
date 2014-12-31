@@ -14,7 +14,7 @@ so I thought it would be a nice idea to think a bit deeper about this "Monad" th
 At that time I discovered that there are A LOT of monads in Haskell,
 and that A LOT of them are useful and popular - even though you might not know that they are monads...
 There is the State Monad, Parser monads, Reader and Writer monads, the Error monads, the Either Monad, the Maybe Monad and even the List Monad!!!
-YES! `Maybe a` and `[a]` are monads! :D 
+YES! `Maybe a` and `[a]` are monads! :D
 Well, "all of these things are monads, that's very nice, but why should I care?", you might ask.
 I hope to give you just a bit of an answer with the example in this post.
 
@@ -168,7 +168,7 @@ PS:
 
 [1]: <http://projects.haskell.org/gtk2hs/>
 [2]: <http://hackage.haskell.org/packages/archive/containers/0.4.2.0/doc/html/Data-IntSet.html>
-[3]: <http://www.haskell.org/ghc/docs/latest/html/libraries/base/Control-Monad.html#g:7>
+[3]: <http://hackage.haskell.org/package/base-4.7.0.2/docs/Control-Monad.html>
 [4]: <http://www.haskell.org/haskellwiki/State_Monad>
 [5]: <http://en.wikipedia.org/wiki/Separation_of_concerns>
-[6]: <http://www.haskell.org/ghc/docs/latest/html/libraries/base/src/Control-Monad.html#sequence_>
+[6]: <http://hackage.haskell.org/package/base-4.7.0.2/docs/Control-Monad.html#sequence_>

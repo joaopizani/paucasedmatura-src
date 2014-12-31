@@ -196,7 +196,7 @@ PS:
 
 [1]: <http://projects.haskell.org/gtk2hs/>
 [2]: <http://hackage.haskell.org/packages/archive/containers/0.4.2.0/doc/html/Data-IntSet.html>
-[3]: <http://www.haskell.org/ghc/docs/latest/html/libraries/base/Control-Monad.html#g:7>
+[3]: <http://hackage.haskell.org/package/base-4.7.0.2/docs/Control-Monad.html>
 [4]: <http://www.haskell.org/haskellwiki/State_Monad>
 [5]: <http://en.wikipedia.org/wiki/Separation_of_concerns>
-[6]: <http://www.haskell.org/ghc/docs/latest/html/libraries/base/src/Control-Monad.html#sequence_>
+[6]: <http://hackage.haskell.org/package/base-4.7.0.2/docs/Control-Monad.html#sequence_>

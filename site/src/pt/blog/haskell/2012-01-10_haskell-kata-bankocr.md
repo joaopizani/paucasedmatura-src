@@ -8,12 +8,12 @@ Há algum tempo atrás eu e meus amigos da Universidade tínhamos o costume de f
 e era MUITO LEGAL.
 Se você não imagina o que seja um Coding Dojo, ele é - basicamente - uma reunião onde um pequeno grupo de programadores (de 5 a 20)
 se diverte e exercita suas capacidades de programação através de uma **metodologia pragmática**.
-Mais detalhes sobre o que é e como funciona um Dojo estão no blog do [Coding Dojo UFSC][1].
+Mais detalhes sobre o que é e como funciona um Dojo estão no blog do Coding Dojo UFSC.
 
 Após alguns Dojos, o pessoal saía tão empolgado com o problema que decidia resolvê-lo de novo, em casa, usando sua linguagem favorita...
 Eu mesmo, algumas vezes, resolvi alguns problemas do Dojo em Haskell,
 e quero postar aqui no blog alguns desses problemas (e claro, as soluções funcionais :D).
-No primeiro dessa série de posts vamos tratar do [BankOCR][2].
+No primeiro dessa série de posts vamos tratar do [BankOCR][1].
 
 <!--more-->
 
@@ -35,7 +35,7 @@ Onde cada dígito tem uma "altura" de 3 "segmentos" (linhas no arquivo) e també
 A tarefa do programa é então interpretar esse arquivo de entrada e responder na saída padrão com o número correspondente,
 que no caso do exemplo acima seria "123456789".
 
-Na [descrição oficial do problema][3] há vários incrementos ao desafio,
+Na [descrição oficial do problema][1] há vários incrementos ao desafio,
 incluindo ler vários desses números, fazer validações dos números lidos, pequenas correções de erro na leitura, etc.
 Mas nossa implementação só cobre o básico mesmo, que é,
 dado uma sequência horizontal de dígitos bem formados, jogar na saída o número correspondente.
@@ -114,6 +114,4 @@ cat <seu-arquivo> | ./OCR
 
 Obrigado pela leitura e divirta-se! :)
 
-[1]: <http://pet.inf.ufsc.br/dojo/o-que-eh-dojo>
-[2]: <http://codingdojo.org/cgi-bin/wiki.pl?KataBankOCR>
-[3]: <http://codingdojo.org/cgi-bin/wiki.pl?KataBankOCR>
+[1]: <http://codingdojo.org/cgi-bin/index.pl?KataBankOCR>

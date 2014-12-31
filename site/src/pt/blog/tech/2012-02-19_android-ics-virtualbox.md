@@ -24,7 +24,7 @@ assim um desenvolvedor Android pode testar seus aplicativos na VirtualBox,
 ao invés de usar o emulador (lento) que vem junto com o SDK...
 
 Daí através de um post no Reddit eu conheci o trabalho de um desenvolvedor romeno, que contribui com o porte do Android 4.0
-para a VirtualBox e publica imagens ISO diárias do build mais recente no seu blog ([http://www.buildroid.org/blog][3]).
+para a VirtualBox e publica imagens ISO diárias do build mais recente no seu blog (<http://android-x86.sceners.org/en/?p=523>).
 O que eu fiz foi pegar a ISO de lá, criar uma máquina virtual na VBox,
 instalar e configurar, e colocar uns aplicativos do Google (GMail, YouTube, Maps, Android Market, etc.).
 Aí vai o resultado final dessa minha "configuração" toda ☺
@@ -42,7 +42,7 @@ Aí vai a imagem, pronta pra você **baixar, importar na VirtualBox e usar**: [A
 
 Tá facil de usar, mas se você quiser saber COMO que eu fiz pra conseguir isso, quais configurações, aí vai a receita:
 
-  * Baixei a imagem ISO do site do Marius: <http://www.buildroid.org/Download/android-x86-vm-20120130.iso.gz>
+  * Baixei a imagem ISO do site do Marius: <http://android-x86.sceners.org/en/?p=523>
   * Criei uma máquina virtual na VBox do tipo "Linux 2.6", com disco virtual de 4GB expansível
   * Configurei a VM pra colocar no CD-ROM a ISO baixada e desativei o "absolute pointing device" (assim o mouse funciona OK no Android"
   * Com a VM fazendo boot pelo ISO, testei o Android como live CD, e, depois de confirmar que tudo funcionava, instalei o Android no disco virtual sda1.
@@ -58,6 +58,5 @@ Mais uma vez, a VM **prontinha pra usar** que eu preparei pra vocês está AQUI:
 
 [1]: <http://www.reddit.com/r/Android>
 [2]: <http://www.android-x86.org>
-[3]: <http://www.buildroid.org/blog>
 [4]: <https://mega.co.nz/#!bVN0GKRD!GSBzVlcjpu4GFZJYA5WpmzKf6-N_jkJzA8TsiS2pfvA>
 [5]: <http://en.wikipedia.org/wiki/Open_Virtualization_Format>

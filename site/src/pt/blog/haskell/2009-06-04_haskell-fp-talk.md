@@ -17,5 +17,5 @@ O material da apresentação de hoje está disponível para download aqui:
 
 [Seminário - Prog. Funcional e Haskell](/files/2009/06_haskell-fp-talk/seminario-haskell/)
 
-[1]: <http://pet.inf.ufsc.br/seminarios_individuais>
+[1]: <http://pet.inf.ufsc.br/arquivos/#seminrios>
 [2]: <http://pet.inf.ufsc.br/>

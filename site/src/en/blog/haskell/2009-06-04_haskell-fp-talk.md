@@ -16,7 +16,7 @@ It's always nice talking about something you like :)
 I already posted here in the blog another [article][4] with some reasons to learn Haskell.
 The slides from the presentation are available here: [Seminar - Prog. Funcional e Haskell (in portuguese)][3]
 
-[1]: <http://pet.inf.ufsc.br/seminarios_individuais>
+[1]: <http://pet.inf.ufsc.br/arquivos/#seminrios>
 [2]: <http://pet.inf.ufsc.br/>
 [3]: </en/blog/haskell/haskell-fp-talk>
 [4]: </en/blog/haskell/haskell-start>

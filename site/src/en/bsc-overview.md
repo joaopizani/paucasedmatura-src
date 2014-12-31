@@ -14,7 +14,7 @@ under the supervision of a tenured professor, projects involving teaching, resea
   * [PET Computação UFSC homepage][3]
 
 [1]: <http://pet.inf.ufsc.br/>
-[2]: <http://portal.mec.gov.br/index.php?option=com_content&amp;task=view&amp;id=12223>
+[2]: <http://portal.mec.gov.br/pet>
 [3]: <http://pet.inf.ufsc.br/sobre>
 
 

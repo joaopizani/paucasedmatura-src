@@ -222,15 +222,15 @@ cabal-dev install
 Divirta-se!
 
 [1]: <http://codekata.pragprog.com>
-[2]: <http://codingdojo.org/cgi-bin/wiki.pl?KataGameOfLife>
+[2]: <http://www.codingdojo.org/cgi-bin/index.pl?action=browse&id=KataGameOfLife>
 [3]: <http://hackage.haskell.org/packages/archive/gloss/1.6.0.1/doc/html/Graphics-Gloss.html>
-[4]: <http://codingdojo.org/cgi-bin/wiki.pl?KataGameOfLife>
+[4]: <http://www.codingdojo.org/cgi-bin/index.pl?action=browse&id=KataGameOfLife>
 [5]: <http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life>
 [6]: <http://hackage.haskell.org/package/parsec-3.1.2>
 [7]: <http://hackage.haskell.org/packages/archive/parsec/3.1.2/doc/html/Text-Parsec-Char.html#v:char>
-[8]: <http://www.haskell.org/ghc/docs/latest/html/libraries/base-4.4.1.0/Control-Monad.html#v:fmap>
+[8]: <http://hackage.haskell.org/package/base-4.7.0.2/docs/Control-Monad.html#v:fmap>
 [9]: <http://learnyouahaskell.com/making-our-own-types-and-typeclasses#the-functor-typeclass>
 [10]: <http://hackage.haskell.org/packages/archive/parsec/3.1.2/doc/html/Text-Parsec-ByteString.html#v:parseFromFile>
-[11]: <http://www.haskell.org/ghc/docs/latest/html/libraries/base-4.4.1.0/Data-Either.html#v:either>
+[11]: <https://hackage.haskell.org/package/base-4.7.0.2/docs/Data-Either.html>
 [12]: <http://hackage.haskell.org/packages/archive/gloss/1.6.0.1/doc/html/Graphics-Gloss-Interface-Simulate.html>
 [13]: <http://hackage.haskell.org/packages/archive/gloss/1.6.0.1/doc/html/Graphics-Gloss-Interface-Simulate.html#v:simulate>

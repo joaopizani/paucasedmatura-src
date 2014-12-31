@@ -43,7 +43,7 @@ There it goes the OVA image, ready for you to **download, import into VirtualBox
 The pre-configured VM above makes it all an easy process.
 BUT, if you really want to know how I performed the configuration, there it goes the "recipe":
 
-  * Downloaded the latest ISO image from Marius's blog:  <http://www.buildroid.org/Download/android-x86-vm-20120130.iso.gz>
+  * Downloaded the latest ISO image from Marius's blog:  <http://android-x86.sceners.org/en/?p=523>
 
   * Created a VM in VirtualBox with "Linux 2.6" as its type, and attached an expansible virtual disk of 4GB
 

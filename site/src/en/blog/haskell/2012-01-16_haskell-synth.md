@@ -152,6 +152,6 @@ That's all, folks! :)
 [1]: <http://pet.inf.ufsc.br/membros>
 [2]: <http://en.wikipedia.org/wiki/Device_file>
 [3]: <http://hackage.haskell.org/package/parsec-3.1.2>
-[4]: <http://www.haskell.org/ghc/docs/latest/html/libraries/base-4.4.1.0/Data-Either.html>
+[4]: <https://hackage.haskell.org/package/base-4.7.0.2/docs/Data-Either.html>
 [5]: <http://hackage.haskell.org/package/bytestring-0.9.2.0>
 [6]: <http://hackage.haskell.org/package/cabal-dev>

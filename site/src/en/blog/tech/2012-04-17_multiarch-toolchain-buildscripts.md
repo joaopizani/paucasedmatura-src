@@ -41,7 +41,7 @@ which BTW you can find here - <https://github.com/joaopizani/multiarch-toolchain
 So, enough propaganda, let me first show you the generic part of the buildscript suite,
 which is supposed to be "called" (sourced) from the (target-specific) variable definitions file:
 
-<script src="http://gist-it.sudarmuthu.com/github/joaopizani/multiarch-toolchain-buildscripts/blob/master/build_toolchain.sh?slice=4:80&footer=no"></script>
+<script src="http://gist-it.sudarmuthu.com/github/joaopizani/multiarch-toolchain-buildscripts/blob/master/common.sh?footer=no"></script>
 
 Of course the heart of all action involved in this piece of shell script is the usual pipeline:
 **Download packages - Unpack - Configure - Make - Make install**.
@@ -65,7 +65,7 @@ Okay, so after taking this look at the generic "core" of the script suite, take 
 This is a "template", which you should fill with some definitions (mostly target architecture, package versions and configure options).
 Fill this and run, it's as simple as that!
 
-<script src="http://gist-it.sudarmuthu.com/github/joaopizani/multiarch-toolchain-buildscripts/blob/master/build_template_toolchain.sh?slice=13:70&footer=no"></script>
+<script src="http://gist-it.sudarmuthu.com/github/joaopizani/multiarch-toolchain-buildscripts/blob/master/build_template.sh?footer=no"></script>
 
 WOW, I know, that's a lot of comments... :)
 But really, I wanted - as much as possible - everyone to understand what's going on and what the variables mean.

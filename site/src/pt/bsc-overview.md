@@ -10,7 +10,7 @@ De Outubro de 2007 até Março de 2010 fui bolsista do grupo [PET Computação -
 O PET (Programa de Educação Tutorial) é um grupo de alunos de graduação orientados por um professor Tutor,
 e que desenvolvem projetos de Ensino, Pesquisa e Extensão.
 
-  * [Página oficial do PET no MEC](http://portal.mec.gov.br/index.php?option=com_content&amp;task=view&amp;id=12223)
+  * [Página oficial do PET no MEC](http://portal.mec.gov.br/pet)
   * [Portal PET Computação UFSC](http://pet.inf.ufsc.br/sobre)
 
 De Agosto de 2010 a Agosto de 2011 (minha graduação) fui membro do [LISHA - Laboratório de Integração Software/Hardware](http://www.lisha.ufsc.br).

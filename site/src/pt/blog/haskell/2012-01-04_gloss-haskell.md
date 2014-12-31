@@ -159,7 +159,7 @@ animate (InWindow "GlossClock" (size, size) (200,200)) white (variableSpeedClock
 Caso você queira rodar o código e ver a beleza com seus próprios olhos, há duas possibilidades:
 
   * Instale a [Haskell Platform][5] no seu computador (no Ubuntu é só `sudo apt-get install haskell-platform`),
-    e instale o gloss (com o comando `cabal install gloss`). 
+    e instale o gloss (com o comando `cabal install gloss`).
     Você pode então pegar o código completo do relógio [AQUI][6], compilá-lo com `ghc --make Clock.hs` e RODAR!
 
   * Use a ótima [Interface Web do Gloss][7]: Copie o código [DAQUI][8], cole-o no campo de texto da interface gloss web e clique em "run"!
