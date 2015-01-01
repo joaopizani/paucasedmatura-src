@@ -51,7 +51,7 @@ Dois pontos positivos da configuração feita por esse trecho de código são:
 Por isso é tudo, pessoal! Agora, preparem-se que...
 logo, logo eu vou publicar a minha suíte completa de configuração Vim: multiplataforma, modular e fácil de personalizar ☺
 
-[1]: </pt/blog/2012/04_simple-useful-vimrc>
+[1]: </pt/blog/tech/simple-useful-vimrc>
 [2]: <http://www.gnu.org/software/make>
 [3]: <http://www.gnu.org/software/make/manual/make.html#Parallel>
 [4]: <http://en.wikipedia.org/wiki/Procfs>

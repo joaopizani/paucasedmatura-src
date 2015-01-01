@@ -1,7 +1,7 @@
 ---
 title: GNU Screen: a configuração dos vencedores
 published: 2012-03-28
-en: en/blog/tech/killer-screenrc
+en: /en/blog/tech/gnu-screen-config-winners
 ---
 
 **UPDATE (2013-03-01):** [Nova versão][1] das configurações descritas neste post, mais organizadas e com mais funcionalidades.
@@ -73,5 +73,5 @@ sudo aptitude install screen  # instala o screen mais recente
 
 Por hoje é tudo pessoal, me digam aí o que vocês acham! :)
 
-[1]: </pt/blog/tech/screenrc-ftw 'Novo screenrc, ainda mais perfeito'>
+[1]: </pt/blog/tech/screenrc-ftw>
 [2]: <http://www.gnu.org/software/screen/>

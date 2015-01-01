@@ -32,7 +32,7 @@ Posssible scholarships and sources of income to support my studies:
   * [European Comission][10] - **NOT GRANTED**
 
 [8]: <http://www.uu.nl/university/international-students/en/financialmatters/grantsandscholarships/Pages/utrechtexcellencescholarships.aspx>
-[9]: <http://www.cnpq.br/normas/rn_06_017_anexo4.htm>
+[9]: <http://www.cnpq.br/web/guest/no-pais>
 [10]: <http://eacea.ec.europa.eu/erasmus_mundus/results_compendia/selected_projects_action_1_master_courses_en.php>
 
 

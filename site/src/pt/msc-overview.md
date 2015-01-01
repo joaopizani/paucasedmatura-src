@@ -20,7 +20,7 @@ Bolsas e auxílios financeiros para o financiamento dos estudos:
 
   * [Utrecht Excellence Scholarship](http://www.uu.nl/university/international-students/en/financialmatters/grantsandscholarships/Pages/utrechtexcellencescholarships.aspx) - **OBTIDA EM MÁXIMO VALOR**
 
-  * [Mestrado CNPq](http://www.cnpq.br/normas/rn_06_017_anexo4.htm) - **OBTIDA, com oferta de bolsa FAPESP**
+  * [Mestrado CNPq](http://www.cnpq.br/web/guest/no-pais) - **OBTIDA, com oferta de bolsa FAPESP**
 
   * [European Comission](http://eacea.ec.europa.eu/erasmus_mundus/results_compendia/selected_projects_action_1_master_courses_en.php) - **RECUSADA**
 

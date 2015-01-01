@@ -1,7 +1,6 @@
 ---
 title: Dagjes uit - Passeios e etc.
 published: 2012-12-18
-en: en/blog/misc/dagjes-uit
 ---
 
 Se no post anterior eu falei de como foi o cotidiano nesses meus primeiros 100 dias nos Países Baixos,
@@ -88,5 +87,5 @@ Stedelijkmuseum (arte moderna, gostei muito), Anne Frankhuis e Sexmuseum (també
 
 Por enquanto é só, pessoal... Até a próxima!
 
-[1]: <http://www.kasteeldehaar.nl/english-summary/>
+[1]: <http://www.kasteeldehaar.nl/english-version>
 [2]: <http://en.wikipedia.org/wiki/Museumkaart>

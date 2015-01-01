@@ -46,7 +46,7 @@ Two nice things about this setup are:
 So, guys (and girls), this is enough for today!
 Hold on to your seats because... pretty soon I'm going to be publishing my whole suite of cross-platform, modular and easily customizable Vim configs!
 
-[1]: </en/blog/2012/04_simple-useful-vimrc>
+[1]: </en/blog/tech/simple-useful-vimrc>
 [2]: <http://www.gnu.org/software/make>
 [3]: <http://www.gnu.org/software/make/manual/make.html#Parallel>
 [4]: <http://en.wikipedia.org/wiki/Procfs>

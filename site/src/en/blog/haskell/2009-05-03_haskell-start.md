@@ -70,11 +70,11 @@ Its perfectly targeted at those who have just finished the introductory tutorial
 
 [1]: <http://www.haskell.org>
 [2]: <http://en.wikipedia.org/wiki/Programming_paradigms>
-[3]: <http://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_funcional>
+[3]: <http://pt.wikipedia.org/wiki/Programação_funcional>
 [4]: <http://www.haskell.org//pipermail/haskell/2006-June/018127.html>
 [5]: <http://www.haskell.org/haskellwiki/Haskell_in_practice>
 [6]: <http://tryhaskell.org>
 [7]: <http://learnyouahaskell.com/>
-[8]: <http://haskell.org/ghc/download_ghc_6_10_2.html>
+[8]: <https://www.haskell.org/ghc/download>
 [9]: <http://www.haskell.org/haskellwiki/How_to_write_a_Haskell_program>
 [10]: <http://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours>

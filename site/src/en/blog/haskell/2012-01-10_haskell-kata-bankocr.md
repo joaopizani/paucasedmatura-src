@@ -109,7 +109,7 @@ There's a small dependency on the `Data.List.Split` module, so the commands for 
 That's all, folks!  Thanks for reading and have FUN coding in Haskell...
 In case you have any suggestion or you want to criticize the solution in any way, please do so in the comments :)
 
-[1]: <http://codingdojo.org/cgi-bin/wiki.pl?WhatIsCodingDojo>
+[1]: <http://codingdojo.org/cgi-bin/index.pl?WhatIsCodingDojo>
 [2]: <http://codingdojo.org/cgi-bin/wiki.pl?KataBankOCR>
 [3]: <http://codingdojo.org/cgi-bin/wiki.pl?KataBankOCR>
 [4]: <http://en.wikipedia.org/wiki/Filter_(Unix)>

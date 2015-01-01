@@ -6,7 +6,7 @@ pt: pt/blog/misc/nerd-songs
 
 Sunday-night post :), the sort of things that "forever alone" people do...
 
-On [Gi's blog][1] (a very good one, BTW) I just found a link to a song that is a huge Computer Science in-joke: "No deciding", from Klein3.
+On Gi's blog (a very good one, BTW) I just found a link to a song that is a huge Computer Science in-joke: "No deciding", from Klein3.
 Those of you who studied Theory of Computation will get the song,
 those of you who didn't can still ignore the lyrics and enjoy the soothing melody :]
 
@@ -19,4 +19,3 @@ Of course, understanding the lyrics is so much fun...
 
 <iframe title="YouTube video player" width="480" height="390" src="http://www.youtube.com/embed/BipvGD-LCjU?rel=0" frameborder="0" allowfullscreen></iframe>
 
-[1]: <http://www.giseliramos.com.br/blog/>

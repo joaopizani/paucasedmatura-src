@@ -15,7 +15,7 @@ Mostrei o estado atual das ferramentas de desenvolvimento e bibliotecas Haskell 
 Já tinha postado aqui no blog um outro [artigo](/en/blog/haskell/haskell-start), com motivos para se aprender Haskell.
 O material da apresentação de hoje está disponível para download aqui:
 
-[Seminário - Prog. Funcional e Haskell](/files/2009/06_haskell-fp-talk/seminario-haskell/)
+[Seminário - Prog. Funcional e Haskell](http://pet.inf.ufsc.br/wp-content/uploads/2014/03/Seminario-Haskell.pdf)
 
 [1]: <http://pet.inf.ufsc.br/arquivos/#seminrios>
 [2]: <http://pet.inf.ufsc.br/>

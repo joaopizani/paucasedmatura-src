@@ -20,7 +20,6 @@ sudo aptitude install podget
 
 é suficiente. Você pode configurar o podget editando o arquivo ".podget/podgetrc" no seu diretório pessoal.
 As configurações são bem **simples** e fáceis de entender, e o arquivo tá bem explicadinho.
-Se você quiser ver como está o meu arquivo de configuração, aí vai o [link][2].
 
 <!--more-->
 
@@ -81,6 +80,5 @@ Principalmente a parte de sincronização...
 Mas se eu conseguir mesmo deixar a solução ainda mais bonita, daí vira assunto pra um outro post. Até lá!
 
 [1]: <http://sourceforge.net/projects/podget/>
-[2]: </files/imgs/2011-03_podgetrc>
 [3]: <http://pt.wikipedia.org/wiki/Anacron>
 [4]: <http://code.google.com/p/bash-cpafter/>

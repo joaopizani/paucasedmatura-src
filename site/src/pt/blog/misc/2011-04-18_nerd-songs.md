@@ -6,7 +6,7 @@ en: en/blog/misc/nerd-songs
 
 Post de final de domingo, coisa de quem não tem o que fazer e fica boiando na internet...
 
-Achei no [blog da Gi][1] um link pra uma música no melhor estilo XPI (eXtreme Piada Interna) da computação:
+Achei no blog da Gi um link pra uma música no melhor estilo XPI (eXtreme Piada Interna) da computação:
 "No deciding", do grupo Klein3. Quem estudou Teoria da Computação já sabe do que se trata...
 Quem não estudou, não quer estudar e odeia quem estuda mesmo assim pode curtir uma boa música :]
 
@@ -18,4 +18,3 @@ Já a outra é do grupo de matemáticos Klein4 :)
 
 <iframe title="YouTube video player" width="480" height="390" src="http://www.youtube.com/embed/BipvGD-LCjU?rel=0" frameborder="0" allowfullscreen></iframe>
 
-[1]: <http://www.giseliramos.com.br/blog/>

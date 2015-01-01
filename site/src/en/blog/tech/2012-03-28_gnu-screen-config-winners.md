@@ -4,7 +4,7 @@ published: 2012-03-28
 pt: pt/blog/tech/gnu-screen-config-winners
 ---
 
-**UPDATE (2013-03-01): [New version](/en/blog/tech/screenrc-ftw 'Updated screenrc: Even more perfect!')
+**UPDATE (2013-03-01)**: [New version](/en/blog/tech/screenrc-ftw)
 of the config file described in this post available, more organized and with new exciting features :)**
 
 Some 3 or 4 years ago I met a nice software called "GNU Screen" for the first time...

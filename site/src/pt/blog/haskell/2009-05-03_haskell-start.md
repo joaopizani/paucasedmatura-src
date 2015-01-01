@@ -19,7 +19,7 @@ Aí vão alguns motivos para aprender Haskell como sua próxima linguagem:
     Em um programa funcional,
     a ÚNICA influência de uma função é seu valor de retorno a ÚNICA coisa que pode influenciar no retorno de uma função são seus parâmetros.
     Isso significa que numa linguagem funcional não há variáveis, estado, efeitos colaterais, nada disso.
-    Parece impossível programar assim, não é mesmo? 
+    Parece impossível programar assim, não é mesmo?
     Pelo contrário, é uma ótima maneira de se programar, muita gente profissional sabe disso.
 
   * **Haskell é rápida**: Você não precisa _necessariamente_ perder performance porque está programando em alto nível.
@@ -28,11 +28,12 @@ Aí vão alguns motivos para aprender Haskell como sua próxima linguagem:
 
   * **Haskell é elegante**: Isso sim é importante. Veja, por exemplo, a função fatorial implementada em Haskell:
 
-    ```haskell
-    fatorial :: Integer -> Integer
-    fatorial 0 = 1
-    fatorial n = n * fatorial (n-1)
+```haskell
+fatorial :: Integer -> Integer
+fatorial 0 = 1
+fatorial n = n * fatorial (n-1)
     ```
+
   * É quase idêntica à _definição_ matemática! Você pode inclusive ver na primeira linha o domínio e o contra-domínio da função.
     Mesmo sendo recursiva, o compilador **otimiza** essa função e a deixa tão rápida quanto a versão iterativa.
 
@@ -75,11 +76,11 @@ Seguindo esse tutorial em 48 horas ou mais :), você vai escrever um interpretad
 
 
 [1]: <http://www.haskell.org>
-[2]: <http://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_funcional 'Programação Funcional'>
+[2]: <http://pt.wikipedia.org/wiki/Programação_funcional>
 [3]: <http://www.haskell.org//pipermail/haskell/2006-June/018127.html>
 [4]: <http://www.haskell.org/haskellwiki/Haskell_in_practice>
 [5]: <http://tryhaskell.org>
 [6]: <http://learnyouahaskell.com/>
-[7]: <http://haskell.org/ghc/download_ghc_6_10_2.html>
+[7]: <https://www.haskell.org/ghc/download>
 [8]: <http://www.haskell.org/haskellwiki/How_to_write_a_Haskell_program>
 [9]: <http://en.wikibooks.org/wiki/Write_Yourself_a_Scheme_in_48_Hours>

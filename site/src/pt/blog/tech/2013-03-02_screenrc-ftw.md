@@ -22,7 +22,7 @@ Se você usa alguma distribuição que use pacotes .deb, pode baixar um [pacote 
 Caso use Arch Linux, existe uma [versão recente de Screen no AUR][5].
 
 
-[1]: </pt/blog/tech/killer-screenrc>
+[1]: </pt/blog/tech/gnu-screen-config-winners>
 [2]: <https://github.com/joaopizani/env.screenrc-ftw>
 [3]: <https://github.com/joaopizani/env.screenrc-ftw/blob/master/README.md>
 [4]: <http://packages.debian.org/wheezy/screen>

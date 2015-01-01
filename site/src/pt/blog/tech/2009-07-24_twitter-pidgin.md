@@ -1,7 +1,7 @@
 ---
 title: Acesse o Twitter usando o Pidgin
 published: 2009-07-24
-en: en/blog/tech/twitter-pidgin
+en: /en/blog/tech/twitter-within-pidgin.html
 ---
 
 Eu tenho uma certa obsessão por simplicidade e leveza, como muita gente já deve saber :)
