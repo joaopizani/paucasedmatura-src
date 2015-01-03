@@ -9,22 +9,22 @@ Lots of efforts were put into Numerical Analysis and Computer Architecture :)
 Course listing (links to the files):
 
   * **INE5408 - Data Structures**
-      + [Files](http://constantijn.alvb.in/graduacao/disciplinas/ine5408/)
+      + [Files](http://archive.alvb.in/bsc/disciplinas/ine5408/)
       + [Prof. Leandro José Komosinski](http://www.inf.ufsc.br/~leandro/)
 
   * **INE5409 - Numerical Analysis**
-      + [Files](http://constantijn.alvb.in/graduacao/disciplinas/ine5409/)
+      + [Files](http://archive.alvb.in/bsc/disciplinas/ine5409/)
       + Prof. Júlio Felipe Szeremeta
 
   * **INE5410 - Concurrent Programming**
-      + [Files](http://constantijn.alvb.in/graduacao/disciplinas/ine5410/)
+      + [Files](http://archive.alvb.in/bsc/disciplinas/ine5410/)
       + [Prof. José Mazzucco Júnior](http://buscatextual.cnpq.br/buscatextual/visualizacv.jsp?id=K4795192T1)
 
   * **INE5411 - Computer Architecture and Design**
-      + [Files](http://constantijn.alvb.in/graduacao/disciplinas/ine5411/)
+      + [Files](http://archive.alvb.in/bsc/disciplinas/ine5411/)
       + [Prof. Luiz Cláudio Villar dos Santos](http://www.inf.ufsc.br/~santos/)
 
   * **MTM5245 - Linear Algebra**
-      + [Files](http://constantijn.alvb.in/graduacao/disciplinas/mtm5245/)
+      + [Files](http://archive.alvb.in/bsc/disciplinas/mtm5245/)
       + [Prof. Virgínia Silva Rodrigues](http://buscatextual.cnpq.br/buscatextual/visualizacv.jsp?id=K4792032U8)
 

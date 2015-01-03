@@ -10,17 +10,17 @@ Enquanto isso validando um inglês pra ganhar créditos e cursando Reconheciment
 Melhor matéria do semestre: COM CERTEZA FORTEMENTE ABSOLUTA "Dança e Improvisação".
 
   * **INE5434 - Trabalho de Conclusão de Curso II**
-      + [Arquivos](http://constantijn.alvb.in/graduacao/disciplinas/ine5434/)
+      + [Arquivos](http://archive.alvb.in/bsc/disciplinas/ine5434/)
 
   * **EFC5608 - Dança e Improvisação**
       + Prof. Luciana Fiamoncini
 
   * **INE5443 - Reconhecimento de Padrões**
-      + [Arquivos](http://constantijn.alvb.in/graduacao/disciplinas/ine5443/)
+      + [Arquivos](http://archive.alvb.in/bsc/disciplinas/ine5443/)
       + [Prof. Aldo von Wangenheim](http://www.inf.ufsc.br/~awangenh/)
 
   * **INE5658 - Lógica Simbólica II**
-      + [Arquivos](http://constantijn.alvb.in/graduacao/disciplinas/ine5658/)
+      + [Arquivos](http://archive.alvb.in/bsc/disciplinas/ine5658/)
       + [Prof. Arthur Ronald de Vallauris Buchsbaum](http://www.inf.ufsc.br/~gresse/)
 
   * **LLE5102 - Inglês Instrumental II-A**

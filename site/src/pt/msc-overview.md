@@ -8,13 +8,13 @@ en: en/msc-overview
 
   * [Universiteit Utrecht](http://www.uu.nl/university/international-students/EN/computingscience/Pages/default.aspx) - **ACEITO**
 
-  * [UNICAMP](http://www.ic.unicamp.br/pos) ([Flyer](http://constantijn.alvb.in/bsc2msc/unicamp/IC-Flyer-Portugues-2010-07-22.pdf)) -
-    **ACEITO - [2o. lugar geral Brasil](http://constantijn.alvb.in/bsc2msc/unicamp/resultado/resultado_unicamp_2012.html)**
+  * [UNICAMP](http://www.ic.unicamp.br/pos) ([Flyer](http://archive.alvb.in/bsc2msc/unicamp/IC-Flyer-Portugues-2010-07-22.pdf)) -
+    **ACEITO - [2o. lugar geral Brasil](http://archive.alvb.in/bsc2msc/unicamp/resultado/resultado_unicamp_2012.html)**
 
   * [UFSC](http://ppgcc.ufsc.br) - **ACEITO**
 
   * [Erasmus Mundus - EMECS - Kaiserslautern, University of Southampton](http://mundus.eit.uni-kl.de/)
-    ([Flyer](http://constantijn.alvb.in/bsc2msc/emecs/EMECS-Infoleaflet_17_Mai_2011.pdf)) - **RECUSADO**
+    ([Flyer](http://archive.alvb.in/bsc2msc/emecs/EMECS-Infoleaflet_17_Mai_2011.pdf)) - **RECUSADO**
 
 Bolsas e auxílios financeiros para o financiamento dos estudos:
 

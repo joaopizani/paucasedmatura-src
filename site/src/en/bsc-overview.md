@@ -46,8 +46,8 @@ At the end of my B.Sc programme, I pusblished a paper in a IEEE conference:
 Here are some important documents from those 4 years of studies:
 
   * [Lattes Curriculum (oficial brazilian academic CV system)](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4205460Y4)
-  * [My transcript of records](http://constantijn.alvb.in/graduacao/disciplinas/historico_escolar.pdf)
-  * [My B.Sc Thesis](http://constantijn.alvb.in/graduacao/tcc.pdf)
+  * [My transcript of records](http://archive.alvb.in/bsc/disciplinas/historico-graduacao.pdf)
+  * [My B.Sc Thesis](http://archive.alvb.in/bsc/TCC/projeto2_final.pdf)
   * [B.Sc program curricular tree](/files/other/2009-03_arvore_curricular.pdf)
   * [B.Sc program pedagogical directives](/files/other/2009-03_plano_pedagogico_cco-2007.pdf)
 

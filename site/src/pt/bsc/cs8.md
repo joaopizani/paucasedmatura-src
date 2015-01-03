@@ -14,19 +14,19 @@ Também nesse semestre realizei meu grande sonho :) e fiz aulas de tênis (de gr
 **Matérias (links para os arquivos):**
 
   * **INE5430 - Inteligência Artificial**
-      + [Arquivos](http://constantijn.alvb.in/graduacao/disciplinas/ine5430/)
+      + [Arquivos](http://archive.alvb.in/bsc/disciplinas/ine5430/)
       + [Prof. Mauro Roisenberg](http://www.inf.ufsc.br/~mauro/)
 
   * **INE5437 - Arquitetura de Computadores II**
-      + [Arquivos](http://constantijn.alvb.in/graduacao/disciplinas/ine5437/)
+      + [Arquivos](http://archive.alvb.in/bsc/disciplinas/ine5437/)
       + [Prof. Mário Dantas](http://www.inf.ufsc.br/~mario/)
 
   * **INE5433 - Trabalho de Conclusão de Curso I**
-      + [Arquivos](http://constantijn.alvb.in/graduacao/disciplinas/ine5433/)
+      + [Arquivos](http://archive.alvb.in/bsc/disciplinas/ine5433/)
       + [Prof. Renato Cislaghi - Orientador: Prof. Antônio Augusto Fröhlich](http://www.inf.ufsc.br/~guto/)
 
   * **INE5656 - Introdução à Lógica Simbólica**
-      + [Arquivos](http://constantijn.alvb.in/graduacao/disciplinas/ine5656/)
+      + [Arquivos](http://archive.alvb.in/bsc/disciplinas/ine5656/)
       + [Prof. Arthur Ronald de Vallauris Buchsbaum](http://www.inf.ufsc.br/~gresse/)
 
   * **EFC5557 - Tênis: Iniciação**

@@ -14,19 +14,19 @@ Also, in this semester I realized a big dream of mine: I took tennis classes (fo
 **Course listing (links to the files):**
 
   * **INE5430 - Artificial Intelligence**
-      + [Files](http://constantijn.alvb.in/graduacao/disciplinas/ine5430/)
+      + [Files](http://archive.alvb.in/bsc/disciplinas/ine5430/)
       + [Prof. Mauro Roisenberg](http://www.inf.ufsc.br/~mauro/)
 
   * **INE5437 - Advanced Computer Architecture**
-      + [Files](http://constantijn.alvb.in/graduacao/disciplinas/ine5437/)
+      + [Files](http://archive.alvb.in/bsc/disciplinas/ine5437/)
       + [Prof. Mário Dantas](http://www.inf.ufsc.br/~mario/)
 
   * **INE5433 - Graduation Project I**
-      + [Files](http://constantijn.alvb.in/graduacao/disciplinas/ine5433/)
+      + [Files](http://archive.alvb.in/bsc/disciplinas/ine5433/)
       + [Prof. Renato Cislaghi - Orientador: Prof. Antônio Augusto Fröhlich](http://www.inf.ufsc.br/~guto/)
 
   * **INE5656 - Introduction to Formal Logic**
-      + [Files](http://constantijn.alvb.in/graduacao/disciplinas/ine5656/)
+      + [Files](http://archive.alvb.in/bsc/disciplinas/ine5656/)
       + [Prof. Arthur Ronald de Vallauris Buchsbaum](http://www.inf.ufsc.br/~gresse/)
 
   * **EFC5557 - Tennis: Beginners**

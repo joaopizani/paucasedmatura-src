@@ -6,14 +6,14 @@ en: en/bsc-overview
 Obtive meu bacharelado em Ciência da Computação pela Universidade Federal de Santa Catarina - Brasil.
 Ingressei no curso no primeiro semestre de 2007, e o concluí em Julho de 2011.
 
-De Outubro de 2007 até Março de 2010 fui bolsista do grupo [PET Computação - UFSC](http://pet.inf.ufsc.br/ 'PET Computação - UFSC').
+De Outubro de 2007 até Março de 2010 fui bolsista do grupo [PET Computação - UFSC](http://pet.inf.ufsc.br).
 O PET (Programa de Educação Tutorial) é um grupo de alunos de graduação orientados por um professor Tutor,
 e que desenvolvem projetos de Ensino, Pesquisa e Extensão.
 
   * [Página oficial do PET no MEC](http://portal.mec.gov.br/pet)
   * [Portal PET Computação UFSC](http://pet.inf.ufsc.br/sobre)
 
-De Agosto de 2010 a Agosto de 2011 (minha graduação) fui membro do [LISHA - Laboratório de Integração Software/Hardware](http://www.lisha.ufsc.br).
+De Agosto de 2010 a Agosto de 2011 (minha graduação) fui membro do [Laboratório de Integração Software/Hardware](http://www.lisha.ufsc.br).
 Lá, trabalhei com lógica programável e modelagem de hardware e SoCs (Systems-on-Chip).
 Desenvolvi lá meu [Trabalho de Conclusão de Curso](/pt/blog/ac/tcc) e contribuí com projetos industriais.
 
@@ -34,8 +34,8 @@ Ao final do curso de graduação, publiquei um artigo em uma conferência intern
 Alguns documentos importantes desses anos:
 
   * [Meu currículo Lattes](http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4205460Y4)
-  * [Histórico Escolar](http://constantijn.alvb.in/graduacao/disciplinas/historico_escolar.pdf)
-  * [Meu Trabalho de Conclusão de Curso](http://constantijn.alvb.in/graduacao/tcc.pdf)
+  * [Histórico Escolar](http://archive.alvb.in/bsc/disciplinas/historico-graduacao.pdf)
+  * [Meu Trabalho de Conclusão de Curso](http://archive.alvb.in/bsc/TCC/projeto2_final.pdf)
   * [Árvore curricular do curso](/files/other/2009-03_arvore_curricular.pdf)
   * [Plano pedagógico do curso](/files/other/2009-03_plano_pedagogico_cco-2007.pdf)
 

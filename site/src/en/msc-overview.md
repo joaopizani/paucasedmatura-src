@@ -16,11 +16,11 @@ pt: pt/msc-overview
 
 [1]: <http://www.uu.nl/university/international-students/EN/computingscience/Pages/default.aspx>
 [2]: <http://www.ic.unicamp.br/pos>
-[3]: <http://constantijn.alvb.in/bsc2msc/unicamp/IC-Flyer-Portugues-2010-07-22.pdf>
-[4]: <http://constantijn.alvb.in/bsc2msc/unicamp/resultado/resultado_unicamp_2012.html>
+[3]: <http://archive.alvb.in/bsc2msc/unicamp/IC-Flyer-Portugues-2010-07-22.pdf>
+[4]: <http://archive.alvb.in/bsc2msc/unicamp/resultado/resultado_unicamp_2012.html>
 [5]: <http://ppgcc.ufsc.br>
 [6]: <http://mundus.eit.uni-kl.de/>
-[7]: <http://constantijn.alvb.in/bsc2msc/emecs/EMECS-Infoleaflet_17_Mai_2011.pdf>
+[7]: <http://archive.alvb.in/bsc2msc/emecs/EMECS-Infoleaflet_17_Mai_2011.pdf>
 
 
 Posssible scholarships and sources of income to support my studies:

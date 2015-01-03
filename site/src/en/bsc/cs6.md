@@ -9,18 +9,18 @@ Special effort into the course "Operating Systems II".
 Course listing (links to the files):
 
   * **INE5421 - Formal Languages and Compilers**
-      + [Files](http://constantijn.alvb.in/graduacao/disciplinas/ine5421/)
+      + [Files](http://archive.alvb.in/bsc/disciplinas/ine5421/)
       + [Prof. Olinto José Varela Furtado](http://www.inf.ufsc.br/~olinto/)
 
   * **INE5424 - Operating Systems II**
-      + [Files](http://constantijn.alvb.in/graduacao/disciplinas/ine5424/)
+      + [Files](http://archive.alvb.in/bsc/disciplinas/ine5424/)
       + [Prof. Antônio Augusto Medeiros Fröhlich](http://www.lisha.ufsc.br/~guto/)
 
   * **INE5425 - Discrete Simulation Systems**
-      + [Files](http://constantijn.alvb.in/graduacao/disciplinas/ine5425/)
+      + [Files](http://archive.alvb.in/bsc/disciplinas/ine5425/)
       + [Prof. Paulo José de Freitas Filho](http://www.inf.ufsc.br/~freitas/)
 
   * **INE5428 - Informatics and Society**
-      + [Files](http://constantijn.alvb.in/graduacao/disciplinas/ine5428/)
+      + [Files](http://archive.alvb.in/bsc/disciplinas/ine5428/)
       + [Prof. Lúcia Helena Martins Pacheco](http://www.inf.ufsc.br/~lucia/)
 

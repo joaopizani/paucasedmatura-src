@@ -14,30 +14,30 @@ Of special interest to me were the courses of **Compiler Construction**, **Compu
 **Course listing (links to the files):**
 
   * **INE5413 - Graph Theory**
-      + [Files](http://constantijn.alvb.in/graduacao/disciplinas/ine5413/)
+      + [Files](http://archive.alvb.in/bsc/disciplinas/ine5413/)
       + [Prof. Antônio Carlos Mariani](http://www.inf.ufsc.br/~a.c.mariani/)
 
   * **INE5426 - Compiler Construction**
-      + [Files](http://constantijn.alvb.in/graduacao/disciplinas/ine5426/)
+      + [Files](http://archive.alvb.in/bsc/disciplinas/ine5426/)
       + [Prof. Ricardo Silveira Azambuja](http://www.inf.ufsc.br/~silveira/)
 
   * **INE5427 - Project Management**
-      + [Files](http://constantijn.alvb.in/graduacao/disciplinas/ine5427/)
+      + [Files](http://archive.alvb.in/bsc/disciplinas/ine5427/)
       + [Prof. Christiane Gresse von Wangenheim](http://www.inf.ufsc.br/~gresse/)
 
   * **INE5429 - Computer Security**
-      + [Files](http://constantijn.alvb.in/graduacao/disciplinas/ine5429/)
+      + [Files](http://archive.alvb.in/bsc/disciplinas/ine5429/)
       + Prof. Ricardo Felipe Custódio
 
   * **INE5431 - Multimedia Systems**
-      + [Files](http://constantijn.alvb.in/graduacao/disciplinas/ine5431/)
+      + [Files](http://archive.alvb.in/bsc/disciplinas/ine5431/)
       + [Prof. Roberto Willrich](http://www.inf.ufsc.br/~willrich/)
 
   * **INE5432 - Database Systems II**
-      + [Files](http://constantijn.alvb.in/graduacao/disciplinas/ine5432/)
+      + [Files](http://archive.alvb.in/bsc/disciplinas/ine5432/)
       + [Prof. Ronaldo dos Santos Mello](http://www.inf.ufsc.br/~ronaldo/)
 
   * **INE5438 - Microcontrollers and Programmable Logic Laboratory**
-      + [Files](http://constantijn.alvb.in/graduacao/disciplinas/ine5438/)
+      + [Files](http://archive.alvb.in/bsc/disciplinas/ine5438/)
       + [Prof. Antônio Augusto Medeiros Fröhlich](http://www.lisha.ufsc.br/Guto)
 
