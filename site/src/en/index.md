@@ -11,7 +11,7 @@ The page's name (_Pauca sed matura_) is a latin phrase literally meaning "_few b
 Often referred to as the personal motto of [Gauss](https://en.wikiquote.org/wiki/Carl_Friedrich_Gauss),
 this is also something which I think I can relate to...
 
-Currently, I am studying for my master's degree in Computing Science at
+Currently, I am a Ph.D student in Computing Science (Programming Technology) at
 [Utrecht University](http://www.uu.nl), in The Netherlands.
 I enjoy very much functional programming, Haskell, Agda, fiddling with Linux/Unix,
 and also a lot of non-techie stuff. The pages and posts here should give an idea of these passions.
@@ -19,6 +19,7 @@ and also a lot of non-techie stuff. The pages and posts here should give an idea
 Here are some of my other settlements around
 <a href="https://www.youtube.com/watch?v=LKTH6f1JfX8" target="_blank">"The Internets"</a>:
 
-  * <a href="https://github.com/joaopizani" target="_blank">GitHub</a>
-  * <a href="http://linkedin.com/in/joaopizani" target="_blank">LinkedIn</a>
+ * [GitHub](https://github.com/joaopizani)
+ * [LinkedIn](http://linkedin.com/in/joaopizani)
+ * [Keybase](https://keybase.io/joaopizani)
 

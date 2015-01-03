@@ -11,8 +11,8 @@ O nome da página (_Pauca sed matura_) é uma frase latina que significa literal
 Geralmente atribuída a [Gauss](https://en.wikiquote.org/wiki/Carl_Friedrich_Gauss),
 esse é um "lema" sob o qual eu também procuro manter minhas criações...
 
-Atualmente, eu estou cursando um mestrado em Ciência da Computação na
-[Universiteit Utrecht](http://www.uu.nl), nos Países Baixos.
+Atualmente, eu sou doutorando em Ciência da Computação (Programming Technology)
+na [Universiteit Utrecht](http://www.uu.nl), nos Países Baixos.
 Minhas paixões incluem programação funcional, Haskell, Agda, hackear Linux/Unix,
 e várias outras coisas menos nerd. As páginas e posts aqui devem dar uma idéia melhor
 dessas paixões.
@@ -20,6 +20,7 @@ dessas paixões.
 Alguns outros lugares onde posso ser encontrado nas
 <a href="https://www.youtube.com/watch?v=LKTH6f1JfX8" target="_blank">"internets"</a>:
 
-  * <a href="https://github.com/joaopizani" target="_blank">GitHub</a>
-  * <a href="http://linkedin.com/in/joaopizani" target="_blank">LinkedIn</a>
+ * [GitHub](https://github.com/joaopizani)
+ * [LinkedIn](http://linkedin.com/in/joaopizani)
+ * [Keybase](https://keybase.io/joaopizani)
 
