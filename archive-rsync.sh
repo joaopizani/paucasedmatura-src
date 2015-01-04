@@ -17,10 +17,10 @@ PRIVNAME="${4:-"${PRIVNAME_DEFAULT}"}"
 PRIVROOT="$(readlink -m "${DATAROOT}/${PRIVNAME}")"
 
 
-rsync -r -v -l "${PRIVROOT}/bsc/disciplinas"  "${REMOTEROOT}/bsc/"
-rsync -r -v -l "${PRIVROOT}/bsc/labmicro"     "${REMOTEROOT}/bsc/"
-rsync -r -v -l "${PRIVROOT}/bsc/TCC"          "${REMOTEROOT}/bsc/"
+rsync -av "${PRIVROOT}/bsc/disciplinas"  "${REMOTEROOT}/bsc/"
+rsync -av "${PRIVROOT}/bsc/labmicro"     "${REMOTEROOT}/bsc/"
+rsync -av "${PRIVROOT}/bsc/TCC"          "${REMOTEROOT}/bsc/"
 
-rsync -r -v -l "${PRIVROOT}/svn/FromBScToMSc/"  "${REMOTEROOT}/bsc2msc/"
-rsync -r -v -l "${PRIVROOT}/msc"                "${REMOTEROOT}/"
+rsync -av "${PRIVROOT}/svn/FromBScToMSc/"  "${REMOTEROOT}/bsc2msc/"
+rsync -av "${PRIVROOT}/msc"                "${REMOTEROOT}/"
 
