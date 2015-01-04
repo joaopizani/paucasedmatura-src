@@ -1,7 +1,7 @@
 ---
 title: Interact with Twitter from within Pidgin
 published: 2009-07-24
-pt: pt/blog/tech/twitter-within-pidgin
+pt: pt/blog/tech/twitter-pidgin
 ---
 
 I have a kind of obsession with simplicity, as everybody knows :)
