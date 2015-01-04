@@ -38,7 +38,7 @@ Posssible scholarships and sources of income to support my studies:
 
 So after all these applications, this is what I have chosen for:
 
-  * **My new home: [Utrecht - Holanda][11]**
+  * **My new home: [Utrecht - The Netherlands][11]**
 
   * **My university: [Universiteit Utrecht][12]**
 
