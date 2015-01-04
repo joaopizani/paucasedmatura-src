@@ -1,7 +1,7 @@
 ---
 title: Transmissor AM com Arduino
 published: 2012-04-09
-en: en/blog/ac/arduino-am
+en: en/blog/tech/arduino-am
 ---
 
 Há dois anos (mais ou menos) eu comprei um [Arduino Duemilanove][1],
