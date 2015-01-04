@@ -11,11 +11,11 @@ O objetivo é dar ao aluno a capacidade de trabalhar com o projeto e a programa�
 
 Direto ao ponto, nós tínhamos duas partes na disciplina: os exercícios iniciais, que foram 9 ao total (quase um por semana).
 Nesses exercícios nós programamos microcontroladores da família **AVR**, em nível crescente de dificuldade;
-todos os meus exercícios estão publicados nessa página: <http://constantijn.alvb.in/labmicro>
+todos os meus exercícios estão publicados nessa página: <http://archive.alvb.in/bsc/disciplinas/ine5438/>
 
 A outra metade da nota na disciplina é o tão temido **Projeto Final**.
 Nós alunos éramos totalmente livres para escolher o tema e a plataforma a ser usada.
-Claro que deixamos essa escolha pra última hora :),
+Claro que deixamos essa escolha pra última hora ☺,
 e tínhamos várias idéias interessantes, mas acabei escolhendo fazer o Projeto **Guitar2MIDI** (em grupo com Daniel, Diogo, Maurício e Rodrigo)...
 A idéia básica do projeto é fazer um programa que rode em uma plaquinha :) com um microcontrolador.
 Você liga uma guitarra nessa plaquinha, e na saída da placa (USB ou Serial, por exemplo) está o MIDI correspondente ao que você está tocando.
@@ -28,14 +28,14 @@ O trabalho do programa é relativamente complexo: nós temos que detectar qual a
 e também qual a sua duração, pra então emitir a representação simbólica dessa nota no formato MIDI.
 O esquema abaixo dá uma idéia básica da arquitetura do projeto:
 
-![Blocos funcionais do projeto Guitar2MIDI](http://constantijn.alvb.in/labmicro/projeto/blocos_funcionais.png)
+![Blocos funcionais do projeto Guitar2MIDI](http://archive.alvb.in/bsc/labmicro/g2m/blocos_funcionais.png)
 
 Passamos muito tempo ESTAGNADOS com problemas no equipamento, e começamos a programar mesmo só na última semana (nenhuma novidade :P).
 O importante é que no final das contas conseguimos terminar o projeto, e NO PRAZO \\o/\\o/\\o/.
 As músicas que o programa consegue reconhecer, porém, são bastante simples e ainda há espaço pra MUITAS melhorias,
 principalmente no que se refere à detecção de duração.
 Sem mais enrolação, se você quiser saber mais sobre o projeto, descobrir COMO a gente fez isso acontecer, quais foram os algoritmos,
-as idéias que dão base pro negócio e tudo mais, aí vai o link pro relatório completo: <http://constantijn.alvb.in/labmicro/projeto/index.htm>.
+as idéias que dão base pro negócio e tudo mais, aí vai o link pro relatório completo: <http://archive.alvb.in/bsc/labmicro/g2m/index.html>.
 Sem falsa modéstia, ele está bem escrito, com várias figurinhas e explicando bem os conceitos envovidos...
 
 Fiquei muito feliz com o projeto como um todo.
