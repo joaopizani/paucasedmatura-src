@@ -38,5 +38,6 @@ Destaco nesse semestre as disciplinas de **Construção de Compiladores**, **Seg
 
   * **INE5438 - Laboratório de Microprocessadores e Lógica Programável**
       + [Arquivos](http://archive.alvb.in/bsc/disciplinas/ine5438/)
+      + [Projeto Final – Guitar2MIDI](http://archive.alvb.in/bsc/labmicro/g2m.htm)
       + [Prof. Antônio Augusto Medeiros Fröhlich](http://www.lisha.ufsc.br/Guto)
 

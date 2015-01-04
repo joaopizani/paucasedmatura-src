@@ -39,5 +39,6 @@ Of special interest to me were the courses of **Compiler Construction**, **Compu
 
   * **INE5438 - Microcontrollers and Programmable Logic Laboratory**
       + [Files](http://archive.alvb.in/bsc/disciplinas/ine5438/)
+      + [Final project – Guitar2MIDI](http://archive.alvb.in/bsc/labmicro/g2m/index.html)
       + [Prof. Antônio Augusto Medeiros Fröhlich](http://www.lisha.ufsc.br/Guto)
 
