@@ -1,7 +1,7 @@
 ---
 title: GNU Screen config for the winners
 published: 2012-03-28
-pt: pt/blog/tech/gnu-screen-config-winners
+pt: pt/blog/tech/killer-screenrc
 ---
 
 **UPDATE (2013-03-01)**: [New version](/en/blog/tech/screenrc-ftw)

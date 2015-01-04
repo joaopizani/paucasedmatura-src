@@ -1,7 +1,7 @@
 ---
 title: GNU Screen: a configuração dos vencedores
 published: 2012-03-28
-en: /en/blog/tech/gnu-screen-config-winners
+en: en/blog/tech/killer-screenrc
 ---
 
 **UPDATE (2013-03-01):** [Nova versão][1] das configurações descritas neste post, mais organizadas e com mais funcionalidades.
