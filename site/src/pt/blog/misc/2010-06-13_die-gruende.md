@@ -1,7 +1,6 @@
 ---
 title: Die Gründe
 published: 2010-06-13
-en: en/blog/misc/deutsch-die-grunde
 ---
 
 Passt doch auf, aber...  
