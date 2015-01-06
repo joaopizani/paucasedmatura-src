@@ -1,7 +1,6 @@
 ---
 title: Toponômicos
 published: 2011-06-05
-en: en/blog/misc/toponomicos
 ---
 
 Este é o artigo dos toponômicos, este é o artigo:

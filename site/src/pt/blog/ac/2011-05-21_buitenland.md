@@ -38,7 +38,7 @@ e muitos projetos legais sempre surgem lá...
 O que vai então (provavelmente) acontecer a partir de agora?
 Por volta de **12 de Agosto** eu embarco em um avião rumo a Amsterdam.
 Pouso no Aeroporto Internacional Schiphol Amsterdam, o mesmo onde pousei em janeiro de 2010 pra viver os melhores 2 meses da minha vida até agora
-(vide [Winterkurs2010](/pt/blog/misc/ddorf-ankunft))... déjà vu? :)
+(vide [Winterkurs2010](/pt/blog/misc/die-ankunft))... déjà vu? :)
 De lá tomo um trem direto (30min, obrigado Nederlandse Spoorwegen) até a cidade de Utrecht, onde vou me hospedar na moradia estudantil com a galera!
 
 De **15 a 27 de Agosto** de 2011 teremos 4h diárias de aulas intensivas de Haskell,

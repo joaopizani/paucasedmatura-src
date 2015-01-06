@@ -1,7 +1,6 @@
 ---
 title: Preconceito e discriminação
 published: 2011-02-02
-en: en/blog/misc/preconceito-e-discriminacao
 ---
 
 Vamos lá, mais um post "nada a ver" :)

@@ -1,7 +1,6 @@
 ---
 title: Placas, cartazes e outras pérolas linguísticas
 published: 2011-11-04
-en: en/blog/misc/perolas-linguisticas
 ---
 
 Durante os muitos anos de câmera digital na mão, acumulei uma categoria de fotos que costumo chamar de "dia-a-dia".

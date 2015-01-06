@@ -1,7 +1,6 @@
 ---
 title: Winterkurs 2010: Düsseldorf, lá vou eu!
 published: 2009-10-17
-en: en/blog/misc/winterkurs-2010-dusseldorf
 ---
 
 Eu não contei pra muita gente, mas estava concorrendo desde Junho a uma bolsa de estudos do [DAAD][1] para estudar Alemão na Alemanha...

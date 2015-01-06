@@ -1,7 +1,6 @@
 ---
 title: Sorrir ou fechar os parênteses?
 published: 2010-08-05
-en: en/blog/misc/sorrir-ou-fechar-os-parenteses
 ---
 
 Dessa vez meu post NÃO TEM NADA A VER COM NADA.

@@ -1,7 +1,6 @@
 ---
-title: Política e caldo de galinha...
+title: Política e caldo de galinha
 published: 2009-10-09
-en: en/blog/misc/politica-nolan
 ---
 
 Não fazem mal a ninguém.

@@ -1,7 +1,6 @@
 ---
 title: De Principatibus
 published: 2011-10-07
-en: en/blog/misc/de-principatibus
 ---
 
 Acabei de ler o livro "O Príncipe" de Maquiavel (Niccolò Machiavelli).
