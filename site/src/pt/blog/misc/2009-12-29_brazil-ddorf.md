@@ -1,7 +1,7 @@
 ---
 title: Último post em terras brasileiras
 published: 2009-12-29
-en: en/blog/misc/brazil-ddorf
+de: de/blog/misc/brazil-ddorf
 ---
 
 Muita coisa aconteceu desde a última vez em que postei nesse blog.

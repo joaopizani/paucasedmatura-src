@@ -1,6 +1,7 @@
 ---
 title: Letzter Eintrag auf brasilianischen Land
 published: 2009-12-29
+pt: pt/blog/misc/brazil-ddorf
 ---
 
 Viel viel hat passiert, seit dem letzten Mal das ich ich dieses Tagesbuch aktualisiert habe.
