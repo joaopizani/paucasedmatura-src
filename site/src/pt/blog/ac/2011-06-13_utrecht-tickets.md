@@ -1,7 +1,6 @@
 ---
 title: Passagens compradas... voor de tweede keer! :)
 published: 2011-06-13
-en: en/blog/ac/utrecht-tickets
 ---
 
 Os preparativos começaram agora oficialmente...

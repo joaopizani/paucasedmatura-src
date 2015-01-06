@@ -1,7 +1,6 @@
 ---
 title: Het dagelijks leven gaat gewoon door - E a vida cotidiana continua...
 published: 2012-12-07
-en: en/blog/misc/dagelijks-leven
 ---
 
 Amanhã faz três meses desde o meu primeiro final de semana dos países baixos.

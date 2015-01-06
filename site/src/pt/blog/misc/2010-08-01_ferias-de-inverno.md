@@ -1,7 +1,7 @@
 ---
 title: Férias de inverno
 published: 2010-08-01
-en: en/blog/misc/ferias-de-inverno
+de: de/blog/misc/winterferien
 ---
 
 Aquele tempo mágico chegou (faz um tempinho, na verdade).

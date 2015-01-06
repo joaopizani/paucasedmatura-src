@@ -13,12 +13,12 @@ Die Facebook- und Twitterprofile völlig zu aktualisieren gehört auch natürlic
 Außer dieser schwerige und langweilige Aufgaben :),
 in der folgenden vier Wochen habe ich auch was unterschiedliches (und nettes :P) zu tun:
 Ich habe eine Arduino Platine von Ebay bestellt, und nach fast einem Monat ist sie angekommen, genau am ersten Ferientag!
-Es war ein wirklich günstiges Angebot, sie hat mir nur US$15,00 gekostet, Versandskosten inkl...
+Es war ein wirklich günstiges Angebot, sie hat mir nur US\$15,00 gekostet, Versandskosten inkl...
 
 ![Arduino Platine](/files/imgs/2010-08_arduino316.jpg)
 
 Mit ihr möchte ich viele Projekte aufbauen.
-Allererst eine übersetzung des [Guitar2MIDI](/en/blog/ac/guitar2midi) Projektes zur AVR.
+Allererst eine übersetzung des [Guitar2MIDI](/pt/blog/ac/guitar2midi) Projektes zur AVR.
 Diesmal wird er (der Projekt), aber, Flute2MIDI bennant werden, weil ich meine Flöte damit aufnehmen möchte.
 Vielleicht mache ich noch was rund ums Thema Klangsynthesis,
 auf die Weise von [Kraftwerk][1] :D

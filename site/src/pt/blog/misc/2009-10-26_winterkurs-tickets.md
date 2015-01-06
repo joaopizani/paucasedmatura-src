@@ -1,7 +1,6 @@
 ---
 title: Passagens compradas!
 published: 2009-10-26
-en: en/blog/misc/winterkurs-tickets
 ---
 
 O primeiro item da lista de preparativos para Düsseldorf já foi riscado!

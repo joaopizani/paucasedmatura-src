@@ -1,7 +1,6 @@
 ---
 title: Projeto Guitar2MIDI
 published: 2010-07-31
-en: en/blog/ac/guitar2midi
 ---
 
 No último semestre eu fiz muitas disciplinas, muitas mesmo.
