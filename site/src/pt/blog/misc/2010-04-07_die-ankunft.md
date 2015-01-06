@@ -1,7 +1,7 @@
 ---
 title: A chegada :)
 published: 2010-04-07
-en: en/blog/misc/ddorf-ankunft
+de: de/blog/misc/die-ankunft
 ---
 
 Esse post devia ter sido escrito há muito tempo, mas não sei exatamente por quais motivos acabei não tendo tempo e/ou paciência.

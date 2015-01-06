@@ -1,6 +1,7 @@
 ---
 title: Die Ankunft :)
 published: 2010-04-07
+pt: pt/blog/misc/die-ankunft
 ---
 
 Dieser Ausgabe ist viel verpasst, aber aus welche gründe weiss ich nicht genau, vielleicht hatte ich wenig Zeit, vielleicht nicht.
