@@ -1,5 +1,6 @@
 deployed/store
 deployed/tmp
+deployed/destination
 dist
 .cabal-sandbox
 cabal.sandbox.config
