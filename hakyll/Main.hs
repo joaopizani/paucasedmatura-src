@@ -25,6 +25,7 @@ siteConfig =
       , storeDirectory       = deployedDir ++ "store"
       , tmpDirectory         = deployedDir ++ "tmp"
       , providerDirectory    = "site"
+      , deployCommand        = "rsync -r -l -v -e 'ssh -p 2222' deployed/destination/ joaopizani@paucasedmatura.alvb.in:/var/www/paucasedmatura.alvb.in/html/"
     }
 
 
